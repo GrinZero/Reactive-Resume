@@ -53,7 +53,7 @@ export const SupportSection = () => (
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
           <img
             src={`${import.meta.env.BASE_URL}support-logos/paypal.svg`}
-            className=" max-h-[28px]"
+            className="max-h-[28px]"
             alt="PayPal"
           />
         </a>

@@ -8,7 +8,7 @@ msgstr ""
 "Language: fi\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-11 11:27\n"
+"PO-Revision-Date: 2025-01-12 12:13\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -64,7 +64,7 @@ msgstr "Ilmainen ja avoimen lähdekoodin ansioluettelon rakentaja"
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Ilmainen ja avoimen lähdekoodin ansioluettelon rakentaja, joka yksinkertaistaa ansioluettelon luomisen, päivittämisen ja jakamisen prosessia."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:49
+#: apps/client/src/pages/builder/_components/toolbar.tsx:55
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Linkki on kopioitu leikepöydällesi."
@@ -105,7 +105,7 @@ msgid "Add a custom field"
 msgstr "Lisää mukautettu kenttä"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:120
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:167
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:171
 msgctxt "For example, add a new work experience, or add a new profile."
 msgid "Add a new item"
 msgstr "Lisää uusi kohde"
@@ -119,7 +119,7 @@ msgstr "Lisää uusi kohde"
 msgid "Add a new section"
 msgstr "Lisää uusi osio"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:271
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:268
 msgid "Add New Page"
 msgstr "Lisää uusi sivu"
 
@@ -144,16 +144,16 @@ msgstr "ja monia muita..."
 msgid "Anyone with the link can view and download the resume."
 msgstr "Kuka tahansa linkin avulla voi tarkastella ja ladata ansioluettelon."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:50
+#: apps/client/src/pages/builder/_components/toolbar.tsx:56
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:30
 msgid "Anyone with this link can view and download the resume. Share it on your profile or with recruiters."
 msgstr "Kuka tahansa tämän linkin avulla voi tarkastella ja ladata ansioluettelon. Jaa se profiilissasi tai rekrytoijien kanssa."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:126
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:127
 msgid "Are you sure you want to delete this item?"
 msgstr "Haluatko varmasti poistaa tämän kohteen?"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:147
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:148
 msgid "Are you sure you want to delete your resume?"
 msgstr "Haluatko varmasti poistaa ansioluettelosi?"
 
@@ -180,7 +180,7 @@ msgstr "Oletko varma?"
 msgid "Area of Study"
 msgstr "Opintoala"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:85
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:86
 msgid "Aspect Ratio"
 msgstr "Kuvasuhde"
 
@@ -192,7 +192,7 @@ msgstr "Saatavilla {languagesCount} kielillä"
 msgid "Awarder"
 msgstr "Palkinnon myöntäjä"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:98
+#: apps/client/src/pages/auth/backup-otp/page.tsx:99
 #: apps/client/src/pages/auth/forgot-password/page.tsx:100
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:243
 msgid "Back"
@@ -206,7 +206,7 @@ msgstr "Taustaväri"
 msgid "Backup Code"
 msgstr "Varmuuskoodi"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:80
+#: apps/client/src/pages/auth/backup-otp/page.tsx:81
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Varmuuskoodit voivat sisältää vain pieniä kirjaimia tai numeroita, ja niiden on oltava tarkalleen 10 merkkiä."
 
@@ -223,11 +223,11 @@ msgstr "Perusasiat"
 msgid "Basics"
 msgstr "Perusasiat"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:197
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:198
 msgid "Border"
 msgstr "Reunus"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:131
 msgid "Border Radius"
 msgstr "Reunussäde"
 
@@ -246,10 +246,10 @@ msgstr "Rakennettu"
 msgid "By the community, for the community."
 msgstr "Yhteisön tekemä, yhteisölle."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:133
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:134
 #: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:154
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:155
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:137
 msgid "Cancel"
 msgstr "Peruuta"
@@ -259,7 +259,7 @@ msgstr "Peruuta"
 msgid "Casual"
 msgstr "Rentoutunut"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:108
+#: apps/client/src/pages/builder/_components/toolbar.tsx:126
 msgid "Center Artboard"
 msgstr "Keskitä taidetaulu"
 
@@ -273,7 +273,7 @@ msgid "Change Tone"
 msgstr "Vaihda sävyä"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Muutitko mieltäsi nimen suhteen? Anna sille uusi nimi."
 
@@ -281,7 +281,7 @@ msgstr "Muutitko mieltäsi nimen suhteen? Anna sille uusi nimi."
 msgid "Check your email for the confirmation link to update your email address."
 msgstr "Tarkista sähköpostisi vahvistuslinkkiä varten päivittääksesi sähköpostiosoitteesi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:150
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:151
 msgid "Circle"
 msgstr "Ympyrä"
 
@@ -323,7 +323,7 @@ msgstr "Jatka"
 msgid "Copy"
 msgstr "Kopioi"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:142
+#: apps/client/src/pages/builder/_components/toolbar.tsx:160
 msgid "Copy Link to Resume"
 msgstr "Kopioi linkki ansioluetteloon"
 
@@ -331,9 +331,9 @@ msgstr "Kopioi linkki ansioluetteloon"
 msgid "Copy to Clipboard"
 msgstr "Kopioi leikepöydälle"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:173
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:254
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 msgid "Create"
 msgstr "Luo"
 
@@ -342,11 +342,11 @@ msgstr "Luo"
 msgid "Create a new account"
 msgstr "Luo uusi tili"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:157
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:162
 msgid "Create a new item"
 msgstr "Luo uusi tuote"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:183
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:18
 msgid "Create a new resume"
@@ -357,7 +357,7 @@ msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Luo yksi nyt"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:269
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:270
 msgid "Create Sample Resume"
 msgstr "Luo esimerkki ansioluettelosta"
 
@@ -404,8 +404,8 @@ msgstr "Päivämäärä"
 msgid "Date or Date Range"
 msgstr "Päivämäärä tai Päivämääräväli"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:163
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:136
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:164
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
@@ -473,7 +473,7 @@ msgstr "Lataa JSON-tiedosto ansioluettelostasi. Tätä tiedostoa voidaan käytt�
 msgid "Download a PDF of your resume. This file can be used to print your resume, send it to recruiters, or upload on job portals."
 msgstr "Lataa PDF-ansioluettelosi. Tätä tiedostoa voidaan käyttää ansioluettelon tulostamiseen, lähettämiseen rekrytoijille tai lataamiseen työportaaleihin."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:154
+#: apps/client/src/pages/builder/_components/toolbar.tsx:172
 #: apps/client/src/pages/public/page.tsx:108
 msgid "Download PDF"
 msgstr "Lataa PDF"
@@ -482,19 +482,19 @@ msgstr "Lataa PDF"
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:175
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:180
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
 msgstr "Kaksoiskappale"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:159
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:164
 msgid "Duplicate an existing item"
 msgstr "Tee kaksoiskappale olemassa olevasta kohteesta"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Duplicate an existing resume"
 msgstr "Tee kaksoiskappale olemassa olevasta ansioluettelosta"
 
@@ -502,13 +502,13 @@ msgstr "Tee kaksoiskappale olemassa olevasta ansioluettelosta"
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:176
 msgid "Effects"
 msgstr "Efektit"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
 #: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:140
+#: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:180
 msgid "Email"
@@ -602,7 +602,7 @@ msgstr "Esimerkiksi tietoja siitä, mihin yrityksiin lähetit tämän ansioluett
 msgid "Forget"
 msgstr "Unohda"
 
-#: apps/client/src/pages/auth/login/page.tsx:126
+#: apps/client/src/pages/auth/login/page.tsx:131
 msgid "Forgot Password?"
 msgstr "Unohtuiko salasana?"
 
@@ -632,7 +632,7 @@ msgstr "Ystävällinen"
 msgid "Full Name"
 msgstr "Koko nimi"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:207
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:208
 msgid "Generate a random title for your resume"
 msgstr "Luo satunnainen otsikko ansioluettelollesi"
 
@@ -648,7 +648,7 @@ msgstr "GitHub"
 msgid "GitHub Stars"
 msgstr "GitHub-tähdet"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:193
 msgid "Give your old resume a new name."
 msgstr "Anna vanhalle ansioluettelollesi uusi nimi."
 
@@ -661,7 +661,7 @@ msgstr "Siirry hallintapaneeliin"
 msgid "Google"
 msgstr "Google"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:208
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:209
 msgid "Grayscale"
 msgstr "Harmaasävy"
 
@@ -683,7 +683,7 @@ msgstr "Täällä voit päivittää profiilisi mukauttaaksesi ja personoidaksesi
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:186
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:187
 msgid "Hidden"
 msgstr "Piilotettu"
 
@@ -695,13 +695,13 @@ msgstr "Piilota"
 msgid "Hide Icons"
 msgstr "Piilota kuvakkeet"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:166
+#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "Paina <0>Ctrl</0> näyttääksesi tilapäisesti salasanasi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:99
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:100
 msgid "Horizontal"
 msgstr "Vaakasuuntainen"
 
@@ -713,7 +713,7 @@ msgstr "Julkaise ansioluettelosi julkisesti"
 msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
 msgstr "Rakastan aina kuulla Reactive Resume -sovelluksen käyttäjiltä palautetta tai tukea. Tässä on joitakin viestejä, jotka olen saanut. Jos sinulla on palautetta, voit vapaasti lähettää minulle sähköpostia osoitteeseen <0>{sähköposti}</0>."
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "Kuvake"
@@ -808,12 +808,12 @@ msgctxt "Localized version of a placeholder name. For example, Max Mustermann in
 msgid "John Doe"
 msgstr "Matti Meikäläinen"
 
-#: apps/client/src/pages/auth/register/page.tsx:122
+#: apps/client/src/pages/auth/register/page.tsx:123
 msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
 msgid "john.doe"
 msgstr "matti.meikäläinen"
 
-#: apps/client/src/pages/auth/register/page.tsx:143
+#: apps/client/src/pages/auth/register/page.tsx:145
 msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
 msgid "john.doe@example.com"
 msgstr "matti.meikäläinen@example.com"
@@ -845,7 +845,7 @@ msgid "Last updated {lastUpdated}"
 msgstr "Päivitetty viimeksi {lastUpdated}"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:69
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:207
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:205
 msgid "Layout"
 msgstr "Asettelu"
 
@@ -921,7 +921,7 @@ msgstr "Kirjaudu ulos"
 msgid "Lost your device?"
 msgstr "Oletko kadottanut laitteesi?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:257
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:254
 msgid "Main"
 msgstr "Pää"
 
@@ -977,7 +977,7 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "Nimi"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:51
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "Verkko"
 
@@ -1062,12 +1062,12 @@ msgstr "Organisaatio"
 msgid "Page"
 msgstr "Sivu"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:237
-msgid "Page {0}"
-msgstr "Sivu {0}"
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:235
+msgid "Page {pageNumber}"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:105
-#: apps/client/src/pages/auth/register/page.tsx:161
+#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:76
 msgid "Password"
@@ -1111,7 +1111,7 @@ msgstr "Valitse tiedostotyyppi"
 msgid "Please store your backup codes in a secure location. You can use one of these one-time use codes to login in case you lose access to your authenticator app."
 msgstr "Säilytä varmuuskopiosi turvallisessa paikassa. Voit käyttää näitä kertakäyttöisiä koodeja kirjautuaksesi sisään, jos menetät pääsyn todennussovellukseesi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:106
 msgid "Portrait"
 msgstr "Muotokuva"
 
@@ -1128,7 +1128,7 @@ msgstr "Asema"
 msgid "Powered by"
 msgstr "Voimanlähteenä"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:113
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "Powered by <0>Simple Icons</0>"
 
@@ -1199,7 +1199,7 @@ msgstr "Reaktiivinen ansioluettelo on yli 3 vuoden kova työprojekti, ja sen my�
 msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
 msgstr "Reaktiivinen ansioluettelo kukoistaa sen elinvoimaisen yhteisön ansiosta. Tämä projekti on edistynyt useiden yksilöiden ansiosta, jotka ovat omistautuneet aikaa ja taitojaan. Alla juhlimme koodeja, jotka ovat parantaneet sen ominaisuuksia GitHubissa, ja kääntäjiä, joiden käännökset Crowdinin kautta ovat tehneet siitä laajemman yleisön saataville."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:75
+#: apps/client/src/pages/builder/_components/toolbar.tsx:85
 msgid "Redo"
 msgstr "Tee uudelleen"
 
@@ -1208,7 +1208,7 @@ msgstr "Tee uudelleen"
 msgid "Remove"
 msgstr "Poista"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:241
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:238
 msgid "Remove Page"
 msgstr "Poista sivu"
 
@@ -1227,7 +1227,7 @@ msgstr "Lähetä sähköpostin vahvistuslinkki uudelleen"
 msgid "Reset"
 msgstr "Nollaa"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:210
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:208
 msgid "Reset Layout"
 msgstr "Nollaa asettelu"
 
@@ -1236,7 +1236,7 @@ msgstr "Nollaa asettelu"
 msgid "Reset your password"
 msgstr "Nollaa salasanasi"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:102
+#: apps/client/src/pages/builder/_components/toolbar.tsx:120
 msgid "Reset Zoom"
 msgstr "Nollaa zoomaus"
 
@@ -1254,13 +1254,13 @@ msgstr "Luodut ansioluettelot"
 msgid "Rich in features, not in pricing."
 msgstr "Monipuolinen ominaisuuksiltaan, ei hinnoiltaan."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:145
 msgid "Rounded"
 msgstr "Pyöristetty"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:174
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
 msgid "Save Changes"
@@ -1282,6 +1282,14 @@ msgstr "Skannaa alla oleva QR-koodi älypuhelimellasi asettaaksesi kaksivaiheise
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:92
 msgid "Score"
 msgstr "Pisteet"
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Pan"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Zoom"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:97
 msgid "Search for a font family"
@@ -1351,12 +1359,12 @@ msgstr "Näytä rivinvaihto"
 msgid "Show Page Numbers"
 msgstr "Näytä Sivunumerot"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:258
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:255
 msgid "Sidebar"
 msgstr "Sivupalkki"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:102
-#: apps/client/src/pages/auth/login/page.tsx:122
+#: apps/client/src/pages/auth/backup-otp/page.tsx:103
+#: apps/client/src/pages/auth/login/page.tsx:127
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "Kirjaudu sisään"
@@ -1382,7 +1390,7 @@ msgstr "Kirjaudu GitHub-tilillä"
 msgid "Sign in with Google"
 msgstr "Kirjaudu Google-tilillä"
 
-#: apps/client/src/pages/auth/register/page.tsx:177
+#: apps/client/src/pages/auth/register/page.tsx:179
 msgid "Sign up"
 msgstr "Rekisteröidy"
 
@@ -1394,12 +1402,12 @@ msgstr ""
 msgid "Signups are currently disabled by the administrator."
 msgstr "Rekisteröitymisiä ei tällä hetkellä sallita ylläpitäjän toimesta."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:71
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:72
 msgid "Size (in px)"
 msgstr "Koko (px)"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:233
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
 msgid "Slug"
 msgstr "Pätkä"
 
@@ -1415,8 +1423,8 @@ msgstr "Jotain meni pieleen tulostettaessa ansioluetteloasi. Yritä myöhemmin u
 msgid "Something went wrong while processing your request. Please try again later or raise an issue on GitHub."
 msgstr "Jotain meni pieleen käsiteltäessä pyyntöäsi. Yritä myöhemmin uudelleen tai tee ongelmatilanne GitHubiin."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:93
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:139
 msgid "Square"
 msgstr "Neliö"
 
@@ -1427,7 +1435,7 @@ msgid "Start building from scratch"
 msgstr "Aloita rakentaminen alusta"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:190
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Start building your resume by giving it a name."
 msgstr "Aloita ansioluettelosi rakentaminen antamalla sille nimi."
 
@@ -1507,11 +1515,11 @@ msgstr "Teema"
 msgid "There was an error connecting to the browser. Please make sure 'chrome' is running and reachable."
 msgstr "Virhe yhdistettäessä selaimeen. Varmista, että 'chrome' on käynnissä ja tavoitettavissa."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:128
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:129
 msgid "This action can be reverted by clicking on the undo button in the floating toolbar."
 msgstr "Tämä toiminto voidaan peruuttaa napsauttamalla kumo-painiketta kelluvassa työkalurivissä."
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:149
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:150
 msgid "This action cannot be undone. This will permanently delete your resume and cannot be recovered."
 msgstr "Tätä toimenpidettä ei voi perua. Tämä poistaa pysyvästi ansioluettelosi ja sitä ei voi palauttaa."
 
@@ -1529,7 +1537,7 @@ msgid "This section is reserved for your personal notes specific to this resume.
 msgstr "Tämä osio on varattu henkilökohtaisille muistiinpanoillesi, jotka liittyvät tähän ansioluetteloon. Sisältö täällä pysyy yksityisenä eikä sitä jaeta kenenkään muun kanssa."
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:221
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "Vinkki: Voit nimetä ansioluettelon viitaten siihen tehtävään, johon haet."
 
@@ -1539,15 +1547,15 @@ msgid "Title"
 msgstr "Otsikko"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:201
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Title"
 msgstr "Otsikko"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:116
+#: apps/client/src/pages/builder/_components/toolbar.tsx:134
 msgid "Toggle Page Break Line"
 msgstr "Vaihda Sivunvaihtoviiva"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:128
+#: apps/client/src/pages/builder/_components/toolbar.tsx:146
 msgid "Toggle Page Numbers"
 msgstr "Vaihda Sivunumerot"
 
@@ -1587,7 +1595,7 @@ msgstr "Typografia"
 msgid "Underline Links"
 msgstr "Alleviivaa Linkit"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:62
+#: apps/client/src/pages/builder/_components/toolbar.tsx:72
 msgid "Undo"
 msgstr "Kumoa"
 
@@ -1608,11 +1616,11 @@ msgstr "Ansioluettelon avaaminen mahdollistaa muutosten tekemisen siihen uudelle
 msgid "Unverified"
 msgstr "Vahvistamaton"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:158
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:163
 msgid "Update an existing item"
 msgstr "Päivitä olemassa oleva kohde"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Update an existing resume"
 msgstr "Päivitä olemassa oleva ansioluettelo"
 
@@ -1643,7 +1651,7 @@ msgid "User does not have an associated 'secrets' record. Please report this iss
 msgstr "Käyttäjällä ei ole liitettyä 'salaisuuksia' -tietuetta. Ilmoita tästä ongelmasta GitHubissa."
 
 #: apps/client/src/pages/auth/register/page.tsx:119
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:66
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:166
 msgid "Username"
 msgstr "Käyttäjänimi"
@@ -1704,7 +1712,7 @@ msgstr "Me varmistamme sähköpostiosoitteesi vain varmistaaksemme, että voimme
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:114
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:80
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:94
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:67
@@ -1724,7 +1732,7 @@ msgstr "Mitä uutta viimeisimmässä versiossa"
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Voit lisätä useita avainsanoja erottelemalla ne pilkulla tai painamalla enter."
 
-#: apps/client/src/pages/auth/login/page.tsx:94
+#: apps/client/src/pages/auth/login/page.tsx:99
 msgid "You can also enter your username."
 msgstr "Voit myös syöttää käyttäjänimesi."
 
@@ -1773,10 +1781,10 @@ msgstr "OpenAI API-avaintasi ei ole vielä asetettu. Siirry tilisi asetuksiin ot
 msgid "Your password has been updated successfully."
 msgstr "Salasanasi on päivitetty onnistuneesti."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:90
+#: apps/client/src/pages/builder/_components/toolbar.tsx:108
 msgid "Zoom In"
 msgstr "Lähennä"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:96
+#: apps/client/src/pages/builder/_components/toolbar.tsx:114
 msgid "Zoom Out"
 msgstr "Loitonna"

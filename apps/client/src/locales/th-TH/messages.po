@@ -8,7 +8,7 @@ msgstr ""
 "Language: th\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-11 11:27\n"
+"PO-Revision-Date: 2025-01-12 12:14\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -64,7 +64,7 @@ msgstr "แอปสร้างเรซูเม่ฟรีและโอเ
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "เครื่องมือสร้างเรซูเม่ฟรีและโอเพนซอร์สที่ทำให้กระบวนการสร้าง การปรับปรุง และการแชร์เรซูเม่ของคุณง่ายขึ้น"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:49
+#: apps/client/src/pages/builder/_components/toolbar.tsx:55
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "ลิงก์ถูกคัดลอกไปยังคลิปบอร์ดแล้ว"
@@ -105,7 +105,7 @@ msgid "Add a custom field"
 msgstr "เพิ่มช่องข้อมูลที่กำหนดเอง"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:120
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:167
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:171
 msgctxt "For example, add a new work experience, or add a new profile."
 msgid "Add a new item"
 msgstr "เพิ่มรายการใหม่"
@@ -119,7 +119,7 @@ msgstr "เพิ่มรายการใหม่"
 msgid "Add a new section"
 msgstr "เพิ่มส่วนใหม่"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:271
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:268
 msgid "Add New Page"
 msgstr "เพิ่มหน้าใหม่"
 
@@ -144,16 +144,16 @@ msgstr "และอีกมากมายๆ..."
 msgid "Anyone with the link can view and download the resume."
 msgstr "ทุกคนที่มีลิงก์สามารถดูและดาวน์โหลดเรซูเม่ได้"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:50
+#: apps/client/src/pages/builder/_components/toolbar.tsx:56
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:30
 msgid "Anyone with this link can view and download the resume. Share it on your profile or with recruiters."
 msgstr "ทุกคนที่มีลิงค์นี้สามารถดูและดาวน์โหลดเรซูเม่ได้ แชร์ไปยังโปรไฟล์ของคุณหรือฝ่ายสรรหาบุคลากรได้"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:126
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:127
 msgid "Are you sure you want to delete this item?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้?"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:147
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:148
 msgid "Are you sure you want to delete your resume?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเรซูเม่ของคุณ?"
 
@@ -180,7 +180,7 @@ msgstr "คุณแน่ใจไหม?"
 msgid "Area of Study"
 msgstr "สาขาวิชา"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:85
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:86
 msgid "Aspect Ratio"
 msgstr "อัตราส่วนภาพ"
 
@@ -192,7 +192,7 @@ msgstr "มีให้บริการใน {languagesCount} ภาษา"
 msgid "Awarder"
 msgstr "ผู้มอบรางวัล"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:98
+#: apps/client/src/pages/auth/backup-otp/page.tsx:99
 #: apps/client/src/pages/auth/forgot-password/page.tsx:100
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:243
 msgid "Back"
@@ -206,7 +206,7 @@ msgstr "สีพื้นหลัง"
 msgid "Backup Code"
 msgstr "รหัสสำรอง"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:80
+#: apps/client/src/pages/auth/backup-otp/page.tsx:81
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "รหัสสำรองอาจมีเฉพาะตัวอักษรพิมพ์เล็กหรือตัวเลขเท่านั้น และต้องมีจำนวนอักษร 10 ตัวเท่านั้น"
 
@@ -223,11 +223,11 @@ msgstr "พื้นฐาน"
 msgid "Basics"
 msgstr "พื้นฐาน"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:197
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:198
 msgid "Border"
 msgstr "กรอบ"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:131
 msgid "Border Radius"
 msgstr "รัศมีกรอบ"
 
@@ -246,10 +246,10 @@ msgstr "สร้างด้วย"
 msgid "By the community, for the community."
 msgstr "โดยชุมชน เพื่อชุมชน"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:133
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:134
 #: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:154
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:155
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:137
 msgid "Cancel"
 msgstr "ยกเลิก"
@@ -259,7 +259,7 @@ msgstr "ยกเลิก"
 msgid "Casual"
 msgstr "สบายๆ"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:108
+#: apps/client/src/pages/builder/_components/toolbar.tsx:126
 msgid "Center Artboard"
 msgstr "จัดหน้าไว้ตรงกลาง"
 
@@ -273,7 +273,7 @@ msgid "Change Tone"
 msgstr "เปลี่ยนโทน"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "เปลี่ยนใจเรื่องชื่อแล้วเหรอ? ลองเปลี่ยนใหม่ดู"
 
@@ -281,7 +281,7 @@ msgstr "เปลี่ยนใจเรื่องชื่อแล้วเ
 msgid "Check your email for the confirmation link to update your email address."
 msgstr "ตรวจสอบอีเมลของคุณสำหรับลิงก์ยืนยันเพื่ออัปเดตที่อยู่อีเมลของคุณ"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:150
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:151
 msgid "Circle"
 msgstr "วงกลม"
 
@@ -323,7 +323,7 @@ msgstr "ทำต่อ"
 msgid "Copy"
 msgstr "คัดลอก"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:142
+#: apps/client/src/pages/builder/_components/toolbar.tsx:160
 msgid "Copy Link to Resume"
 msgstr "คัดลอกลิงก์ไปยังเรซูเม่"
 
@@ -331,9 +331,9 @@ msgstr "คัดลอกลิงก์ไปยังเรซูเม่"
 msgid "Copy to Clipboard"
 msgstr "คัดลอกไปยังคลิปบอร์ด"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:173
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:254
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 msgid "Create"
 msgstr "สร้าง"
 
@@ -342,11 +342,11 @@ msgstr "สร้าง"
 msgid "Create a new account"
 msgstr "สร้างบัญชีใหม่"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:157
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:162
 msgid "Create a new item"
 msgstr "สร้างรายการใหม่"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:183
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:18
 msgid "Create a new resume"
@@ -357,7 +357,7 @@ msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "สร้างตอนนี้เลย"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:269
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:270
 msgid "Create Sample Resume"
 msgstr "สร้างเรซูเม่ตัวอย่าง"
 
@@ -404,8 +404,8 @@ msgstr "วันที่"
 msgid "Date or Date Range"
 msgstr "วันที่หรือช่วงวันที่"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:163
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:136
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:164
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
@@ -473,7 +473,7 @@ msgstr "ดาวน์โหลดสแน็ปช็อต JSON ของเ
 msgid "Download a PDF of your resume. This file can be used to print your resume, send it to recruiters, or upload on job portals."
 msgstr "ดาวน์โหลด PDF เรซูเม่ของคุณ ไฟล์นี้สามารถใช้เพื่อพิมพ์เรซูเม่ของคุณ ส่งให้ผู้สรรหาบุคลากร หรืออัพโหลดบนพอร์ทัลรับสมัครงาน"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:154
+#: apps/client/src/pages/builder/_components/toolbar.tsx:172
 #: apps/client/src/pages/public/page.tsx:108
 msgid "Download PDF"
 msgstr "ดาวน์โหลด PDF"
@@ -482,19 +482,19 @@ msgstr "ดาวน์โหลด PDF"
 msgid "Downloads"
 msgstr "ยอดดาวน์โหลด"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:175
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:180
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
 msgstr "คัดลอก"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:159
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:164
 msgid "Duplicate an existing item"
 msgstr "คัดลอกรายการที่มีอยู่"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Duplicate an existing resume"
 msgstr "คัดลอกเรซูเม่ที่มีอยู่"
 
@@ -502,13 +502,13 @@ msgstr "คัดลอกเรซูเม่ที่มีอยู่"
 msgid "Edit"
 msgstr "แก้ไข"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:176
 msgid "Effects"
 msgstr "เอฟเฟกต์"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
 #: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:140
+#: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:180
 msgid "Email"
@@ -602,7 +602,7 @@ msgstr "ตัวอย่างเช่น ข้อมูลเกี่ย�
 msgid "Forget"
 msgstr "ลืม"
 
-#: apps/client/src/pages/auth/login/page.tsx:126
+#: apps/client/src/pages/auth/login/page.tsx:131
 msgid "Forgot Password?"
 msgstr "ลืมรหัสผ่านเหรอ?"
 
@@ -632,7 +632,7 @@ msgstr "เป็นกันเอง"
 msgid "Full Name"
 msgstr "ชื่อเต็ม"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:207
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:208
 msgid "Generate a random title for your resume"
 msgstr "สุ่มชื่อให้เรซูเม่ของคุณ"
 
@@ -648,7 +648,7 @@ msgstr "GitHub"
 msgid "GitHub Stars"
 msgstr "ดาวบน GitHub"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:193
 msgid "Give your old resume a new name."
 msgstr "ตั้งชื่อใหม่ให้เรซูเม่เก่าของคุณ"
 
@@ -661,7 +661,7 @@ msgstr "ไปที่แดชบอร์ด"
 msgid "Google"
 msgstr "Google"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:208
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:209
 msgid "Grayscale"
 msgstr "ขาวดำ"
 
@@ -683,7 +683,7 @@ msgstr "คุณสามารถอัปเดตโปรไฟล์เพ
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:186
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:187
 msgid "Hidden"
 msgstr "ซ่อนไว้"
 
@@ -695,13 +695,13 @@ msgstr "ซ่อน"
 msgid "Hide Icons"
 msgstr "ซ่อนไอคอน"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:166
+#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "กด <0>Ctrl</0> ค้างเพื่อแสดงรหัสผ่านของคุณชั่วคราว"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:99
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:100
 msgid "Horizontal"
 msgstr "แนวนอน"
 
@@ -713,7 +713,7 @@ msgstr "โฮสต์เรซูเม่ของคุณสู่สาธ
 msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
 msgstr "ผมชอบได้ยินได้ฟังความคิดเห็นหรือคำสนับสนุนจากผู้ใช้ Reactive Resume อยู่เสมอ นี่คือข้อความบางส่วนที่ผมได้รับ หากคุณมีความคิดเห็นใดๆ โปรดติดต่อผมทางอีเมลที่ <0>{email}</0>"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "ไอคอน"
@@ -808,12 +808,12 @@ msgctxt "Localized version of a placeholder name. For example, Max Mustermann in
 msgid "John Doe"
 msgstr "สมชาย นิรนาม"
 
-#: apps/client/src/pages/auth/register/page.tsx:122
+#: apps/client/src/pages/auth/register/page.tsx:123
 msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
 msgid "john.doe"
 msgstr "somchai.niranam"
 
-#: apps/client/src/pages/auth/register/page.tsx:143
+#: apps/client/src/pages/auth/register/page.tsx:145
 msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
 msgid "john.doe@example.com"
 msgstr "somchai.niranam@example.th"
@@ -845,7 +845,7 @@ msgid "Last updated {lastUpdated}"
 msgstr "อัปเดตล่าสุด {lastUpdated}"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:69
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:207
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:205
 msgid "Layout"
 msgstr "เค้าโครง"
 
@@ -921,7 +921,7 @@ msgstr "ออกจากระบบ"
 msgid "Lost your device?"
 msgstr "อุปกรณ์ของคุณสูญหายใช่ไหม?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:257
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:254
 msgid "Main"
 msgstr "ส่วนหลัก"
 
@@ -977,7 +977,7 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "ชื่อ"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:51
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "ชื่อเว็บไซต์"
 
@@ -1062,12 +1062,12 @@ msgstr "องค์กร"
 msgid "Page"
 msgstr "หน้า"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:237
-msgid "Page {0}"
-msgstr "หน้า {0}"
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:235
+msgid "Page {pageNumber}"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:105
-#: apps/client/src/pages/auth/register/page.tsx:161
+#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:76
 msgid "Password"
@@ -1111,7 +1111,7 @@ msgstr "กรุณาเลือกประเภทของไฟล์"
 msgid "Please store your backup codes in a secure location. You can use one of these one-time use codes to login in case you lose access to your authenticator app."
 msgstr "กรุณาเก็บรหัสสำรองของคุณไว้ในที่ปลอดภัย คุณสามารถใช้รหัสผ่านใช้ครั้งเดียวพวกนี้เพื่อเข้าสู่ระบบได้ ในกรณีที่คุณสูญเสียการเข้าถึงแอปยืนยันตัวตนของคุณ"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:106
 msgid "Portrait"
 msgstr "แนวตั้ง"
 
@@ -1128,7 +1128,7 @@ msgstr "ตำแหน่ง"
 msgid "Powered by"
 msgstr "ขับเคลื่อนโดย"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:113
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "ขับเคลื่อนโดย <0>Simple Icons</0>"
 
@@ -1199,7 +1199,7 @@ msgstr "Reactive Resume เป็นโครงการขับเคลื�
 msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
 msgstr "Reactive Resume ประสบความสำเร็จได้ด้วยชุมชนที่มีชีวิตชีวา โครงการนี้เกิดจากความคืบหน้าของคนจำนวนมากที่อุทิศเวลาและทักษะของตนมาช่วย ด้านล่างนี้ เรามายินดีให้กับนักพัฒนาที่ได้ปรับปรุงฟีเจอร์บน GitHub และนักแปลที่ทำการแปลบน Crowdin ให้ผู้คนสามารถเข้าถึงได้มากขึ้นในวงกว้าง"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:75
+#: apps/client/src/pages/builder/_components/toolbar.tsx:85
 msgid "Redo"
 msgstr "ทำใหม่"
 
@@ -1208,7 +1208,7 @@ msgstr "ทำใหม่"
 msgid "Remove"
 msgstr "ลบออก"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:241
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:238
 msgid "Remove Page"
 msgstr "ลบหน้า"
 
@@ -1227,7 +1227,7 @@ msgstr "ส่งลิงก์ยืนยันอีเมลอีกคร
 msgid "Reset"
 msgstr "รีเซ็ต"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:210
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:208
 msgid "Reset Layout"
 msgstr "รีเซ็ตเค้าโครง"
 
@@ -1236,7 +1236,7 @@ msgstr "รีเซ็ตเค้าโครง"
 msgid "Reset your password"
 msgstr "รีเซ็ตรหัสผ่านของคุณ"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:102
+#: apps/client/src/pages/builder/_components/toolbar.tsx:120
 msgid "Reset Zoom"
 msgstr "รีเซ็ตการซูม"
 
@@ -1254,13 +1254,13 @@ msgstr "เรซูเม่ที่สร้าง"
 msgid "Rich in features, not in pricing."
 msgstr "รวยฟีเจอร์ ไม่ใช่รวยราคา"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:145
 msgid "Rounded"
 msgstr "โค้งมน"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:174
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
 msgid "Save Changes"
@@ -1282,6 +1282,14 @@ msgstr "สแกนโค้ด QR ด้านล่างด้วยแอ�
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:92
 msgid "Score"
 msgstr "เกรด"
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Pan"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Zoom"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:97
 msgid "Search for a font family"
@@ -1351,12 +1359,12 @@ msgstr "แสดงเส้นแบ่ง"
 msgid "Show Page Numbers"
 msgstr "แสดงเลขหน้า"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:258
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:255
 msgid "Sidebar"
 msgstr "แถบด้านข้าง"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:102
-#: apps/client/src/pages/auth/login/page.tsx:122
+#: apps/client/src/pages/auth/backup-otp/page.tsx:103
+#: apps/client/src/pages/auth/login/page.tsx:127
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "เข้าสู่ระบบ"
@@ -1382,7 +1390,7 @@ msgstr "เข้าสู่ระบบด้วย GitHub"
 msgid "Sign in with Google"
 msgstr "เข้าสู่ระบบด้วย Google"
 
-#: apps/client/src/pages/auth/register/page.tsx:177
+#: apps/client/src/pages/auth/register/page.tsx:179
 msgid "Sign up"
 msgstr "ลงทะเบียน"
 
@@ -1394,12 +1402,12 @@ msgstr "ขณะนี้การลงชื่อเข้าใช้ผ่
 msgid "Signups are currently disabled by the administrator."
 msgstr "ขณะนี้การลงทะเบียนถูกปิดใช้งานโดยผู้ดูแลระบบ"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:71
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:72
 msgid "Size (in px)"
 msgstr "ขนาด (เป็นพิกเซล)"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:233
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
 msgid "Slug"
 msgstr "ชื่อ"
 
@@ -1415,8 +1423,8 @@ msgstr "เกิดข้อผิดพลาดขณะพิมพ์เร
 msgid "Something went wrong while processing your request. Please try again later or raise an issue on GitHub."
 msgstr "เกิดข้อผิดพลาดขณะประมวลผลคำขอของคุณ โปรดลองอีกครั้งในภายหลังหรือแจ้งปัญหาใน GitHub"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:93
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:139
 msgid "Square"
 msgstr "จัตุรัส"
 
@@ -1427,7 +1435,7 @@ msgid "Start building from scratch"
 msgstr "เริ่มสร้างตั้งแต่ต้น"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:190
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Start building your resume by giving it a name."
 msgstr "เริ่มสร้างเรซูเม่ของคุณด้วยการตั้งชื่อ"
 
@@ -1507,11 +1515,11 @@ msgstr "ธีม"
 msgid "There was an error connecting to the browser. Please make sure 'chrome' is running and reachable."
 msgstr "มีข้อผิดพลาดในการเชื่อมต่อกับเบราว์เซอร์ โปรดตรวจสอบว่า 'chrome' กำลังทำงานอยู่และเข้าถึงได้"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:128
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:129
 msgid "This action can be reverted by clicking on the undo button in the floating toolbar."
 msgstr "ขั้นตอนนี้สามารถย้อนกลับได้โดยการคลิกปุ่มเลิกทำในแถบเครื่องมือลอย"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:149
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:150
 msgid "This action cannot be undone. This will permanently delete your resume and cannot be recovered."
 msgstr "การทำเช่นนี้จะย้อนกลับไม่ได้ เรซูเม่จะถูกลบถาวรและกู้คืนมาไม่ได้"
 
@@ -1529,7 +1537,7 @@ msgid "This section is reserved for your personal notes specific to this resume.
 msgstr "ส่วนนี้มีไว้สำหรับจดโน้ตส่วนตัวของคุณที่เกี่ยวกับกับเรซูเม่นี้ เนื้อหาตรงนี้เป็นส่วนตัวและไม่ได้แชร์กับคนอื่น"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:221
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "เคล็ดลับ: คุณสามารถตั้งชื่อเรซูเม่ตามตำแหน่งงานที่คุณจะสมัครได้"
 
@@ -1539,15 +1547,15 @@ msgid "Title"
 msgstr "ชื่อ"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:201
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Title"
 msgstr "ชื่อ"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:116
+#: apps/client/src/pages/builder/_components/toolbar.tsx:134
 msgid "Toggle Page Break Line"
 msgstr "เปิด/ปิดบรรทัดแบ่งหน้า"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:128
+#: apps/client/src/pages/builder/_components/toolbar.tsx:146
 msgid "Toggle Page Numbers"
 msgstr "เปิด-ปิดเลขหน้า"
 
@@ -1587,7 +1595,7 @@ msgstr "แบบอักษร"
 msgid "Underline Links"
 msgstr "ขีดเส้นใต้ลิงก์"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:62
+#: apps/client/src/pages/builder/_components/toolbar.tsx:72
 msgid "Undo"
 msgstr "เลิกทำ"
 
@@ -1608,11 +1616,11 @@ msgstr "การปลดล็อคเรซูเม่จะช่วยใ
 msgid "Unverified"
 msgstr "ยังไม่ยืนยัน"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:158
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:163
 msgid "Update an existing item"
 msgstr "อัปเดตรายการที่มีอยู่"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Update an existing resume"
 msgstr "อัปเดตเรซูเม่ที่มีอยู่"
 
@@ -1643,7 +1651,7 @@ msgid "User does not have an associated 'secrets' record. Please report this iss
 msgstr "ผู้ใช้ไม่มีข้อมูล 'secrets' ที่เกี่ยวข้อง กรุณารายงานปัญหานี้บน GitHub"
 
 #: apps/client/src/pages/auth/register/page.tsx:119
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:66
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:166
 msgid "Username"
 msgstr "ชื่อผู้ใช้"
@@ -1704,7 +1712,7 @@ msgstr "เราตรวจสอบที่อยู่อีเมลขอ
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:114
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:80
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:94
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:67
@@ -1724,7 +1732,7 @@ msgstr "มีอะไรใหม่ในเวอร์ชั่นล่า
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "คุณสามารถเพิ่มคีย์เวิร์ดได้หลายคำโดยคั่นด้วยเครื่องหมายจุลภาคหรือกด Enter"
 
-#: apps/client/src/pages/auth/login/page.tsx:94
+#: apps/client/src/pages/auth/login/page.tsx:99
 msgid "You can also enter your username."
 msgstr "คุณสามารถป้อนชื่อผู้ใช้ของคุณได้ด้วย"
 
@@ -1773,10 +1781,10 @@ msgstr "คีย์ API ของ OpenAI ของคุณยังไม่�
 msgid "Your password has been updated successfully."
 msgstr "รหัสผ่านของคุณได้รับการอัปเดตเรียบร้อยแล้ว"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:90
+#: apps/client/src/pages/builder/_components/toolbar.tsx:108
 msgid "Zoom In"
 msgstr "ซูมเข้า"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:96
+#: apps/client/src/pages/builder/_components/toolbar.tsx:114
 msgid "Zoom Out"
 msgstr "ซูมออก"

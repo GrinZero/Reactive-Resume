@@ -3,16 +3,19 @@
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "files": ["*.ts", "*.tsx"],
       "extends": [
         "plugin:tailwindcss/recommended",
         "plugin:@tanstack/eslint-plugin-query/recommended"
       ],
+      "parserOptions": {
+        "projectService": "./apps/client/tsconfig.json"
+      },
       "settings": {
         "tailwindcss": {
           "callees": ["cn", "clsx", "cva"],
           "config": "tailwind.config.js",
-          "whitelist": ["ph", "ph-"]
+          "whitelist": ["ph", "ph\\-.*", "si", "si\\-.*"]
         }
       },
       "plugins": ["lingui"],

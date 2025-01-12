@@ -8,7 +8,7 @@ msgstr ""
 "Language: tr\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-11 11:27\n"
+"PO-Revision-Date: 2025-01-12 12:14\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -64,7 +64,7 @@ msgstr "Ücretsiz ve açık kaynak cv oluşturucu"
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Cv'nizi oluşturma, güncelleme ve paylaşma gibi adımları kolaylaştıran ücretsiz ve açık kaynak bir cv oluşturucu."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:49
+#: apps/client/src/pages/builder/_components/toolbar.tsx:55
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Bağlantı panonuza kopyalandı."
@@ -105,7 +105,7 @@ msgid "Add a custom field"
 msgstr "Özel alan ekle"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:120
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:167
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:171
 msgctxt "For example, add a new work experience, or add a new profile."
 msgid "Add a new item"
 msgstr "Yeni bir Öğe Ekle"
@@ -119,7 +119,7 @@ msgstr "Yeni bir Öğe Ekle"
 msgid "Add a new section"
 msgstr "Yeni bir bölüm ekle"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:271
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:268
 msgid "Add New Page"
 msgstr "Yeni Sayfa Ekle"
 
@@ -144,16 +144,16 @@ msgstr "ve daha fazlası..."
 msgid "Anyone with the link can view and download the resume."
 msgstr "Bağlantıya sahip olan herkes özgeçmişi görüntüleyebilir ve indirebilir."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:50
+#: apps/client/src/pages/builder/_components/toolbar.tsx:56
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:30
 msgid "Anyone with this link can view and download the resume. Share it on your profile or with recruiters."
 msgstr "Bu bağlantıya sahip herkes özgeçmişi görüntüleyebilir ve indirebilir. Profilinizde veya işe alım uzmanlarıyla paylaşın."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:126
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:127
 msgid "Are you sure you want to delete this item?"
 msgstr "Bu öğeyi silmek istediğinizden emin misiniz?"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:147
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:148
 msgid "Are you sure you want to delete your resume?"
 msgstr "Özgeçmişinizi silmek istediğinizden emin misiniz?"
 
@@ -180,7 +180,7 @@ msgstr "Emin misiniz?"
 msgid "Area of Study"
 msgstr "Çalışma alanı"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:85
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:86
 msgid "Aspect Ratio"
 msgstr "En/Boy Oranı"
 
@@ -192,7 +192,7 @@ msgstr "{languagesCount} dillerinde mevcuttur"
 msgid "Awarder"
 msgstr "Ödüllendirici"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:98
+#: apps/client/src/pages/auth/backup-otp/page.tsx:99
 #: apps/client/src/pages/auth/forgot-password/page.tsx:100
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:243
 msgid "Back"
@@ -206,7 +206,7 @@ msgstr "Arka plan rengi"
 msgid "Backup Code"
 msgstr "Yedekleme kodu"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:80
+#: apps/client/src/pages/auth/backup-otp/page.tsx:81
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Yedekleme kodları yalnızca küçük harf veya rakamlar içerebilir ve tam olarak 10 karakterden oluşmalıdır."
 
@@ -223,11 +223,11 @@ msgstr "Temel Bilgiler"
 msgid "Basics"
 msgstr "Temel Bilgiler"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:197
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:198
 msgid "Border"
 msgstr "Kenarlık"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:130
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:131
 msgid "Border Radius"
 msgstr "Kenar Ovalliği"
 
@@ -246,10 +246,10 @@ msgstr "İle oluşturuldu"
 msgid "By the community, for the community."
 msgstr "Topluluk tarafından topluluk için oluşturuldu."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:133
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:134
 #: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:154
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:155
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:137
 msgid "Cancel"
 msgstr "Reddet"
@@ -259,7 +259,7 @@ msgstr "Reddet"
 msgid "Casual"
 msgstr "Sıradan"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:108
+#: apps/client/src/pages/builder/_components/toolbar.tsx:126
 msgid "Center Artboard"
 msgstr "Çalışma Panosu'nu Ortala"
 
@@ -273,7 +273,7 @@ msgid "Change Tone"
 msgstr "Tonu Değiştir"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "İsim konusunda fikrinizi mi değiştirdiniz? Yeni bir isim verin."
 
@@ -281,7 +281,7 @@ msgstr "İsim konusunda fikrinizi mi değiştirdiniz? Yeni bir isim verin."
 msgid "Check your email for the confirmation link to update your email address."
 msgstr "E-posta adresinizi güncellemek için e-postanıza gelen onay bağlantısını kontrol edin."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:150
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:151
 msgid "Circle"
 msgstr "Daire"
 
@@ -323,7 +323,7 @@ msgstr "Devam et"
 msgid "Copy"
 msgstr "Kopyala"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:142
+#: apps/client/src/pages/builder/_components/toolbar.tsx:160
 msgid "Copy Link to Resume"
 msgstr "Bağlantıyı Özgeçmişe Kopyala"
 
@@ -331,9 +331,9 @@ msgstr "Bağlantıyı Özgeçmişe Kopyala"
 msgid "Copy to Clipboard"
 msgstr "Panoya Kopyala"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:173
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:254
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 msgid "Create"
 msgstr "Oluştur"
 
@@ -342,11 +342,11 @@ msgstr "Oluştur"
 msgid "Create a new account"
 msgstr "Yeni bir hesap oluştur"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:157
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:162
 msgid "Create a new item"
 msgstr "Yeni bir öğe oluştur"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:183
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:18
 msgid "Create a new resume"
@@ -357,7 +357,7 @@ msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Hemen bir tane oluştur"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:269
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:270
 msgid "Create Sample Resume"
 msgstr "Örnek özgeçmiş oluştur"
 
@@ -404,8 +404,8 @@ msgstr "Tarih"
 msgid "Date or Date Range"
 msgstr "Tarih veya Tarih Aralığı"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:163
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:136
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:164
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
@@ -473,7 +473,7 @@ msgstr "Özgeçmişinizin bir JSON versiyonunu indirin. Bu dosya gelecekte özge
 msgid "Download a PDF of your resume. This file can be used to print your resume, send it to recruiters, or upload on job portals."
 msgstr "Özgeçmişinizin PDF dosyasını indirin. Bu dosya özgeçmişinizi yazdırmak, işe alım uzmanlarına göndermek veya iş portallarına yüklemek için kullanılabilir."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:154
+#: apps/client/src/pages/builder/_components/toolbar.tsx:172
 #: apps/client/src/pages/public/page.tsx:108
 msgid "Download PDF"
 msgstr "PDF indir"
@@ -482,19 +482,19 @@ msgstr "PDF indir"
 msgid "Downloads"
 msgstr "İndirmeler"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:175
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:180
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
 msgstr "Çoğalt"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:159
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:164
 msgid "Duplicate an existing item"
 msgstr "Mevcut bir öğeyi çoğalt"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Duplicate an existing resume"
 msgstr "Mevcut bir özgeçmişi çoğalt"
 
@@ -502,13 +502,13 @@ msgstr "Mevcut bir özgeçmişi çoğalt"
 msgid "Edit"
 msgstr "Düzenle"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:176
 msgid "Effects"
 msgstr "Efektler"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
 #: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:140
+#: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:180
 msgid "Email"
@@ -602,7 +602,7 @@ msgstr "Örneğin, bu özgeçmişi hangi şirketlere gönderdiğinize ilişkin b
 msgid "Forget"
 msgstr "Unut"
 
-#: apps/client/src/pages/auth/login/page.tsx:126
+#: apps/client/src/pages/auth/login/page.tsx:131
 msgid "Forgot Password?"
 msgstr "Şifreni mi Unuttun?"
 
@@ -632,7 +632,7 @@ msgstr "Dostça"
 msgid "Full Name"
 msgstr "Tam Ad"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:207
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:208
 msgid "Generate a random title for your resume"
 msgstr "Özgeçmişiniz için rastgele bir başlık oluşturun"
 
@@ -648,7 +648,7 @@ msgstr "GitHub"
 msgid "GitHub Stars"
 msgstr "GitHub Yıldızları"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:193
 msgid "Give your old resume a new name."
 msgstr "Eski özgeçmişinize yeni bir isim verin."
 
@@ -661,7 +661,7 @@ msgstr "Gösterge Paneline Git"
 msgid "Google"
 msgstr "Google"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:208
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:209
 msgid "Grayscale"
 msgstr "Gri tonlamalı"
 
@@ -683,7 +683,7 @@ msgstr "Burada, deneyiminizi özelleştirmek ve kişiselleştirmek için profili
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:186
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:187
 msgid "Hidden"
 msgstr "Gizli"
 
@@ -695,13 +695,13 @@ msgstr "Gizle"
 msgid "Hide Icons"
 msgstr "Simgeleri Gizle"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:166
+#: apps/client/src/pages/auth/login/page.tsx:115
+#: apps/client/src/pages/auth/register/page.tsx:168
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "Parolanızı geçici olarak görüntülemek için <0>Ctrl</0> tuşunu basılı tutun."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:99
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:100
 msgid "Horizontal"
 msgstr "Yatay"
 
@@ -713,7 +713,7 @@ msgstr "Özgeçmişinizi herkese açık olarak sunun"
 msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
 msgstr "Reactive Resume kullanıcılarından geri bildirim veya destek almayı her zaman isterim. İşte aldığım mesajlardan bazıları. Herhangi bir geri bildiriminiz varsa bana <0>{email} adresinden e-posta göndermekten çekinmeyin.</0>."
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "Simge"
@@ -808,12 +808,12 @@ msgctxt "Localized version of a placeholder name. For example, Max Mustermann in
 msgid "John Doe"
 msgstr "John Doe"
 
-#: apps/client/src/pages/auth/register/page.tsx:122
+#: apps/client/src/pages/auth/register/page.tsx:123
 msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
 msgid "john.doe"
 msgstr "john.doe"
 
-#: apps/client/src/pages/auth/register/page.tsx:143
+#: apps/client/src/pages/auth/register/page.tsx:145
 msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
 msgid "john.doe@example.com"
 msgstr "john.doe@example.com"
@@ -845,7 +845,7 @@ msgid "Last updated {lastUpdated}"
 msgstr "Son güncelleme {lastUpdated}"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:69
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:207
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:205
 msgid "Layout"
 msgstr "Düzen"
 
@@ -921,7 +921,7 @@ msgstr "Çıkış yap"
 msgid "Lost your device?"
 msgstr "Cihazınızı mı kaybettiniz?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:257
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:254
 msgid "Main"
 msgstr "Ana Sayfa"
 
@@ -977,7 +977,7 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "İsim"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:51
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "Sosyal Ağ"
 
@@ -1062,12 +1062,12 @@ msgstr "Organizasyon"
 msgid "Page"
 msgstr "Sayfa"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:237
-msgid "Page {0}"
-msgstr "Sayfa {0}"
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:235
+msgid "Page {pageNumber}"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:105
-#: apps/client/src/pages/auth/register/page.tsx:161
+#: apps/client/src/pages/auth/login/page.tsx:110
+#: apps/client/src/pages/auth/register/page.tsx:163
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:76
 msgid "Password"
@@ -1111,7 +1111,7 @@ msgstr "Lütfen bir dosya türü seçin"
 msgid "Please store your backup codes in a secure location. You can use one of these one-time use codes to login in case you lose access to your authenticator app."
 msgstr "Lütfen yedek kodlarınızı güvenli bir yerde saklayın. Kimlik doğrulayıcı uygulamanıza erişiminizi kaybetmeniz durumunda oturum açmak için bu tek kullanımlık kodlardan birini kullanabilirsiniz."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:106
 msgid "Portrait"
 msgstr "Portre"
 
@@ -1128,7 +1128,7 @@ msgstr "Konum"
 msgid "Powered by"
 msgstr "Destekleyen"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:113
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "<0>Simple Icons</0> tarafından desteklenmektedir"
 
@@ -1199,7 +1199,7 @@ msgstr "Reaktif Özgeçmiş, 3 yılı aşkın bir süredir üzerinde çalışıl
 msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
 msgstr "Reaktif Özgeçmiş, canlı topluluğu sayesinde gelişiyor. Bu proje ilerlemesini, zamanlarını ve becerilerini adayan çok sayıda kişiye borçludur. Aşağıda, GitHub'daki özelliklerini geliştiren kodlayıcıları ve Crowdin'deki çevirileri daha geniş bir kitle için erişilebilir hale getiren dilbilimcileri kutluyoruz."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:75
+#: apps/client/src/pages/builder/_components/toolbar.tsx:85
 msgid "Redo"
 msgstr "Yinele"
 
@@ -1208,7 +1208,7 @@ msgstr "Yinele"
 msgid "Remove"
 msgstr "Kaldır"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:241
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:238
 msgid "Remove Page"
 msgstr "Sayfayı Kaldır"
 
@@ -1227,7 +1227,7 @@ msgstr "E-posta onay bağlantısını yeniden gönder"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:210
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:208
 msgid "Reset Layout"
 msgstr "Düzeni Sıfırla"
 
@@ -1236,7 +1236,7 @@ msgstr "Düzeni Sıfırla"
 msgid "Reset your password"
 msgstr "Şifrenizi sıfırlayın"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:102
+#: apps/client/src/pages/builder/_components/toolbar.tsx:120
 msgid "Reset Zoom"
 msgstr "Yakınlaştırmayı Sıfırla"
 
@@ -1254,13 +1254,13 @@ msgstr "Oluşturulan Özgeçmişler"
 msgid "Rich in features, not in pricing."
 msgstr "Fiyat açısından değil, özellikler açısından zengin."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:144
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:145
 msgid "Rounded"
 msgstr "Yuvarlak"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:174
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
 msgid "Save Changes"
@@ -1282,6 +1282,14 @@ msgstr "Hesabınızda 2FA'yı kurmak için aşağıdaki QR kodunu kimlik doğrul
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:92
 msgid "Score"
 msgstr "Skor"
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Pan"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+msgid "Scroll to Zoom"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:97
 msgid "Search for a font family"
@@ -1351,12 +1359,12 @@ msgstr "Ara Çizgiyi Göster"
 msgid "Show Page Numbers"
 msgstr "Sayfa numaralarını göster"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:258
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:255
 msgid "Sidebar"
 msgstr "Kenar Çubuğu"
 
-#: apps/client/src/pages/auth/backup-otp/page.tsx:102
-#: apps/client/src/pages/auth/login/page.tsx:122
+#: apps/client/src/pages/auth/backup-otp/page.tsx:103
+#: apps/client/src/pages/auth/login/page.tsx:127
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
 msgid "Sign in"
 msgstr "Giriş yap"
@@ -1382,7 +1390,7 @@ msgstr "Github ile giriş yapın"
 msgid "Sign in with Google"
 msgstr "Google ile giriş yapın"
 
-#: apps/client/src/pages/auth/register/page.tsx:177
+#: apps/client/src/pages/auth/register/page.tsx:179
 msgid "Sign up"
 msgstr "Kayıt ol"
 
@@ -1394,12 +1402,12 @@ msgstr ""
 msgid "Signups are currently disabled by the administrator."
 msgstr "Kayıtlar şu anda yönetici tarafından devre dışı bırakılmıştır."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:71
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:72
 msgid "Size (in px)"
 msgstr "Boyut (px cinsinden)"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:233
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
 msgid "Slug"
 msgstr "Slug"
 
@@ -1415,8 +1423,8 @@ msgstr "Özgeçmişinizi yazdırırken bir şeyler ters gitti. Lütfen daha sonr
 msgid "Something went wrong while processing your request. Please try again later or raise an issue on GitHub."
 msgstr "İsteğiniz işlenirken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin veya GitHub'da bir sorun oluşturun."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:93
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:139
 msgid "Square"
 msgstr "Kare"
 
@@ -1427,7 +1435,7 @@ msgid "Start building from scratch"
 msgstr "Sıfırdan oluşturmaya başlayın"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:190
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Start building your resume by giving it a name."
 msgstr "Bir ad vererek özgeçmişinizi oluşturmaya başlayın."
 
@@ -1507,11 +1515,11 @@ msgstr "Tema"
 msgid "There was an error connecting to the browser. Please make sure 'chrome' is running and reachable."
 msgstr "Tarayıcıya bağlanırken bir hata oluştu. Lütfen 'chrome'un çalıştığından ve erişilebilir olduğundan emin olun."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:128
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:129
 msgid "This action can be reverted by clicking on the undo button in the floating toolbar."
 msgstr "Bu eylem, kayan araç çubuğundaki geri al düğmesine tıklanarak geri alınabilir."
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:149
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:150
 msgid "This action cannot be undone. This will permanently delete your resume and cannot be recovered."
 msgstr "Bu işlem geri alınamaz. Bu işlem özgeçmişinizi kalıcı olarak siler ve kurtarılamaz."
 
@@ -1529,7 +1537,7 @@ msgid "This section is reserved for your personal notes specific to this resume.
 msgstr "Bu bölüm, bu özgeçmişe özel kişisel notlarınız için ayrılmıştır. Buradaki içerik gizli kalır ve başka kimseyle paylaşılmaz."
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:221
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "İpucu: Özgeçmişinizi başvurduğunuz pozisyona atıfta bulunarak adlandırabilirsiniz."
 
@@ -1539,15 +1547,15 @@ msgid "Title"
 msgstr "Başlık"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:201
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Title"
 msgstr "Başlık"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:116
+#: apps/client/src/pages/builder/_components/toolbar.tsx:134
 msgid "Toggle Page Break Line"
 msgstr "Sayfa Sonu Satırını Değiştir"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:128
+#: apps/client/src/pages/builder/_components/toolbar.tsx:146
 msgid "Toggle Page Numbers"
 msgstr "Sayfa Numaralarını Değiştir"
 
@@ -1587,7 +1595,7 @@ msgstr "Tipografi"
 msgid "Underline Links"
 msgstr "Altı Çizili Bağlantılar"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:62
+#: apps/client/src/pages/builder/_components/toolbar.tsx:72
 msgid "Undo"
 msgstr "Geri al"
 
@@ -1608,11 +1616,11 @@ msgstr "Bir özgeçmişin kilidini açmak, üzerinde tekrar değişiklik yapman�
 msgid "Unverified"
 msgstr "Doğrulanmamış"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:158
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:163
 msgid "Update an existing item"
 msgstr "Mevcut bir öğeyi güncelle"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Update an existing resume"
 msgstr "Mevcut bir özgeçmişi güncelle"
 
@@ -1643,7 +1651,7 @@ msgid "User does not have an associated 'secrets' record. Please report this iss
 msgstr "Kullanıcının ilişkili bir 'secrets' kaydı yok. Lütfen bu sorunu GitHub'da bildirin."
 
 #: apps/client/src/pages/auth/register/page.tsx:119
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:66
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:166
 msgid "Username"
 msgstr "Kullanıcı adı"
@@ -1704,7 +1712,7 @@ msgstr "E-posta adresinizi yalnızca şifrenizi unutmanız durumunda size bir ş
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:114
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
-#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:80
+#: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:94
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:67
@@ -1724,7 +1732,7 @@ msgstr "En son sürümdeki yenilikler"
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Birden fazla anahtar kelimeyi virgülle ayırarak veya enter tuşuna basarak ekleyebilirsiniz."
 
-#: apps/client/src/pages/auth/login/page.tsx:94
+#: apps/client/src/pages/auth/login/page.tsx:99
 msgid "You can also enter your username."
 msgstr "Kullanıcı adınızı da girebilirsiniz."
 
@@ -1773,10 +1781,10 @@ msgstr "OpenAI API Anahtarınız henüz ayarlanmadı. OpenAI Entegrasyonunu etki
 msgid "Your password has been updated successfully."
 msgstr "Parolanız başarıyla güncellendi."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:90
+#: apps/client/src/pages/builder/_components/toolbar.tsx:108
 msgid "Zoom In"
 msgstr "Yakınlaştır"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:96
+#: apps/client/src/pages/builder/_components/toolbar.tsx:114
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
