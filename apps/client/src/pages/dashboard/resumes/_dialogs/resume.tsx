@@ -152,7 +152,14 @@ export const ResumeDialog = () => {
 
               <AlertDialogFooter>
                 <AlertDialogCancel>{t`Cancel`}</AlertDialogCancel>
-                <AlertDialogAction variant="error" onClick={form.handleSubmit(onSubmit)}>
+                <AlertDialogAction
+                  variant="error"
+                  type="button"
+                  onClick={async () => {
+                    const values = form.getValues();
+                    await onSubmit(values);
+                  }}
+                >
                   {t`Delete`}
                 </AlertDialogAction>
               </AlertDialogFooter>
@@ -235,9 +242,13 @@ export const ResumeDialog = () => {
             <DialogFooter>
               <div className="flex items-center">
                 <Button
-                  type="submit"
+                  type={isUpdate ? "button" : "submit"}
                   disabled={loading}
                   className={cn(isCreate && "rounded-r-none")}
+                  onClick={async () => {
+                    const values = form.getValues();
+                    await onSubmit(values);
+                  }}
                 >
                   {isCreate && t`Create`}
                   {isUpdate && t`Save Changes`}

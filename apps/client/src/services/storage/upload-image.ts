@@ -1,15 +1,22 @@
+/* eslint-disable unicorn/prefer-add-event-listener */
 import { useMutation } from "@tanstack/react-query";
-import { AxiosResponse } from "axios";
 
-import { axios } from "@/client/libs/axios";
-
-export const uploadImage = (file: File) => {
-  const formData = new FormData();
-  formData.append("file", file);
-
-  return axios.put<string, AxiosResponse<string>, FormData>("/storage/image", formData, {
-    headers: { "Content-Type": "multipart/form-data" },
+export const file2base64 = async (file: File) => {
+  return new Promise<string>((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      resolve(reader.result as string);
+    };
+    reader.onerror = () => {
+      reject(new Error("Failed to read the file"));
+    };
+    reader.readAsDataURL(file);
   });
+};
+
+export const uploadImage = async (file: File) => {
+  const base64 = await file2base64(file);
+  return { data: base64 };
 };
 
 export const useUploadImage = () => {

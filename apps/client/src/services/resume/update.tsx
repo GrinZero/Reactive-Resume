@@ -1,28 +1,36 @@
 import { ResumeDto, UpdateResumeDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
-import { AxiosResponse } from "axios";
 import debounce from "lodash.debounce";
 
-import { axios } from "@/client/libs/axios";
+import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
 
 export const updateResume = async (data: UpdateResumeDto) => {
-  const response = await axios.patch<ResumeDto, AxiosResponse<ResumeDto>, UpdateResumeDto>(
-    `/resume/${data.id}`,
-    data,
-  );
+  if (!data.id) {
+    throw new Error("Resume not found");
+  }
+  // const response = await axios.patch<ResumeDto, AxiosResponse<ResumeDto>, UpdateResumeDto>(
+  //   `/resume/${data.id}`,
+  //   data,
+  // );
 
-  queryClient.setQueryData<ResumeDto>(["resume", { id: response.data.id }], response.data);
+  await db.resumes.update(data.id, data as never);
+  const result = await db.resumes.where("id").equals(data.id).first();
+  if (!result) {
+    throw new Error("Resume not found");
+  }
+
+  queryClient.setQueryData<ResumeDto>(["resume", { id: result.id }], result);
 
   queryClient.setQueryData<ResumeDto[]>(["resumes"], (cache) => {
-    if (!cache) return [response.data];
+    if (!cache) return [result];
     return cache.map((resume) => {
-      if (resume.id === response.data.id) return response.data;
+      if (resume.id === result.id) return result;
       return resume;
     });
   });
 
-  return response.data;
+  return result;
 };
 
 export const debouncedUpdateResume = debounce(updateResume, 500);

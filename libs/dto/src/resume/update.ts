@@ -4,4 +4,6 @@ import { resumeSchema } from "./resume";
 
 export const updateResumeSchema = resumeSchema.partial();
 
-export class UpdateResumeDto extends createZodDto(updateResumeSchema) {}
+export class UpdateResumeDto extends createZodDto(updateResumeSchema) {
+  override id = "";
+}

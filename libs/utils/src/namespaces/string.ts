@@ -10,12 +10,12 @@ export const getInitials = (name: string) => {
   return ((initials.shift()?.[1] ?? "") + (initials.pop()?.[1] ?? "")).toUpperCase();
 };
 
-export const isUrl = (string: string | null | undefined) => {
-  if (!string) return false;
+export const isUrl = (str: string | null | undefined) => {
+  if (!str) return false;
 
   const urlRegex = /https?:\/\/[^\n ]+/i;
 
-  return urlRegex.test(string);
+  return urlRegex.test(str) || (str.startsWith("data:") && str.includes(";base64"));
 };
 
 export const isEmptyString = (string: string) => {

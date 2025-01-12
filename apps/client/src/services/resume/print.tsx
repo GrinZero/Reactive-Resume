@@ -1,14 +1,35 @@
+/* eslint-disable unicorn/prefer-add-event-listener */
 import { t } from "@lingui/macro";
-import { UrlDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
 
 import { toast } from "@/client/hooks/use-toast";
-import { axios } from "@/client/libs/axios";
+
+import { findResumeById } from "./resume";
 
 export const printResume = async (data: { id: string }) => {
-  const response = await axios.get<UrlDto>(`/resume/print/${data.id}`);
+  const resume = await findResumeById({ id: data.id });
+  const newWindow = window.open("/artboard/preview", "_blank");
+  // newWindow?.postMessage
+  if (newWindow && resume) {
+    newWindow.onload = () => {
+      newWindow.postMessage({ type: "SET_RESUME", payload: resume.data }, "*");
+      setTimeout(() => {
+        newWindow.print();
+      }, 1000);
+    };
+  }
 
-  return response.data;
+  return {
+    url: `${window.location.origin}/artboard/preview`,
+  };
+};
+
+export const getShareLink = async (data: { id: string }) => {
+  const resume = await findResumeById({ id: data.id });
+  if (!resume) {
+    return null;
+  }
+  return `${window.location.origin}/artboard/preview?resumeId=${resume.id}`;
 };
 
 export const usePrintResume = () => {

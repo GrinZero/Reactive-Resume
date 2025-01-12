@@ -16,14 +16,9 @@ import { Button, Separator, Toggle, Tooltip } from "@reactive-resume/ui";
 import { motion } from "framer-motion";
 
 import { useToast } from "@/client/hooks/use-toast";
-import { usePrintResume } from "@/client/services/resume";
+import { getShareLink, usePrintResume } from "@/client/services/resume";
 import { useBuilderStore } from "@/client/stores/builder";
 import { useResumeStore, useTemporalResumeStore } from "@/client/stores/resume";
-
-const openInNewTab = (url: string) => {
-  const win = window.open(url, "_blank");
-  if (win) win.focus();
-};
 
 export const BuilderToolbar = () => {
   const { toast } = useToast();
@@ -39,13 +34,14 @@ export const BuilderToolbar = () => {
   const { printResume, loading } = usePrintResume();
 
   const onPrint = async () => {
-    const { url } = await printResume({ id });
-
-    openInNewTab(url);
+    await printResume({ id });
   };
 
   const onCopy = async () => {
-    const { url } = await printResume({ id });
+    const url = await getShareLink({ id });
+    if (!url) {
+      return;
+    }
     await navigator.clipboard.writeText(url);
 
     toast({
@@ -148,7 +144,7 @@ export const BuilderToolbar = () => {
             size="icon"
             variant="ghost"
             className="rounded-none"
-            disabled={!isPublic}
+            // disabled={!isPublic}
             onClick={onCopy}
           >
             <LinkSimple />

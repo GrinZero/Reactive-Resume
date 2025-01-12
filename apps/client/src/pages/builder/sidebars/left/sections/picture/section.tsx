@@ -27,7 +27,12 @@ export const PictureSection = () => {
   const setValue = useResumeStore((state) => state.setValue);
   const picture = useResumeStore((state) => state.resume.data.basics.picture);
 
-  const isValidUrl = useMemo(() => z.string().url().safeParse(picture.url).success, [picture.url]);
+  const isValidUrl = useMemo(
+    () =>
+      z.string().url().safeParse(picture.url).success ||
+      (picture.url.startsWith("data:image") && picture.url.includes(";base64")),
+    [picture.url],
+  );
 
   const onSelectImage = async (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files.length > 0) {

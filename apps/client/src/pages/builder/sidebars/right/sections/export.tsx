@@ -17,19 +17,12 @@ const onJsonExport = () => {
   saveAs(new Blob([resumeJSON], { type: "application/json" }), filename);
 };
 
-const openInNewTab = (url: string) => {
-  const win = window.open(url, "_blank");
-  if (win) win.focus();
-};
-
 export const ExportSection = () => {
   const { printResume, loading } = usePrintResume();
 
   const onPdfExport = async () => {
     const { resume } = useResumeStore.getState();
-    const { url } = await printResume({ id: resume.id });
-
-    openInNewTab(url);
+    await printResume({ id: resume.id });
   };
 
   return (

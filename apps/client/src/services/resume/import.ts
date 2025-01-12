@@ -1,17 +1,33 @@
-import { ImportResumeDto, ResumeDto } from "@reactive-resume/dto";
+import { ImportResumeDto, importResumeSchema, ResumeDto } from "@reactive-resume/dto";
+import { generateRandomName, kebabCase } from "@reactive-resume/utils";
 import { useMutation } from "@tanstack/react-query";
-import { AxiosResponse } from "axios";
 
-import { axios } from "@/client/libs/axios";
+import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
 
-export const importResume = async (data: ImportResumeDto) => {
-  const response = await axios.post<ResumeDto, AxiosResponse<ResumeDto>, ImportResumeDto>(
-    "/resume/import",
-    data,
-  );
+export const importResume = async (importResumeDto: ImportResumeDto) => {
+  const randomTitle = generateRandomName();
 
-  return response.data;
+  const result = importResumeSchema.parse(importResumeDto);
+
+  const newData = {
+    id: crypto.randomUUID(),
+    userId: "1",
+    visibility: "private" as const,
+    data: result.data,
+    title: result.title ?? randomTitle,
+    slug: result.slug ?? kebabCase(randomTitle),
+    locked: false,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  };
+
+  const id = await db.resumes.add(newData);
+
+  return {
+    ...newData,
+    id,
+  };
 };
 
 export const useImportResume = () => {

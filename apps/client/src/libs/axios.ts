@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { deepSearchAndParseDates, ErrorMessage } from "@reactive-resume/utils";
 import _axios from "axios";
-import createAuthRefreshInterceptor from "axios-auth-refresh";
+// import createAuthRefreshInterceptor from "axios-auth-refresh";
 import { redirect } from "react-router-dom";
 
 import { refreshToken } from "@/client/services/auth";
@@ -49,5 +49,5 @@ const handleRefreshError = async () => {
 };
 
 // Intercept responses to check for 401 and 403 errors, refresh token and retry the request
-createAuthRefreshInterceptor(axios, handleAuthError, { statusCodes: [401, 403] });
-createAuthRefreshInterceptor(axiosForRefresh, handleRefreshError);
+// createAuthRefreshInterceptor(axios, handleAuthError, { statusCodes: [401, 403] });
+// createAuthRefreshInterceptor(axiosForRefresh, handleRefreshError);
