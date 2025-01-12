@@ -20,7 +20,8 @@ import {
   FormMessage,
   Input,
 } from "@reactive-resume/ui";
-import { cn, kebabCase } from "@reactive-resume/utils";
+import slugify from "@sindresorhus/slugify";
+import { cn } from "@reactive-resume/utils";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -47,18 +48,18 @@ export const BrainDialog = () => {
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
-    defaultValues: { title: username ?? "", slug: kebabCase(username ?? "") },
+    defaultValues: { title: username ?? "", slug: slugify(username ?? "") },
   });
 
   useEffect(() => {
-    const slug = kebabCase(form.watch("title"));
+    const slug = slugify(form.watch("title"));
     form.setValue("slug", slug);
   }, [form.watch("title")]);
 
   useEffect(() => {
     if (!username) return;
     form.setValue("title", username);
-    form.setValue("slug", kebabCase(username));
+    form.setValue("slug", slugify(username));
   }, [username]);
 
   const onSubmit = async (values: FormValues) => {

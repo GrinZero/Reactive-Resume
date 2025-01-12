@@ -1,5 +1,6 @@
 import { ImportResumeDto, importResumeSchema, ResumeDto } from "@reactive-resume/dto";
-import { generateRandomName, kebabCase } from "@reactive-resume/utils";
+import { generateRandomName } from "@reactive-resume/utils";
+import slugify from "@sindresorhus/slugify";
 import { useMutation } from "@tanstack/react-query";
 
 import { db } from "@/client/db";
@@ -16,7 +17,7 @@ export const importResume = async (importResumeDto: ImportResumeDto) => {
     visibility: "private" as const,
     data: result.data,
     title: result.title ?? randomTitle,
-    slug: result.slug ?? kebabCase(randomTitle),
+    slug: result.slug ?? slugify(randomTitle),
     locked: false,
     createdAt: new Date(),
     updatedAt: new Date(),

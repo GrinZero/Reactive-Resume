@@ -1,7 +1,7 @@
 import { CreateResumeDto, ResumeDto } from "@reactive-resume/dto";
 import { defaultResumeData, ResumeData } from "@reactive-resume/schema";
 import type { DeepPartial } from "@reactive-resume/utils";
-import { kebabCase } from "@reactive-resume/utils";
+import slugify from "@sindresorhus/slugify";
 import { useMutation } from "@tanstack/react-query";
 import deepmerge from "deepmerge";
 
@@ -23,7 +23,7 @@ export const createResume = async (data: CreateResumeDto) => {
     id: crypto.randomUUID(),
     data: addData,
     userId: USER_ID,
-    slug: data.slug ?? kebabCase(data.title),
+    slug: data.slug ?? slugify(data.title),
     locked: false,
     createdAt: new Date(),
     updatedAt: new Date(),
