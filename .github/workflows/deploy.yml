@@ -1,0 +1,36 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ master ]  # 或者你的默认分支名
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.13.1'
+
+      - name: Install Dependencies
+        run: |
+          npm i -g pnpm@9.15.3
+          pnpm i
+
+      - name: Build
+        run: |
+          pnpm build
+          mkdir -p dist-deploy
+          mv dist/apps/client/* dist-deploy/
+          mv dist/apps/artboard dist-deploy/artboard
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist-deploy  # 确保这是你的构建输出目录
+          clean: true

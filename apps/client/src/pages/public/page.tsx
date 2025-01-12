@@ -81,7 +81,11 @@ export const PublicResumePage = () => {
         <iframe
           ref={frameRef}
           title={title}
-          src="/artboard/preview"
+          src={
+            import.meta.env.DEV
+              ? "/artboard/preview"
+              : "/Reactive-Resume/artboard/#/artboard/preview"
+          }
           style={{ width: `${pageSizeMap[format].width}mm`, overflow: "hidden" }}
         />
       </div>

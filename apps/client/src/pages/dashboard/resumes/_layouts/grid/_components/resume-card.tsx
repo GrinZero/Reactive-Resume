@@ -84,7 +84,7 @@ export const ResumeCard = ({ resume }: Props) => {
           </div>
 
           <img
-            src={`/templates/jpg/${template}.jpg`}
+            src={`${import.meta.env.BASE_URL}templates/jpg/${template}.jpg`}
             alt={template}
             className="rounded-sm opacity-80"
           />

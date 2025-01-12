@@ -4,14 +4,14 @@ import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin";
 import react from "@vitejs/plugin-react-swc";
 import { defineConfig, searchForWorkspaceRoot } from "vite";
 
-export default defineConfig({
-  base: "/artboard/",
+export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/Reactive-Resume/artboard/" : "/artboard/",
 
   cacheDir: "../../node_modules/.vite/artboard",
 
   build: {
     sourcemap: true,
-    emptyOutDir: true,
+    // emptyOutDir: true,
   },
 
   server: {
@@ -27,4 +27,4 @@ export default defineConfig({
       "@/artboard/": `${searchForWorkspaceRoot(process.cwd())}/apps/artboard/src/`,
     },
   },
-});
+}));

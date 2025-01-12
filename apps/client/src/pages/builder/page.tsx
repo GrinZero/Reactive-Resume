@@ -47,7 +47,9 @@ export const BuilderPage = () => {
       <iframe
         ref={setFrameRef}
         title={resume.id}
-        src="/artboard/builder"
+        src={
+          import.meta.env.DEV ? "/artboard/builder" : "/Reactive-Resume/artboard/#/artboard/builder"
+        }
         className="mt-16 w-screen"
         style={{ height: `calc(100vh - 64px)` }}
       />

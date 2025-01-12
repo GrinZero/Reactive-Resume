@@ -14,7 +14,7 @@ const Logo = ({ company }: LogoProps) => (
     {/* Show on Light Theme */}
     <img
       className="block max-h-12 object-contain dark:hidden"
-      src={`/brand-logos/dark/${company}.svg`}
+      src={`${import.meta.env.BASE_URL}brand-logos/dark/${company}.svg`}
       alt={company}
       width={212}
       height={48}
@@ -22,7 +22,7 @@ const Logo = ({ company }: LogoProps) => (
     {/* Show on Dark Theme */}
     <img
       className="hidden max-h-12 object-contain dark:block"
-      src={`/brand-logos/light/${company}.svg`}
+      src={`${import.meta.env.BASE_URL}brand-logos/light/${company}.svg`}
       alt={company}
       width={212}
       height={48}

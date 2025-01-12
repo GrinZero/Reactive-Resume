@@ -1,4 +1,10 @@
-import { createBrowserRouter, createRoutesFromElements, Navigate, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  createRoutesFromElements,
+  Navigate,
+  Route,
+} from "react-router-dom";
 
 // import { BackupOtpPage } from "../pages/auth/backup-otp/page";
 // import { ForgotPasswordPage } from "../pages/auth/forgot-password/page";
@@ -25,11 +31,11 @@ import { AuthGuard } from "./guards/auth";
 export const routes = createRoutesFromElements(
   <Route element={<Providers />}>
     <Route element={<HomeLayout />}>
-      <Route path="/" element={<HomePage />} />
+      <Route path="" element={<HomePage />} />
 
       <Route path="meta">
         <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
-        <Route index element={<Navigate replace to="/" />} />
+        <Route index element={<Navigate replace to="" />} />
       </Route>
     </Route>
 
@@ -61,4 +67,5 @@ export const routes = createRoutesFromElements(
   </Route>,
 );
 
-export const router = createBrowserRouter(routes);
+const createAppRouter = import.meta.env.DEV ? createBrowserRouter : createHashRouter;
+export const router = createAppRouter(routes);

@@ -19,13 +19,13 @@ export const SupportSection = () => (
           target="_blank"
         >
           <img
-            src="/support-logos/github-sponsors-light.svg"
+            src={`${import.meta.env.BASE_URL}support-logos/github-sponsors-light.svg`}
             className="hidden max-h-[42px] dark:block"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="GitHub Sponsors"
           />
           <img
-            src="/support-logos/github-sponsors-dark.svg"
+            src={`${import.meta.env.BASE_URL}support-logos/github-sponsors-dark.svg`}
             className="block max-h-[42px] dark:hidden"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="GitHub Sponsors"
@@ -37,13 +37,13 @@ export const SupportSection = () => (
           target="_blank"
         >
           <img
-            src="/support-logos/open-collective-light.svg"
+            src={`${import.meta.env.BASE_URL}support-logos/open-collective-light.svg`}
             className="hidden max-h-[38px] dark:block"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="Open Collective"
           />
           <img
-            src="/support-logos/open-collective-dark.svg"
+            src={`${import.meta.env.BASE_URL}support-logos/open-collective-dark.svg`}
             className="block max-h-[38px] dark:hidden"
             // eslint-disable-next-line lingui/no-unlocalized-strings
             alt="Open Collective"
@@ -51,7 +51,11 @@ export const SupportSection = () => (
         </a>
         <a href="https://paypal.me/amruthde" rel="noreferrer noopener nofollow" target="_blank">
           {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-          <img src="/support-logos/paypal.svg" className=" max-h-[28px]" alt="PayPal" />
+          <img
+            src={`${import.meta.env.BASE_URL}support-logos/paypal.svg`}
+            className=" max-h-[28px]"
+            alt="PayPal"
+          />
         </a>
       </div>
 
@@ -61,13 +65,13 @@ export const SupportSection = () => (
 
       <div className="flex items-center gap-x-10">
         <img
-          src="/support-logos/crowdin-light.svg"
+          src={`${import.meta.env.BASE_URL}support-logos/crowdin-light.svg`}
           className="hidden max-h-[32px] dark:block"
           // eslint-disable-next-line lingui/no-unlocalized-strings
           alt="Crowdin"
         />
         <img
-          src="/support-logos/crowdin-dark.svg"
+          src={`${import.meta.env.BASE_URL}support-logos/crowdin-dark.svg`}
           className="block max-h-[32px] dark:hidden"
           // eslint-disable-next-line lingui/no-unlocalized-strings
           alt="Crowdin"

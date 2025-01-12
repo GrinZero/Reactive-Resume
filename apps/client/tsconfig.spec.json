@@ -16,5 +16,6 @@
     "src/**/*.spec.jsx",
     "src/**/*.d.ts"
   ],
-  "types": ["@nx/react/typings/cssmodule.d.ts", "@nx/react/typings/image.d.ts"]
+  "types": ["@nx/react/typings/cssmodule.d.ts", "@nx/react/typings/image.d.ts"],
+  "composite": true
 }

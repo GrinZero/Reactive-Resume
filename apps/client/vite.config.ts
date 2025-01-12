@@ -5,12 +5,13 @@ import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin";
 import react from "@vitejs/plugin-react";
 import { defineConfig, searchForWorkspaceRoot } from "vite";
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  ...(mode === "production" ? { base: "/Reactive-Resume/" } : {}),
   cacheDir: "../../node_modules/.vite/client",
 
   build: {
     sourcemap: true,
-    emptyOutDir: true,
+    // emptyOutDir: true,
   },
 
   define: {
@@ -52,4 +53,4 @@ export default defineConfig({
       "@/client/": `${searchForWorkspaceRoot(process.cwd())}/apps/client/src/`,
     },
   },
-});
+}));

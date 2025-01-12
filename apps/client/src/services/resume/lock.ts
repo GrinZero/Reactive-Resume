@@ -1,8 +1,10 @@
 import { ResumeDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
 
-import { axios } from "@/client/libs/axios";
+import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
+
+import { findResumeById } from "./resume";
 
 type LockResumeArgs = {
   id: string;
@@ -10,19 +12,23 @@ type LockResumeArgs = {
 };
 
 export const lockResume = async ({ id, set }: LockResumeArgs) => {
-  const response = await axios.patch(`/resume/${id}/lock`, { set });
+  await db.resumes.update(id, { locked: set });
+  const newData = await findResumeById({ id });
+  if (!newData) {
+    throw new Error("Resume not found");
+  }
 
-  queryClient.setQueryData<ResumeDto>(["resume", { id: response.data.id }], response.data);
+  queryClient.setQueryData<ResumeDto>(["resume", { id: newData.id }], newData);
 
   queryClient.setQueryData<ResumeDto[]>(["resumes"], (cache) => {
-    if (!cache) return [response.data];
+    if (!cache) return [newData];
     return cache.map((resume) => {
-      if (resume.id === response.data.id) return response.data;
+      if (resume.id === newData.id) return newData;
       return resume;
     });
   });
 
-  return response.data;
+  return newData;
 };
 
 export const useLockResume = () => {
