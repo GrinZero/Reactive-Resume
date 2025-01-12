@@ -5,6 +5,7 @@ import { detect, fromStorage, fromUrl } from "@lingui/detect-locale";
 import { I18nProvider } from "@lingui/react";
 import { languages } from "@reactive-resume/utils";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import { defaultLocale, dynamicActivate } from "../libs/lingui";
 import { updateUser } from "../services/user";
@@ -16,6 +17,7 @@ type Props = {
 
 export const LocaleProvider = ({ children }: Props) => {
   const userLocale = useAuthStore((state) => state.user?.locale);
+  const location = useLocation();
 
   useEffect(() => {
     const detectedLocale =
@@ -27,7 +29,7 @@ export const LocaleProvider = ({ children }: Props) => {
     } else {
       void dynamicActivate(defaultLocale);
     }
-  }, [userLocale]);
+  }, [userLocale, location.hash, location.pathname]);
 
   return <I18nProvider i18n={i18n}>{children}</I18nProvider>;
 };

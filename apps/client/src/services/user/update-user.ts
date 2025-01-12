@@ -1,17 +1,15 @@
-import { UpdateUserDto, UserDto } from "@reactive-resume/dto";
+import { UpdateUserDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
-import { AxiosResponse } from "axios";
 
-import { axios } from "@/client/libs/axios";
+import { USER_ID } from "@/client/constants/db";
+import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
 
 export const updateUser = async (data: UpdateUserDto) => {
-  const response = await axios.patch<UserDto, AxiosResponse<UserDto>, UpdateUserDto>(
-    "/user/me",
-    data,
-  );
+  await db.users.update(USER_ID, data);
+  const res = await db.users.where("id").equals(USER_ID).first();
 
-  return response.data;
+  return res;
 };
 
 export const useUpdateUser = () => {

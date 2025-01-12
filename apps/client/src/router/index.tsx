@@ -16,6 +16,7 @@ import {
 // import { VerifyOtpPage } from "../pages/auth/verify-otp/page";
 import { BuilderLayout } from "../pages/builder/layout";
 import { builderLoader, BuilderPage } from "../pages/builder/page";
+import { BrainPage } from "../pages/dashboard/brain/page";
 import { DashboardLayout } from "../pages/dashboard/layout";
 import { ResumesPage } from "../pages/dashboard/resumes/page";
 import { SettingsPage } from "../pages/dashboard/settings/page";
@@ -42,10 +43,11 @@ export const routes = createRoutesFromElements(
     <Route path="dashboard">
       <Route element={<AuthGuard />}>
         <Route element={<DashboardLayout />}>
+          <Route path="brain" element={<BrainPage />} />
           <Route path="resumes" element={<ResumesPage />} />
           <Route path="settings" element={<SettingsPage />} />
 
-          <Route index element={<Navigate replace to="/dashboard/resumes" />} />
+          <Route index element={<Navigate replace to="/dashboard/brain" />} />
         </Route>
       </Route>
     </Route>

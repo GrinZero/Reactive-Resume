@@ -38,7 +38,7 @@ msgstr "<0>Я создавал Reactive Resume в основном сам, в с
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Я уверен, что приложение не идеально, но мне бы хотелось, чтобы оно было.</0> <1>Если вы столкнулись с какими-либо проблемами при создании своего резюме или у вас есть идея, которая поможет вам и другим пользователям упростить создание резюме, оставьте проблему в репозитории или отправьте мне эл. письмо об этом.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:208
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Примечание:</0> Используя API OpenAI, вы подтверждаете и принимаете <1>условия использования.</1> и <2>политику конфиденциальности</2> изложенные OpenAI. Обратите внимание, что Reactive Resume не несет ответственности за любое ненадлежащее или несанкционированное использование услуги, и любые возникающие в результате последствия или ответственность возлагаются исключительно на пользователя."
 
@@ -64,7 +64,7 @@ msgstr "Бесплатный конструктор резюме с открыт
 msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Бесплатный конструктор резюме с открытым исходным кодом, который упрощает процесс создания, обновления и публикации вашего резюме."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:53
+#: apps/client/src/pages/builder/_components/toolbar.tsx:49
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Ссылка скопирована в буфер."
@@ -90,6 +90,8 @@ msgid "A4"
 msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
+#. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:272
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:272
 msgid "Accepts only {accept} files"
 msgstr "Принимает только файлы {accept}"
@@ -98,12 +100,12 @@ msgstr "Принимает только файлы {accept}"
 msgid "Account"
 msgstr "Аккаунт"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:159
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:175
 msgid "Add a custom field"
 msgstr "Добавьте настраиваемое поле"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:117
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:164
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:120
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx:167
 msgctxt "For example, add a new work experience, or add a new profile."
 msgid "Add a new item"
 msgstr "Добавить новый элемент"
@@ -129,6 +131,7 @@ msgstr "Искусственный интеллект"
 msgid "Already have an account?"
 msgstr "Уже есть аккаунт?"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:146
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
 msgstr "Произошла ошибка при загрузке файла."
@@ -141,12 +144,12 @@ msgstr "и многое другое..."
 msgid "Anyone with the link can view and download the resume."
 msgstr "Любой человек, получивший ссылку, может просмотреть и скачать резюме."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:54
+#: apps/client/src/pages/builder/_components/toolbar.tsx:50
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:30
 msgid "Anyone with this link can view and download the resume. Share it on your profile or with recruiters."
 msgstr "Любой человек, имеющий эту ссылку, может просмотреть и скачать резюме. Поделитесь им в своем профиле или с рекрутерами."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:124
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:126
 msgid "Are you sure you want to delete this item?"
 msgstr "Вы уверены, что хотите удалить этот элемент?"
 
@@ -158,10 +161,12 @@ msgstr "Уверены, что хотите удалить своё резюме
 msgid "Are you sure you want to disable two-factor authentication?"
 msgstr "Уверены, что хотите отключить двухфакторную аутентификацию?"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:38
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:38
 msgid "Are you sure you want to lock this resume?"
 msgstr "Вы уверены, что хотите заблокировать это резюме?"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:39
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:39
 msgid "Are you sure you want to unlock this resume?"
 msgstr "Вы уверены, что хотите разблокировать это резюме?"
@@ -205,7 +210,7 @@ msgstr "Резервный код"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Резервные коды могут содержать только строчные буквы или цифры и должны состоять ровно из 10 символов."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:134
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
 msgid "Base URL"
 msgstr "Базовый URL"
 
@@ -226,7 +231,13 @@ msgstr "Рамка"
 msgid "Border Radius"
 msgstr "Радиус скругления рамки"
 
-#: apps/client/src/pages/public/page.tsx:92
+#: apps/client/src/pages/dashboard/_components/sidebar.tsx:91
+#: apps/client/src/pages/dashboard/brain/page.tsx:13
+#: apps/client/src/pages/dashboard/brain/page.tsx:23
+msgid "Brain"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:96
 msgid "Built with"
 msgstr "Сделано при помощи"
 
@@ -235,7 +246,8 @@ msgstr "Сделано при помощи"
 msgid "By the community, for the community."
 msgstr "Продукт сообщества для сообщества."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:131
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:133
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:154
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:137
@@ -247,7 +259,7 @@ msgstr "Отмена"
 msgid "Casual"
 msgstr "Простой"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:112
+#: apps/client/src/pages/builder/_components/toolbar.tsx:108
 msgid "Center Artboard"
 msgstr "Центрировать артбоард"
 
@@ -260,7 +272,8 @@ msgstr "Изменить пароль"
 msgid "Change Tone"
 msgstr "Изменить тон"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Передумали насчет названия? Измените."
 
@@ -306,11 +319,11 @@ msgstr "Подтвердить новый пароль"
 msgid "Continue"
 msgstr "Продолжить"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:94
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:96
 msgid "Copy"
 msgstr "Скопировать"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:146
+#: apps/client/src/pages/builder/_components/toolbar.tsx:142
 msgid "Copy Link to Resume"
 msgstr "Скопировать ссылку на резюме"
 
@@ -318,8 +331,9 @@ msgstr "Скопировать ссылку на резюме"
 msgid "Copy to Clipboard"
 msgstr "Скопировать в буфер"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:167
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:242
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:173
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:254
 msgid "Create"
 msgstr "Создать"
 
@@ -328,11 +342,11 @@ msgstr "Создать"
 msgid "Create a new account"
 msgstr "Создать новый аккаунт"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:155
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:157
 msgid "Create a new item"
 msgstr "Создать новый элемент"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:176
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:183
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:18
 msgid "Create a new resume"
@@ -343,9 +357,14 @@ msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Создать сейчас"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:269
 msgid "Create Sample Resume"
 msgstr "Создать Образец Резюме"
+
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:97
+#: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/create-card.tsx:28
+msgid "Create the brain"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
@@ -385,9 +404,9 @@ msgstr "Дата"
 msgid "Date or Date Range"
 msgstr "Дата или Диапазон Дат"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:133
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:156
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:114
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:163
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
 msgid "Delete"
@@ -418,6 +437,7 @@ msgstr "Отключить"
 msgid "Disable 2FA"
 msgstr "Отключить 2FA"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:304
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:304
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:219
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:134
@@ -445,16 +465,16 @@ msgstr "Нет вашего языка? <0>Помогите перевести �
 msgid "Donate to Reactive Resume"
 msgstr "Пожертвовать Reactive Resume"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:56
+#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:49
 msgid "Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate."
 msgstr "Скачать снимок Вашего резюме в формате JSON. Этот файл можно использовать для импорта Вашего резюме в будущем или даже поделиться им с другими для совместной работы."
 
-#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:67
 msgid "Download a PDF of your resume. This file can be used to print your resume, send it to recruiters, or upload on job portals."
 msgstr "Скачать PDF-файл Вашего резюме. Этот файл можно использовать для печати резюме, отправки его рекрутерам или загрузки на сайты по поиску работы."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:158
-#: apps/client/src/pages/public/page.tsx:104
+#: apps/client/src/pages/builder/_components/toolbar.tsx:154
+#: apps/client/src/pages/public/page.tsx:108
 msgid "Download PDF"
 msgstr "Скачать PDF"
 
@@ -462,23 +482,23 @@ msgstr "Скачать PDF"
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:169
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:244
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:98
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:175
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
 msgstr "Дублировать"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:157
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:159
 msgid "Duplicate an existing item"
 msgstr "Дублировать существующий элемент"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:178
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Duplicate an existing resume"
 msgstr "Дублировать существующее резюме"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:90
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:92
 msgid "Edit"
 msgstr "Изменить"
 
@@ -522,11 +542,12 @@ msgstr "Введите ниже одноразовый пароль из ваш�
 msgid "Enter your email address and we will send you a link to reset your password if the account exists."
 msgstr "Введите свой адрес эл. почты, и мы пришлем вам ссылку для сброса пароля, если такой аккаунт существует."
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:285
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:285
 msgid "Errors"
 msgstr "Ошибки"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
+#: apps/client/src/pages/home/sections/support/index.tsx:82
 msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
 msgstr "Даже если вы не вы не можете внести вклад в проект финансово, вы все равно можете помочь проекту, поставив звезду репозиторию на GitHub, рассказав друзьям или оставив короткое сообщение, чтобы я узнал, как именно Reactive Resume помог вам. Ваши отзывы и поддержка всегда приветствуются и очень ценятся!"
 
@@ -535,14 +556,16 @@ msgid "Explore the templates available in Reactive Resume and view the resumes c
 msgstr "Изучите шаблоны, доступные в Reactive Resume, и просмотрите резюме, созданные с их помощью. Они также могут послужить примерами для создания вашего следующего резюме."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:111
-#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
+#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:33
 msgid "Export"
 msgstr "Экспорт"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:257
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:257
 msgid "File"
 msgstr "Файл"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:223
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:223
 msgid "Filetype"
 msgstr "Тип файла"
@@ -575,7 +598,7 @@ msgstr "Вариант шрифта"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Например, здесь можно записать информацию о том, в какие компании вы отправили это резюме, или ссылки на описания вакансий."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:189
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
 msgid "Forget"
 msgstr "Удалить"
 
@@ -609,7 +632,7 @@ msgstr "Дружелюбно"
 msgid "Full Name"
 msgstr "Полное имя"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:200
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:207
 msgid "Generate a random title for your resume"
 msgstr "Сгенерировать случайный заголовок для вашего резюме"
 
@@ -625,7 +648,7 @@ msgstr "GitHub"
 msgid "GitHub Stars"
 msgstr "Звезды на GitHub"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Give your old resume a new name."
 msgstr "Дайте своему старому резюме новое имя."
 
@@ -658,8 +681,8 @@ msgstr "Здесь вы можете обновить информацию о с
 msgid "Here, you can update your profile to customize and personalize your experience."
 msgstr "Здесь вы можете обновить свой профиль, чтобы настроить и персонализировать свой опыт."
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:78
-#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:92
+#: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
+#: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:186
 msgid "Hidden"
 msgstr "Скрытый"
@@ -703,19 +726,25 @@ msgstr "Если это приложение помогло вам в поиск
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Если вы отключите двухфакторную аутентификацию, вам больше не потребуется вводить код подтверждения при входе в систему."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
+#: apps/client/src/pages/home/sections/support/index.tsx:63
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Если вы владеете несколькими языками, мы будем рады вашей помощи в распространении приложения на большее количество языков и сообществ. Не волнуйтесь, если вы не видите своего языка - просто сообщите мне об этом на GitHub, и я обязательно включу его в список. Готовы приступить к работе? Переходите к переводу на сайте Crowdin, нажав на ссылку ниже."
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:311
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:311
 msgid "Import"
 msgstr "Импорт"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:17
 msgid "Import an existing resume"
 msgstr "Импорт существующего резюме"
+
+#: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/import-card.tsx:28
+msgid "Import resume/brain"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:85
 msgid "Improve Writing"
@@ -789,13 +818,13 @@ msgctxt "Localized version of a placeholder email. For example, max.mustermann@e
 msgid "john.doe@example.com"
 msgstr "ivan.ivanovich@example.com"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
+#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:47
 msgid "JSON"
 msgstr "JSON"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:152
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:158
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:63
-#: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:132
+#: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:138
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:109
 msgid "Keywords"
 msgstr "Ключевые слова"
@@ -809,7 +838,8 @@ msgstr "Заголовок"
 msgid "Language"
 msgstr "Язык"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:82
+#: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/resume-card.tsx:66
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:83
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:139
 msgid "Last updated {lastUpdated}"
 msgstr "Последнее обновление {lastUpdated}"
@@ -848,6 +878,7 @@ msgstr "Светлая или темная тема"
 msgid "Line Height"
 msgstr "Высота строки"
 
+#: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:22
 msgid "LinkedIn, JSON Resume, etc."
@@ -864,8 +895,9 @@ msgstr "Список"
 msgid "Location"
 msgstr "Местоположение"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:51
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:51
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:108
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:166
 msgid "Lock"
@@ -875,6 +907,7 @@ msgstr "Заблокировать"
 msgid "Lock a resume to prevent editing"
 msgstr "Блокировка резюме для предотвращения редактирования"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:43
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:43
 msgid "Locking a resume will prevent any further changes to it. This is useful when you have already shared your resume with someone and you don't want to accidentally make any changes to it."
 msgstr "Блокировка резюме предотвратит любые дальнейшие изменения в нем. Это полезно, когда вы уже поделились с кем-то своим резюме и не хотите случайно внести в него изменения."
@@ -914,7 +947,7 @@ msgstr "Март 2023 - настоящее время"
 msgid "Margin"
 msgstr "Отступ"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:160
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
 msgid "Max Tokens"
 msgstr "Максимум токенов"
 
@@ -922,7 +955,7 @@ msgstr "Максимум токенов"
 msgid "MIT License"
 msgstr "Лицензия MIT"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:147
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
 msgid "Model"
 msgstr "Модель"
 
@@ -934,7 +967,7 @@ msgstr "Модель"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:49
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:72
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:152
 msgid "Name"
 msgstr "Имя"
@@ -969,22 +1002,20 @@ msgstr "Примечание: Это сделает вашу учетную за
 msgid "Notes"
 msgstr "Заметки"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:102
-msgid "Ollama Integration"
-msgstr "Интеграция Ollama"
-
 #: apps/client/src/pages/auth/verify-otp/page.tsx:82
 msgid "One-Time Password"
 msgstr "Одноразовый пароль"
 
 #: apps/client/src/components/ai-actions.tsx:56
 #: apps/client/src/libs/axios.ts:29
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:190
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:190
-#: apps/client/src/services/resume/print.tsx:26
+#: apps/client/src/services/resume/print.tsx:47
+#: apps/client/src/services/resume/update.tsx:21
 msgid "Oops, the server returned an error."
 msgstr "Упс, сервер выдал ошибку."
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:90
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:97
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:77
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:148
 msgid "Open"
@@ -994,20 +1025,23 @@ msgstr "Открыть"
 msgid "Open Source"
 msgstr "Открытый исходный код"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:121
-msgid "OpenAI / Ollama API Key"
-msgstr "Ключ API OpenAI / Ollama"
-
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "OpenAI не вернул никаких вариантов для вашего текста."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:78
 #: apps/client/src/pages/home/sections/features/index.tsx:52
 msgid "OpenAI Integration"
 msgstr "Интеграция OpenAI"
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
+msgid "OpenAI/Ollama API Key"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
+msgid "OpenAI/Ollama Integration"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:168
@@ -1039,7 +1073,7 @@ msgstr "Страница {0}"
 msgid "Password"
 msgstr "Пароль"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:72
+#: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:65
 msgid "PDF"
 msgstr "PDF"
 
@@ -1059,7 +1093,7 @@ msgstr "Фотография Патрика Томассо"
 msgid "Pick any font from Google Fonts"
 msgstr "Выбор любого шрифта из Google Fonts"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:69
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:74
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:120
 msgid "Picture"
 msgstr "Фотография"
@@ -1068,6 +1102,7 @@ msgstr "Фотография"
 msgid "Please note that this step is completely optional."
 msgstr "Обратите внимание, что этот шаг совершенно необязателен."
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:227
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:227
 msgid "Please select a file type"
 msgstr "Пожалуйста, выберите тип файла"
@@ -1137,13 +1172,14 @@ msgstr "Поднять проблему"
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/dashboard/brain/page.tsx:13
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/page.tsx:24
 #: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:94
+#: apps/client/src/pages/public/page.tsx:98
 msgid "Reactive Resume"
 msgstr "Reactive Resume"
 
@@ -1163,11 +1199,11 @@ msgstr "Reactive Resume - это страстный проект, разраба
 msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
 msgstr "Reactive Resume процветает благодаря своему активному сообществу. Этот проект обязан своим прогрессом множеству людей, которые посвятили ему свое время и навыки. Ниже мы отмечаем кодеров, которые улучшили его возможности на GitHub, и лингвистов, чьи переводы на Crowdin сделали его доступным для широкой аудитории."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:79
+#: apps/client/src/pages/builder/_components/toolbar.tsx:75
 msgid "Redo"
 msgstr "Повторить"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:98
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:100
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:156
 msgid "Remove"
 msgstr "Удалить"
@@ -1177,7 +1213,7 @@ msgid "Remove Page"
 msgstr "Удалить страницу"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:110
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:94
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
@@ -1200,11 +1236,11 @@ msgstr "Сбросить макет"
 msgid "Reset your password"
 msgstr "Сбросить пароль"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:106
+#: apps/client/src/pages/builder/_components/toolbar.tsx:102
 msgid "Reset Zoom"
 msgstr "Сбросить масштаб"
 
-#: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
+#: apps/client/src/pages/dashboard/_components/sidebar.tsx:97
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
 #: apps/client/src/pages/dashboard/resumes/page.tsx:37
 msgid "Resumes"
@@ -1222,18 +1258,19 @@ msgstr "Богатый функционал, а не цена."
 msgid "Rounded"
 msgstr "Скруглённая"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:168
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:243
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:174
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Save Locally"
 msgstr "Сохранить локально"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:183
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Saved"
 msgstr "Сохранено"
 
@@ -1287,7 +1324,7 @@ msgid "Separate Links"
 msgstr "Раздельные ссылки"
 
 #: apps/client/src/components/user-options.tsx:32
-#: apps/client/src/pages/dashboard/_components/sidebar.tsx:92
+#: apps/client/src/pages/dashboard/_components/sidebar.tsx:103
 #: apps/client/src/pages/dashboard/settings/page.tsx:16
 #: apps/client/src/pages/dashboard/settings/page.tsx:26
 msgid "Settings"
@@ -1361,7 +1398,8 @@ msgstr "Регистрация в настоящее время отключен
 msgid "Size (in px)"
 msgstr "Размер (в пикселях)"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:226
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:233
 msgid "Slug"
 msgstr "URL"
 
@@ -1382,12 +1420,14 @@ msgstr "Что-то пошло не так при обработке запро�
 msgid "Square"
 msgstr "Квадратная"
 
+#: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:23
 msgid "Start building from scratch"
 msgstr "Начать с нуля"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:183
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:190
 msgid "Start building your resume by giving it a name."
 msgstr "Начните составлять свое резюме, дав ему название."
 
@@ -1467,7 +1507,7 @@ msgstr "Тема"
 msgid "There was an error connecting to the browser. Please make sure 'chrome' is running and reachable."
 msgstr "Произошла ошибка при подключении к браузеру. Пожалуйста, убедитесь, что 'chrome' запущен и доступен."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:126
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:128
 msgid "This action can be reverted by clicking on the undo button in the floating toolbar."
 msgstr "Это действие можно отменить, нажав на кнопку \"Отменить\" на плавающей панели инструментов."
 
@@ -1480,6 +1520,7 @@ msgid "This email address is associated with an OAuth account. Please sign in wi
 msgstr "Этот адрес эл. почты связан с аккаунтом OAuth. Пожалуйста, войдите с помощью вашего провайдера OAuth."
 
 #: apps/client/src/pages/builder/_components/header.tsx:57
+#: apps/client/src/services/resume/update.tsx:22
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Это резюме заблокировано, пожалуйста, разблокируйте его, чтобы внести дальнейшие изменения."
 
@@ -1487,7 +1528,8 @@ msgstr "Это резюме заблокировано, пожалуйста, р
 msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
 msgstr "Этот раздел предназначен для личных заметок, относящихся к данному резюме. Содержимое этого раздела остается конфиденциальным и не передается никому другому."
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:214
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:221
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "Совет: Вы можете назвать резюме в соответствии с должностью, на которую вы претендуете."
 
@@ -1496,15 +1538,16 @@ msgctxt "Name of the Award"
 msgid "Title"
 msgstr "Название"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:194
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:201
 msgid "Title"
 msgstr "Название"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:120
+#: apps/client/src/pages/builder/_components/toolbar.tsx:116
 msgid "Toggle Page Break Line"
 msgstr "Переключить линию разрыва страницы"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:132
+#: apps/client/src/pages/builder/_components/toolbar.tsx:128
 msgid "Toggle Page Numbers"
 msgstr "Переключить нумерацию страниц"
 
@@ -1544,17 +1587,19 @@ msgstr "Типография"
 msgid "Underline Links"
 msgstr "Подчеркивать ссылки"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:66
+#: apps/client/src/pages/builder/_components/toolbar.tsx:62
 msgid "Undo"
 msgstr "Отменить"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:52
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:52
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:103
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:110
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:161
 msgid "Unlock"
 msgstr "Разблокировать"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:44
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:44
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "Разблокировка резюме позволит вам снова внести в него изменения."
@@ -1563,14 +1608,19 @@ msgstr "Разблокировка резюме позволит вам снов
 msgid "Unverified"
 msgstr "Не подтверждена"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:156
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:158
 msgid "Update an existing item"
 msgstr "Обновить существующий элемент"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:177
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
 msgid "Update an existing resume"
 msgstr "Обновить существующее резюме"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:98
+msgid "Update the brain"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:214
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:214
 msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
 msgstr "Загрузите файл из принятого источника, чтобы разобрать существующие данные и импортировать их в Reactive Resume для более удобного редактирования."
@@ -1602,15 +1652,17 @@ msgstr "Имя пользователя"
 msgid "Users Signed Up"
 msgstr "Зарегистрировавшиеся пользователи"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:298
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:298
 msgid "Validate"
 msgstr "Проверить"
 
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:316
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:316
 msgid "Validated"
 msgstr "Проверено"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:81
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:97
 msgid "Value"
 msgstr "Значение"
 
@@ -1635,9 +1687,13 @@ msgstr "Версия 4"
 msgid "Views"
 msgstr "Просмотры"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:86
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:87
 msgid "Visible"
 msgstr "Видимый"
+
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
+msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1661,9 +1717,9 @@ msgstr "Сайт"
 msgid "What's new in the latest version"
 msgstr "Что нового в последней версии"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:157
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:163
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
-#: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:137
+#: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:143
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:114
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Вы можете добавить несколько ключевых слов, разделив их запятой или нажав Enter."
@@ -1672,11 +1728,11 @@ msgstr "Вы можете добавить несколько ключевых �
 msgid "You can also enter your username."
 msgstr "Вы также можете ввести свое имя пользователя."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:106
-msgid "You can integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens."
-msgstr "Вы можете интегрировать Ollama, просто задав API-ключ `sk-1234567890abcdef` и базовый URL - URL вашей Ollama, т.е. `http://localhost:11434/v1`. Вы также можете выбирать модели и устанавливать максимальное количество токенов."
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
+msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
+msgstr ""
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:80
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "Вы можете использовать API OpenAI, чтобы сгенерировать контент или улучшить текст при составлении резюме."
 
@@ -1684,7 +1740,7 @@ msgstr "Вы можете использовать API OpenAI, чтобы сге
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "Вы можете отслеживать количество просмотров вашего резюме и количество людей, скачавших его, включив общий доступ."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:86
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "У вас есть возможность <0>получить свой собственный ключ API OpenAI</0>. Этот ключ позволит использовать API по своему усмотрению. В качестве альтернативы, если вы хотите полностью отключить AI функции в Reactive Resume, вы можете просто удалить ключ из своих настроек."
 
@@ -1701,7 +1757,7 @@ msgstr "Вы получили письмо!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Учетная запись и все ваши данные были успешно удалены. До свидания!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:198
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Ваш ключ API надежно хранится в локальном хранилище браузера и используется только при запросах к OpenAI через их официальный SDK. Будьте уверены, в том, что ключ не передается ни на какой внешний сервер, за исключением случаев взаимодействия с сервисами OpenAI."
 
@@ -1717,11 +1773,10 @@ msgstr "Ваш ключ API OpenAI еще не установлен. Пожал�
 msgid "Your password has been updated successfully."
 msgstr "Ваш пароль был успешно обновлен."
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:94
+#: apps/client/src/pages/builder/_components/toolbar.tsx:90
 msgid "Zoom In"
 msgstr "Увеличить"
 
-#: apps/client/src/pages/builder/_components/toolbar.tsx:100
+#: apps/client/src/pages/builder/_components/toolbar.tsx:96
 msgid "Zoom Out"
 msgstr "Уменьшить"
-

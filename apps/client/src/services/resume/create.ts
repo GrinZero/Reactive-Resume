@@ -5,27 +5,24 @@ import { kebabCase } from "@reactive-resume/utils";
 import { useMutation } from "@tanstack/react-query";
 import deepmerge from "deepmerge";
 
+import { USER_ID } from "@/client/constants/db";
 import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
 
 export const createResume = async (data: CreateResumeDto) => {
-  // const response = await axios.post<ResumeDto, AxiosResponse<ResumeDto>, CreateResumeDto>(
-  //   "/resume",
-  //   data,
-  // );
-
-  const name = "bugyaluwang";
-  const email = "bugyaluwang@qq.com";
-  const picture = "https://i.pravatar.cc/150?u=1";
+  const userDto = await db.users.get(USER_ID);
+  if (!userDto) {
+    throw new Error("User not found");
+  }
 
   const addData = deepmerge(defaultResumeData, {
-    basics: { name, email, picture: { url: picture } },
+    basics: { name: userDto.name, email: userDto.email, picture: { url: userDto.picture ?? "" } },
   } satisfies DeepPartial<ResumeData>);
 
   const newData = {
     id: crypto.randomUUID(),
     data: addData,
-    userId: "1",
+    userId: USER_ID,
     slug: data.slug ?? kebabCase(data.title),
     locked: false,
     createdAt: new Date(),

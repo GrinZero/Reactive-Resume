@@ -246,6 +246,7 @@ export const ResumeDialog = () => {
                   disabled={loading}
                   className={cn(isCreate && "rounded-r-none")}
                   onClick={async () => {
+                    if (!isUpdate) return;
                     const values = form.getValues();
                     await onSubmit(values);
                   }}
