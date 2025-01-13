@@ -7,6 +7,8 @@ import { db } from "@/client/db";
 import { toast } from "@/client/hooks/use-toast";
 import { queryClient } from "@/client/libs/query-client";
 
+import { BRAIN_ID } from "./brain";
+
 export const updateResume = async (data: UpdateResumeDto) => {
   if (!data.id) {
     throw new Error("Resume not found");
@@ -23,7 +25,10 @@ export const updateResume = async (data: UpdateResumeDto) => {
     });
   }
 
-  await db.resumes.update(data.id, data as never);
+  await db.resumes.update(data.id, {
+    ...data,
+    updatedAt: new Date(),
+  } as never);
   const result = await db.resumes.where("id").equals(data.id).first();
   if (!result) {
     throw new Error("Resume not found");
@@ -38,6 +43,10 @@ export const updateResume = async (data: UpdateResumeDto) => {
       return resume;
     });
   });
+
+  if (data.id === BRAIN_ID) {
+    queryClient.setQueryData<ResumeDto>(["brain"], result);
+  }
 
   return result;
 };

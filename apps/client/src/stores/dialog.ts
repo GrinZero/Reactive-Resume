@@ -1,7 +1,14 @@
 import { SectionKey } from "@reactive-resume/schema";
 import { create } from "zustand";
 
-export type DialogName = "brain" | "resume" | "lock" | "import" | "two-factor" | SectionKey;
+export type DialogName =
+  | "brain"
+  | "brain-import"
+  | "resume"
+  | "lock"
+  | "import"
+  | "two-factor"
+  | SectionKey;
 
 export type DialogMode = "create" | "update" | "duplicate" | "delete";
 

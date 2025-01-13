@@ -20,8 +20,8 @@ import {
   FormMessage,
   Input,
 } from "@reactive-resume/ui";
-import slugify from "@sindresorhus/slugify";
 import { cn } from "@reactive-resume/utils";
+import slugify from "@sindresorhus/slugify";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";

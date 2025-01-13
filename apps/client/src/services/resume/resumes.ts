@@ -3,8 +3,13 @@ import { useQuery } from "@tanstack/react-query";
 import { RESUMES_KEY } from "@/client/constants/query-keys";
 import { db } from "@/client/db";
 
+import { BRAIN_ID } from "./brain";
+
 export const fetchResumes = async () => {
-  const result = await db.resumes.orderBy("updatedAt").reverse().toArray();
+  // eslint-disable-next-line unicorn/no-await-expression-member
+  const result = (await db.resumes.orderBy("updatedAt").reverse().toArray()).filter(
+    (resume) => resume.id !== BRAIN_ID,
+  );
   // const response = await axios.get<ResumeDto[], AxiosResponse<ResumeDto[]>>("/resume");
 
   // return response.data;

@@ -5,6 +5,7 @@ import {
   Info,
   Layout,
   Note,
+  OpenAiLogo,
   Palette,
   ReadCvLogo,
   ShareFat,
@@ -15,6 +16,7 @@ import {
 import { Button, ButtonProps, Tooltip } from "@reactive-resume/ui";
 
 export type MetadataKey =
+  | "ai"
   | "template"
   | "layout"
   | "typography"
@@ -62,6 +64,9 @@ export const getSectionIcon = (id: MetadataKey, props: IconProps = {}) => {
     }
     case "information": {
       return <Info size={18} {...props} />;
+    }
+    case "ai": {
+      return <OpenAiLogo size={18} {...props} />;
     }
 
     default: {

@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { Copyright } from "@/client/components/copyright";
 import { ThemeSwitch } from "@/client/components/theme-switch";
 
+import { AISection } from "./sections/ai";
 import { ExportSection } from "./sections/export";
 import { InformationSection } from "./sections/information";
 import { LayoutSection } from "./sections/layout";
@@ -29,6 +30,8 @@ export const RightSidebar = () => {
     <div className="flex bg-secondary-accent/30">
       <ScrollArea orientation="vertical" className="h-screen flex-1 pb-16 lg:pb-0">
         <div ref={containterRef} className="grid gap-y-6 p-6 @container/right">
+          <AISection />
+          <Separator />
           <TemplateSection />
           <Separator />
           <LayoutSection />

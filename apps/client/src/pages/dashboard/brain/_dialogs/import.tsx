@@ -41,7 +41,8 @@ import { useForm } from "react-hook-form";
 import { z, ZodError } from "zod";
 
 import { useToast } from "@/client/hooks/use-toast";
-import { useImportResume } from "@/client/services/resume/import";
+import { useUpdateResume } from "@/client/services/resume";
+import { useBrainData } from "@/client/stores/brain";
 import { useDialog } from "@/client/stores/dialog";
 
 enum ImportType {
@@ -69,11 +70,11 @@ type ValidationResult =
       result: ResumeData | ReactiveResumeV3 | LinkedIn | JsonResume;
     };
 
-export const ImportDialog = () => {
+export const BrainImportDialog = () => {
   const { toast } = useToast();
-  const { isOpen, close } = useDialog("import");
-  const { importResume, loading } = useImportResume();
-
+  const { isOpen, close } = useDialog("brain-import");
+  const { updateResume, loading } = useUpdateResume();
+  const brain = useBrainData();
   const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
 
   const form = useForm<FormValues>({
@@ -159,28 +160,28 @@ export const ImportDialog = () => {
         const parser = new ReactiveResumeParser();
         const data = parser.convert(validationResult.result as ResumeData);
 
-        await importResume({ data });
+        await updateResume({ data, ...brain });
       }
 
       if (type === ImportType["reactive-resume-v3-json"]) {
         const parser = new ReactiveResumeV3Parser();
         const data = parser.convert(validationResult.result as ReactiveResumeV3);
 
-        await importResume({ data });
+        await updateResume({ data, ...brain });
       }
 
       if (type === ImportType["json-resume-json"]) {
         const parser = new JsonResumeParser();
         const data = parser.convert(validationResult.result as JsonResume);
 
-        await importResume({ data });
+        await updateResume({ data, ...brain });
       }
 
       if (type === ImportType["linkedin-data-export-zip"]) {
         const parser = new LinkedInParser();
         const data = parser.convert(validationResult.result as LinkedIn);
 
-        await importResume({ data });
+        await updateResume({ data, ...brain });
       }
 
       close();
@@ -207,7 +208,7 @@ export const ImportDialog = () => {
               <DialogTitle>
                 <div className="flex items-center space-x-2.5">
                   <DownloadSimple />
-                  <h2>{t`Import an existing resume`}</h2>
+                  <h2>{t`Import an existing resume/brain`}</h2>
                 </div>
               </DialogTitle>
               <DialogDescription>

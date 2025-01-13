@@ -91,7 +91,7 @@ msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:272
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:273
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:272
 msgid "Accepts only {accept} files"
 msgstr "Приймаються тільки файли {accept}"
@@ -131,7 +131,7 @@ msgstr "ШІ"
 msgid "Already have an account?"
 msgstr "Вже маєте обліковий запис?"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:146
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:147
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
 msgstr "Сталася помилка під час перевірки файлу."
@@ -272,7 +272,7 @@ msgstr "Змінити пароль"
 msgid "Change Tone"
 msgstr "Змінити сигнал"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Змінив свою думку про ім'я? Роздай йому новий."
@@ -332,7 +332,7 @@ msgid "Copy to Clipboard"
 msgstr "Копіювати до буфера обміну"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 msgid "Create"
 msgstr "Створити"
@@ -361,7 +361,7 @@ msgstr "Створити зараз"
 msgid "Create Sample Resume"
 msgstr "Створити зразок резюме"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:97
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:98
 #: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/create-card.tsx:28
 msgid "Create the brain"
 msgstr ""
@@ -437,7 +437,7 @@ msgstr "Вимкнути"
 msgid "Disable 2FA"
 msgstr "Вимкнути 2FA"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:304
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:305
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:304
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:219
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:134
@@ -542,7 +542,7 @@ msgstr "Введіть одноразовий пароль, що надаєть�
 msgid "Enter your email address and we will send you a link to reset your password if the account exists."
 msgstr "Введіть адресу електронної пошти, і ми надішлемо вам посилання для відновлення пароля, якщо такий обліковий запис існує."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:285
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:286
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:285
 msgid "Errors"
 msgstr "Помилки"
@@ -560,12 +560,12 @@ msgstr "Досліджуйте доступні шаблони в Reactive Resum
 msgid "Export"
 msgstr "Експорт"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:257
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:258
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:257
 msgid "File"
 msgstr "Файл"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:223
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:224
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:223
 msgid "Filetype"
 msgstr "Тип файлу"
@@ -730,17 +730,20 @@ msgstr "Якщо вимкнути двофакторну аутентифіка�
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Якщо ви багатомовні, ми будемо раді вашій допомозі залучити більше мов та спільнот. Не хвилюйтеся, якщо ви не бачите своєї мови в списку - просто дай мені вигук на GitHub, і я обов'язково включу його. Готові почати? Перейдіть до перекладу приблизно в Crowdin, натиснувши на посилання нижче."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:311
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:312
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:311
 msgid "Import"
 msgstr "Імпорт"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:17
 msgid "Import an existing resume"
 msgstr "Імпортувати існуючу резюме"
+
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:211
+msgid "Import an existing resume/brain"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/import-card.tsx:28
 msgid "Import resume/brain"
@@ -1008,10 +1011,10 @@ msgstr "Одноразовий пароль"
 
 #: apps/client/src/components/ai-actions.tsx:56
 #: apps/client/src/libs/axios.ts:29
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:190
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:191
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:190
 #: apps/client/src/services/resume/print.tsx:47
-#: apps/client/src/services/resume/update.tsx:21
+#: apps/client/src/services/resume/update.tsx:23
 msgid "Oops, the server returned an error."
 msgstr "Ой, сервер повернув помилку."
 
@@ -1102,7 +1105,7 @@ msgstr "Зображення"
 msgid "Please note that this step is completely optional."
 msgstr "Зверніть увагу на те, що цей крок є повністю необов'язковим."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:227
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:228
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:227
 msgid "Please select a file type"
 msgstr "Будь ласка, оберіть тип файлу"
@@ -1174,7 +1177,7 @@ msgstr "Підняти проблему"
 #: apps/client/src/pages/builder/page.tsx:43
 #: apps/client/src/pages/dashboard/brain/page.tsx:13
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/dashboard/settings/page.tsx:14
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/page.tsx:24
@@ -1259,7 +1262,7 @@ msgid "Rounded"
 msgstr "Округлі"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:155
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
@@ -1333,8 +1336,8 @@ msgstr "Окремі посилання"
 
 #: apps/client/src/components/user-options.tsx:32
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:103
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/dashboard/settings/page.tsx:26
+#: apps/client/src/pages/dashboard/settings/page.tsx:14
+#: apps/client/src/pages/dashboard/settings/page.tsx:24
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -1406,7 +1409,7 @@ msgstr "Реєстрація в даний час вимкнена адміні�
 msgid "Size (in px)"
 msgstr "Розмір (у пікселях)"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:133
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
 msgid "Slug"
 msgstr "Мітка"
@@ -1434,7 +1437,7 @@ msgstr "Квадрат"
 msgid "Start building from scratch"
 msgstr "Почати будівництво з нуля"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Start building your resume by giving it a name."
 msgstr "Почніть будувати резюме, поставивши його назву."
@@ -1528,7 +1531,7 @@ msgid "This email address is associated with an OAuth account. Please sign in wi
 msgstr "Ця адреса електронної пошти пов'язана з обліковим записом OAuth. Будь ласка, увійдіть до вашого провайдера OAuth."
 
 #: apps/client/src/pages/builder/_components/header.tsx:57
-#: apps/client/src/services/resume/update.tsx:22
+#: apps/client/src/services/resume/update.tsx:24
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Ця резюме заблокована, будь ласка розблокуйте щоб внести подальші зміни."
 
@@ -1536,7 +1539,7 @@ msgstr "Ця резюме заблокована, будь ласка розбл
 msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
 msgstr "Цей розділ зарезервований для ваших особистих нотаток, особливих для даної резюме. Тут вміст залишається приватним і не поширюється ні з ким іншим."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "Порада: Ви можете назвати резюме посиланнями на позицію, на яку ви заявляєте."
@@ -1546,7 +1549,7 @@ msgctxt "Name of the Award"
 msgid "Title"
 msgstr "Назва"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:114
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Title"
 msgstr "Назва"
@@ -1624,11 +1627,11 @@ msgstr "Оновити існуючий елемент"
 msgid "Update an existing resume"
 msgstr "Оновити існуючий резюме"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:98
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:99
 msgid "Update the brain"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:214
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:215
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:214
 msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
 msgstr "Вивантажити файл з одного з прийнятих джерел до аналізу наявних даних і імпортувати його до Реактивного відродження для полегшення."
@@ -1660,12 +1663,12 @@ msgstr "Ім'я користувача"
 msgid "Users Signed Up"
 msgstr "Авторизація користувачів"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:298
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:299
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:298
 msgid "Validate"
 msgstr "Validate"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:316
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:317
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:316
 msgid "Validated"
 msgstr "Перевірено"

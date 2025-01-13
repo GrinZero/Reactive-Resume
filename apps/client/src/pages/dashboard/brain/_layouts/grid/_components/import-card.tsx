@@ -8,7 +8,7 @@ import { useDialog } from "@/client/stores/dialog";
 import { BaseCard } from "./base-card";
 
 export const ImportResumeCard = () => {
-  const { open } = useDialog("import");
+  const { open } = useDialog("brain-import");
 
   return (
     <BaseCard

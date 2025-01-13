@@ -91,7 +91,7 @@ msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:272
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:273
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:272
 msgid "Accepts only {accept} files"
 msgstr "Apenas aceita ficheiros {accept}"
@@ -131,7 +131,7 @@ msgstr "IA"
 msgid "Already have an account?"
 msgstr "Já tem uma conta?"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:146
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:147
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
 msgstr "Ocorreu um erro ao validar o ficheiro."
@@ -272,7 +272,7 @@ msgstr "Alterar senha"
 msgid "Change Tone"
 msgstr "Alterar tom"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Mudou de ideias sobre o nome? Dê-lhe um novo."
@@ -332,7 +332,7 @@ msgid "Copy to Clipboard"
 msgstr "Copiar para a Área de Transferência"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:153
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
 msgid "Create"
 msgstr "Criar"
@@ -361,7 +361,7 @@ msgstr "Crie uma agora"
 msgid "Create Sample Resume"
 msgstr "Criar currículo de exemplo"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:97
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:98
 #: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/create-card.tsx:28
 msgid "Create the brain"
 msgstr ""
@@ -437,7 +437,7 @@ msgstr "Desativar"
 msgid "Disable 2FA"
 msgstr "Desabilitar 2FA"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:304
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:305
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:304
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:219
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:134
@@ -542,7 +542,7 @@ msgstr "Introduza a palavra-passe de uso único fornecida pela sua aplicação d
 msgid "Enter your email address and we will send you a link to reset your password if the account exists."
 msgstr "Introduza o seu endereço de e-mail e enviar-lhe-emos um link para redefinir a sua senha, caso a conta exista."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:285
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:286
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:285
 msgid "Errors"
 msgstr "Erros"
@@ -560,12 +560,12 @@ msgstr "Explore os modelos disponíveis no Reactive Resume e veja os currículos
 msgid "Export"
 msgstr "Exportar"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:257
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:258
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:257
 msgid "File"
 msgstr "Ficheiro"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:223
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:224
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:223
 msgid "Filetype"
 msgstr "Tipo de Ficheiro"
@@ -730,17 +730,20 @@ msgstr "Se você desativar a autenticação de dois fatores, não será mais nec
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Se é multilingue, gostaríamos de contar com a sua ajuda para levar a aplicação a mais línguas e comunidades. Não se preocupe se não vir o seu idioma na lista - basta dizer-me no GitHub, e eu certificar-me-ei de que o incluo. Está pronto para começar? Entre na tradução no Crowdin clicando no link abaixo."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:311
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:312
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:311
 msgid "Import"
 msgstr "Importar"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:210
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:17
 msgid "Import an existing resume"
 msgstr "Importar um currículo existente"
+
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:211
+msgid "Import an existing resume/brain"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/brain/_layouts/grid/_components/import-card.tsx:28
 msgid "Import resume/brain"
@@ -1008,10 +1011,10 @@ msgstr "Senha de uso único"
 
 #: apps/client/src/components/ai-actions.tsx:56
 #: apps/client/src/libs/axios.ts:29
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:190
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:191
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:190
 #: apps/client/src/services/resume/print.tsx:47
-#: apps/client/src/services/resume/update.tsx:21
+#: apps/client/src/services/resume/update.tsx:23
 msgid "Oops, the server returned an error."
 msgstr "Desculpe, o servidor relatou um erro."
 
@@ -1102,7 +1105,7 @@ msgstr "Foto"
 msgid "Please note that this step is completely optional."
 msgstr "Observe que esta etapa é totalmente opcional."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:227
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:228
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:227
 msgid "Please select a file type"
 msgstr "Selecione um tipo de arquivo"
@@ -1174,7 +1177,7 @@ msgstr "Reportar problema"
 #: apps/client/src/pages/builder/page.tsx:43
 #: apps/client/src/pages/dashboard/brain/page.tsx:13
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/dashboard/settings/page.tsx:14
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/page.tsx:24
@@ -1259,7 +1262,7 @@ msgid "Rounded"
 msgstr "Arredondado"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:155
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
@@ -1333,8 +1336,8 @@ msgstr "Separação de ligações"
 
 #: apps/client/src/components/user-options.tsx:32
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:103
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/dashboard/settings/page.tsx:26
+#: apps/client/src/pages/dashboard/settings/page.tsx:14
+#: apps/client/src/pages/dashboard/settings/page.tsx:24
 msgid "Settings"
 msgstr "Configurações"
 
@@ -1406,7 +1409,7 @@ msgstr "As inscrições estão atualmente desativadas pelo administrador."
 msgid "Size (in px)"
 msgstr "Tamanho (em pixels)"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:132
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:133
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
 msgid "Slug"
 msgstr "Slug"
@@ -1434,7 +1437,7 @@ msgstr "Quadrado"
 msgid "Start building from scratch"
 msgstr "Começar a criar do zero"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:103
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
 msgid "Start building your resume by giving it a name."
 msgstr "Comece a criar seu currículo dando um nome a ele."
@@ -1528,7 +1531,7 @@ msgid "This email address is associated with an OAuth account. Please sign in wi
 msgstr "Este endereço de e-mail está associado a uma conta OAuth. Inicie sessão com o seu fornecedor OAuth."
 
 #: apps/client/src/pages/builder/_components/header.tsx:57
-#: apps/client/src/services/resume/update.tsx:22
+#: apps/client/src/services/resume/update.tsx:24
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Este currículo está bloqueado, desbloqueie-o para fazer mais alterações."
 
@@ -1536,7 +1539,7 @@ msgstr "Este currículo está bloqueado, desbloqueie-o para fazer mais alteraç�
 msgid "This section is reserved for your personal notes specific to this resume. The content here remains private and is not shared with anyone else."
 msgstr "Esta seção é reservada para as anotações pessoais específicas deste currículo. O conteúdo permanece privado e não é partilhado com mais ninguém."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:120
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "Dica: você pode nomear o currículo referente à vaga para a qual está se candidatando."
@@ -1546,7 +1549,7 @@ msgctxt "Name of the Award"
 msgid "Title"
 msgstr "Título"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:113
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:114
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
 msgid "Title"
 msgstr "Título"
@@ -1624,11 +1627,11 @@ msgstr "Atualizar um item existente"
 msgid "Update an existing resume"
 msgstr "Atualizar um currículo existente"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:98
+#: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:99
 msgid "Update the brain"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:214
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:215
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:214
 msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
 msgstr "Carregue um arquivo de uma das fontes aceitas para analisar os dados existentes e importe-os para o Reactive Resume para facilitar a edição."
@@ -1660,12 +1663,12 @@ msgstr "Nome de usuário"
 msgid "Users Signed Up"
 msgstr "Usuários cadastrados"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:298
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:299
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:298
 msgid "Validate"
 msgstr "Validar"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:316
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:317
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:316
 msgid "Validated"
 msgstr "Validado"
