@@ -8,7 +8,7 @@ msgstr ""
 "Language: lt\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && (n%100>19 || n%100<11) ? 0 : (n%10>=2 && n%10<=9) && (n%100>19 || n%100<11) ? 1 : n%1!=0 ? 2: 3);\n"
@@ -212,7 +212,7 @@ msgstr "Atsarginius kodus gali sudaryti tik mažosios raidės arba skaičiai, ju
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
 msgid "Base URL"
-msgstr ""
+msgstr "Bazinis URL adresas"
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:55
 msgctxt "The basics section of a resume consists of User's Picture, Full Name, Location etc."
@@ -765,7 +765,7 @@ msgstr "Šiame skyriuje galite pakeisti slaptažodį ir įjungti / išjungti dvi
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "Šiame skyriuje galite ištrinti savo paskyrą ir visus su naudotoju susijusius duomenis, tačiau nepamirškite, kad <0>šis veiksmas yra negrįžtamas</0>."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Informacija"
@@ -952,7 +952,7 @@ msgstr "Paraštė"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
 msgid "Max Tokens"
-msgstr ""
+msgstr "Maksimalus žetonų skaičius"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:48
 msgid "MIT License"
@@ -960,7 +960,7 @@ msgstr "MIT licencija"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
 msgid "Model"
-msgstr ""
+msgstr "Modelis"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:58
@@ -1000,7 +1000,7 @@ msgstr "Jokio naudotojų sekimo ar reklamos"
 msgid "Note: This will make your account less secure."
 msgstr "Pastaba: dėl to jūsų paskyra taps mažiau saugi."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "Pastabos"
@@ -1040,10 +1040,14 @@ msgstr "\"OpenAI\" integracija"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
 msgid "OpenAI/Ollama API Key"
-msgstr ""
+msgstr "\"OpenAI/Ollama\" API raktas"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "OpenAI/Ollama Integration"
+msgstr "\"OpenAI/Ollama\" integracija"
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1060,7 +1064,7 @@ msgstr "arba tęsti su"
 msgid "Organization"
 msgstr "Organizacija"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "Puslapis"
@@ -1271,11 +1275,11 @@ msgstr "Išsaugoti pakeitimus"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Save Locally"
-msgstr ""
+msgstr "Išsaugoti vietoje"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Saved"
-msgstr ""
+msgstr "Išsaugota"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:168
 msgid "Scan the QR code below with your authenticator app to setup 2FA on your account."
@@ -1345,7 +1349,7 @@ msgstr "Nustatymai"
 msgid "Setup two-factor authentication on your account"
 msgstr "Nustatykite dviejų veiksnių autentifikavimą savo paskyroje"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "Dalijimasis"
@@ -1442,7 +1446,7 @@ msgstr "Pradėkite kurti nuo nulio"
 msgid "Start building your resume by giving it a name."
 msgstr "Pradėkite kurti savo gyvenimo aprašymą suteikdami jam pavadinimą."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "Statistika"
@@ -1483,7 +1487,7 @@ msgstr "Palaikomi A4/laiško puslapių formatai"
 msgid "System"
 msgstr "Sistema"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "Šablonas"
@@ -1508,7 +1512,7 @@ msgstr "Įvesti slaptažodžiai nesutampa."
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "Gyvenimo aprašymas, kurį norite atnaujinti, yra užrakintas, jei norite jį keisti, atrakinkite jį."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "Įveskite <0>ištrinti</0> kad patvirtintumėte paskyros ištrynimą."
 msgid "Type of Study"
 msgstr "Studijų tipas"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "Tipografija"
@@ -1704,7 +1708,7 @@ msgstr "Matomas"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
-msgstr ""
+msgstr "Apsilankykite <0>\"Phosphor Icons\"</0>, kur rasite turimų piktogramų sąrašą"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1741,7 +1745,7 @@ msgstr "Taip pat galite įvesti savo vartotojo vardą."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr ""
+msgstr "Taip pat galite integruotis su \"Ollama\", tiesiog nustatę API raktą `sk-1234567890abcdef`, o bazinį URL - savo \"Ollama\" URL, t. y. `http://localhost:11434/v1`. Taip pat galite rinktis modelius ir nustatyti maksimalius žetonus pagal savo pageidavimus."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."

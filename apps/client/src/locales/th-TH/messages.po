@@ -8,7 +8,7 @@ msgstr ""
 "Language: th\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:14\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -765,7 +765,7 @@ msgstr "ในส่วนนี้ คุณสามารถเปลี่�
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "ในส่วนนี้ คุณสามารถลบบัญชีของคุณและข้อมูลทั้งหมดที่เกี่ยวข้องกับผู้ใช้ของคุณได้ แต่โปรดจำไว้ว่า <0>การทำเช่นนี้ไม่สามารถย้อนคืนข้อมูลได้</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "ข้อมูล"
@@ -1000,7 +1000,7 @@ msgstr "ไม่มีการติดตามผู้ใช้หรือ
 msgid "Note: This will make your account less secure."
 msgstr "หมายเหตุ: บัญชีของคุณจะปลอดภัยน้อยลงหากทำเช่นนี้"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "โน้ต"
@@ -1046,6 +1046,10 @@ msgstr ""
 msgid "OpenAI/Ollama Integration"
 msgstr ""
 
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:168
 msgid "Options"
@@ -1060,7 +1064,7 @@ msgstr "หรือดำเนินการต่อด้วย"
 msgid "Organization"
 msgstr "องค์กร"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "หน้า"
@@ -1345,7 +1349,7 @@ msgstr "การตั้งค่า"
 msgid "Setup two-factor authentication on your account"
 msgstr "ตั้งค่าการยืนยันตัวตนแบบสองขั้นตอนบนบัญชีของคุณ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "การแชร์"
@@ -1442,7 +1446,7 @@ msgstr "เริ่มสร้างตั้งแต่ต้น"
 msgid "Start building your resume by giving it a name."
 msgstr "เริ่มสร้างเรซูเม่ของคุณด้วยการตั้งชื่อ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "สถิติ"
@@ -1483,7 +1487,7 @@ msgstr "รองรับหน้ากระดาษแบบ A4/จดห�
 msgid "System"
 msgstr "ระบบ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "เทมเพลต"
@@ -1508,7 +1512,7 @@ msgstr "คุณกรอกรหัสผ่านไม่ตรงกัน
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "เรซูเม่ที่คุณต้องการอัปเดตถูกล็อกแล้ว โปรดปลดล็อกหากคุณต้องการทำการเปลี่ยนแปลงใดๆ กับเรซูเม่นั้น"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "พิมพ์คำว่า <0>ลบ</0> เพื่อยืนย
 msgid "Type of Study"
 msgstr "ระดับการศึกษา"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "แบบอักษร"

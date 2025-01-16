@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import webfontloader from "webfontloader";
 
 import { useArtboardStore } from "../store/artboard";
@@ -55,5 +55,11 @@ export const ArtboardPage = () => {
     }
   }, [metadata]);
 
-  return <Outlet />;
+  return (
+    <>
+      {metadata.css.visible && <style lang="css">{`[data-page] { ${metadata.css.value} }`}</style>}
+
+      <Outlet />
+    </>
+  );
 };

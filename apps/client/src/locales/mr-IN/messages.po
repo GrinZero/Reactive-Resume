@@ -8,7 +8,7 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Marathi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -765,7 +765,7 @@ msgstr ""
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "माहिती"
@@ -1000,7 +1000,7 @@ msgstr ""
 msgid "Note: This will make your account less secure."
 msgstr "टीप: याने आपले खाते कमी सुरक्षित होईल."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "टिपा"
@@ -1046,6 +1046,10 @@ msgstr ""
 msgid "OpenAI/Ollama Integration"
 msgstr ""
 
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:168
 msgid "Options"
@@ -1060,7 +1064,7 @@ msgstr "किंवा यांनी लॉगइन करा"
 msgid "Organization"
 msgstr "संघटना"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "पान"
@@ -1345,7 +1349,7 @@ msgstr "सेटिंग"
 msgid "Setup two-factor authentication on your account"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "शेअर करणे"
@@ -1442,7 +1446,7 @@ msgstr "रिकाम्या पानापासून बनवायल�
 msgid "Start building your resume by giving it a name."
 msgstr "रेझ्युमेला नाव देऊन तो बनवायला सुरू करा."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "आकडेवारी"
@@ -1483,7 +1487,7 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "साचा"
@@ -1508,7 +1512,7 @@ msgstr "तुम्ही प्रविष्ट केलेले पास
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "तुम्हाला जो रेझ्युमे अपडेट करायचा आहे तो लॉक केलेला आहे. त्यात बदल करायचे असल्यास त्याला कृपया अनलोक करा."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr ""
 msgid "Type of Study"
 msgstr "अभ्यासाचा प्रकार"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "टायपोग्राफी"

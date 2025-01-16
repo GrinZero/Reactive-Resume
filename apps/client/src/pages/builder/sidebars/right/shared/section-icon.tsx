@@ -1,7 +1,8 @@
+import type { IconProps } from "@phosphor-icons/react";
 import {
+  Code,
   DiamondsFour,
   DownloadSimple,
-  IconProps,
   Info,
   Layout,
   Note,
@@ -13,7 +14,8 @@ import {
   Translate,
   TrendUp,
 } from "@phosphor-icons/react";
-import { Button, ButtonProps, Tooltip } from "@reactive-resume/ui";
+import type { ButtonProps } from "@reactive-resume/ui";
+import { Button, Tooltip } from "@reactive-resume/ui";
 
 export type MetadataKey =
   | "ai"
@@ -21,6 +23,7 @@ export type MetadataKey =
   | "layout"
   | "typography"
   | "theme"
+  | "css"
   | "page"
   | "locale"
   | "sharing"
@@ -46,6 +49,9 @@ export const getSectionIcon = (id: MetadataKey, props: IconProps = {}) => {
     }
     case "theme": {
       return <Palette size={18} {...props} />;
+    }
+    case "css": {
+      return <Code size={18} {...props} />;
     }
     case "page": {
       return <ReadCvLogo size={18} {...props} />;

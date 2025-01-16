@@ -8,7 +8,7 @@ msgstr ""
 "Language: ar\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
@@ -765,7 +765,7 @@ msgstr "في هذا القسم، يمكنك تغيير كلمة المرور ا�
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "في هذا القسم، يمكنك حذف حسابك وجميع البيانات المرتبطة بالمستخدم الخاص بك، ولكن يرجى مراعاة أن <0>هذا الإجراء لا رجعة فيه</0>."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "المعلومات"
@@ -1000,7 +1000,7 @@ msgstr "لا يوجد تتبع للمستخدم ولا إعلانات"
 msgid "Note: This will make your account less secure."
 msgstr "ملاحظة: هذا سيجعل حسابك أقل أمانًا."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "ملاحظات"
@@ -1040,10 +1040,14 @@ msgstr "تكامل مع OpenAI"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
 msgid "OpenAI/Ollama API Key"
-msgstr ""
+msgstr "مفتاح OpenAI/Ollama API"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "OpenAI/Ollama Integration"
+msgstr "تكامل OpenAI/Ollama"
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1060,7 +1064,7 @@ msgstr "أو تابع عبر"
 msgid "Organization"
 msgstr "الشركة"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "صفحة"
@@ -1345,7 +1349,7 @@ msgstr "إعدادات"
 msgid "Setup two-factor authentication on your account"
 msgstr "أعدّ المصادقة الثنائية على حسابك"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "المشاركة"
@@ -1442,7 +1446,7 @@ msgstr "ابدأ البناء من الصفر"
 msgid "Start building your resume by giving it a name."
 msgstr "ابدأ في بناء مستأنفتك عن طريق إعطائها اسماً."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "الإحصائيات"
@@ -1483,7 +1487,7 @@ msgstr "يدعم تنسيقات صفحة A4/رسالة"
 msgid "System"
 msgstr "النظام"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "قالب"
@@ -1508,7 +1512,7 @@ msgstr "كلمات المرور التي أدخلتها غير متطابقة."
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "تم تأمين الاستئناف الذي تريد تحديثه، يرجى إلغاء قفل إذا كنت ترغب في إجراء أي تغييرات عليه."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "اكتب <0>حذف</0> لتأكيد حذف حسابك."
 msgid "Type of Study"
 msgstr "نوع الدراسة"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "الطبقات"
@@ -1704,7 +1708,7 @@ msgstr "مرئي"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
-msgstr ""
+msgstr "قم بزيارة <0>أيقونات الفسفور</0> للحصول على قائمة بالأيقونات المتاحة"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1741,7 +1745,7 @@ msgstr "يمكنك أيضًا إدخال اسم المستخدم الخاص بك
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr ""
+msgstr "يمكنك أيضًا التكامل مع Ollama ببساطة عن طريق تعيين مفتاح واجهة برمجة التطبيقات على 'ssk-1234567867890abcdef' وعنوان URL الأساسي إلى عنوان URL الخاص ب Ollama، أي 'http://localhost:11434/v1'. يمكنك أيضًا انتقاء واختيار النماذج وتعيين الحد الأقصى للرموز المميزة حسب تفضيلاتك."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."

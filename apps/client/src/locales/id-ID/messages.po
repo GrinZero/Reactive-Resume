@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -212,7 +212,7 @@ msgstr "Kode Cadangan hanya boleh berisi huruf kecil atau angka, dan harus tepat
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
 msgid "Base URL"
-msgstr ""
+msgstr "URL dasar"
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:55
 msgctxt "The basics section of a resume consists of User's Picture, Full Name, Location etc."
@@ -765,7 +765,7 @@ msgstr "Pada bagian ini, Anda dapat mengubah kata sandi dan mengaktifkan/menonak
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "Pada bagian ini, Anda dapat menghapus akun dan semua data yang terkait dengan pengguna Anda, tetapi harap diingat bahwa <0>tindakan ini tidak dapat dibatalkan</0>."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Informasi"
@@ -952,7 +952,7 @@ msgstr "Margin"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
 msgid "Max Tokens"
-msgstr ""
+msgstr "Token Max"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:48
 msgid "MIT License"
@@ -960,7 +960,7 @@ msgstr "Lisensi MIT"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:58
@@ -1000,7 +1000,7 @@ msgstr "Tidak ada pelacakan pengguna atau iklan"
 msgid "Note: This will make your account less secure."
 msgstr "Catatan: Hal ini akan membuat akun Anda kurang aman."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "Catatan"
@@ -1040,10 +1040,14 @@ msgstr "Integrasi OpenAI"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
 msgid "OpenAI/Ollama API Key"
-msgstr ""
+msgstr "Kunci API OpenAI/Ollama"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "OpenAI/Ollama Integration"
+msgstr "Integrasi OpenAI/Ollama"
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1060,7 +1064,7 @@ msgstr "atau lanjutkan dengan"
 msgid "Organization"
 msgstr "Organisasi"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "Halaman"
@@ -1271,11 +1275,11 @@ msgstr "Menyimpan Perubahan"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Save Locally"
-msgstr ""
+msgstr "Simpan Secara Lokal"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Saved"
-msgstr ""
+msgstr "Tersimpan"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:168
 msgid "Scan the QR code below with your authenticator app to setup 2FA on your account."
@@ -1345,7 +1349,7 @@ msgstr "Pengaturan"
 msgid "Setup two-factor authentication on your account"
 msgstr "Menyiapkan autentikasi dua faktor di akun Anda"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "Berbagi"
@@ -1442,7 +1446,7 @@ msgstr "Mulai membangun dari awal"
 msgid "Start building your resume by giving it a name."
 msgstr "Mulailah membuat resume Anda dengan memberikan nama."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "Statistik"
@@ -1483,7 +1487,7 @@ msgstr "Mendukung format halaman A4/Surat"
 msgid "System"
 msgstr "Sistem"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "Templat"
@@ -1508,7 +1512,7 @@ msgstr "Kata sandi yang Anda masukkan tidak cocok."
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "Resume yang ingin Anda perbarui terkunci, silakan buka kuncinya jika Anda ingin melakukan perubahan."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "Ketik <0>hapus</0> untuk mengonfirmasi penghapusan akun Anda."
 msgid "Type of Study"
 msgstr "Jenis Studi"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "Tipografi"
@@ -1704,7 +1708,7 @@ msgstr "Terlihat"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
-msgstr ""
+msgstr "Kunjungi Ikon <0>Fosfor</0> untuk daftar ikon yang tersedia"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1741,7 +1745,7 @@ msgstr "Anda juga dapat memasukkan nama pengguna Anda."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr ""
+msgstr "Anda juga dapat berintegrasi dengan Ollama hanya dengan mengatur kunci API ke `sk-1234567890abcdef` dan URL Dasar ke URL Ollama Anda, yaitu `http://localhost:11434/v1`. Anda juga dapat memilih dan memilih model dan mengatur token maksimum sesuai keinginan Anda."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."

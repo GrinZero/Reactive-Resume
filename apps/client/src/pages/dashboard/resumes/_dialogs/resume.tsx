@@ -1,7 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { CaretDown, Flask, MagicWand, Plus } from "@phosphor-icons/react";
-import { createResumeSchema, ResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto } from "@reactive-resume/dto";
+import { createResumeSchema } from "@reactive-resume/dto";
 import { idSchema, sampleResume } from "@reactive-resume/schema";
 import {
   AlertDialog,
@@ -43,7 +44,7 @@ import { useCreateResume, useDeleteResume, useUpdateResume } from "@/client/serv
 import { useImportResume } from "@/client/services/resume/import";
 import { useDialog } from "@/client/stores/dialog";
 
-const formSchema = createResumeSchema.extend({ id: idSchema.optional() });
+const formSchema = createResumeSchema.extend({ id: idSchema.optional(), slug: z.string() });
 
 type FormValues = z.infer<typeof formSchema>;
 
@@ -85,7 +86,7 @@ export const ResumeDialog = () => {
       if (!payload.item?.id) return;
 
       await updateResume({
-        ...payload.item,
+        id: payload.item.id,
         title: values.title,
         slug: values.slug,
       });

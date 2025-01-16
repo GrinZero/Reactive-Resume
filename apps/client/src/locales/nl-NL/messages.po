@@ -8,7 +8,7 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -765,7 +765,7 @@ msgstr "In dit gedeelte kunt u uw wachtwoord wijzigen en verificatie met twee fa
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "In dit gedeelte kunt u uw account en alle aan uw gebruiker gekoppelde gegevens verwijderen, maar houd er rekening mee dat <0>deze actie onomkeerbaar</0> is."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Informatie"
@@ -1000,7 +1000,7 @@ msgstr "Geen tracking van gebruikers en geen reclame"
 msgid "Note: This will make your account less secure."
 msgstr "Let op: Dit maakt uw account minder veilig."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "Aantekeningen"
@@ -1040,10 +1040,14 @@ msgstr "OpenAI-Integratie"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
 msgid "OpenAI/Ollama API Key"
-msgstr ""
+msgstr "OpenAI/Ollama API sleutel"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "OpenAI/Ollama Integration"
+msgstr "OpenAI/Ollama Integratie"
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1060,7 +1064,7 @@ msgstr "of ga verder met"
 msgid "Organization"
 msgstr "Organisatie"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "Pagina"
@@ -1345,7 +1349,7 @@ msgstr "Instellingen"
 msgid "Setup two-factor authentication on your account"
 msgstr "Stel tweestapsverificatie in voor uw account"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "Delen"
@@ -1442,7 +1446,7 @@ msgstr "Begin vanaf nul"
 msgid "Start building your resume by giving it a name."
 msgstr "Begin het opstellen van uw CV door het een naam te geven."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "Statistieken"
@@ -1483,7 +1487,7 @@ msgstr "Ondersteunt A4/Brief pagina-indelingen"
 msgid "System"
 msgstr "Systeem"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "Sjabloon"
@@ -1508,7 +1512,7 @@ msgstr "De ingevoerde wachtwoorden komen niet overeen."
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "Het CV dat u wilt bijwerken is vergrendeld. Ontgrendel het CV als u er wijzigingen in wilt aanbrengen."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "Typ <0>verwijderen</0> om het verwijderen van uw account te bevestigen."
 msgid "Type of Study"
 msgstr "Soort studie"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "Typografie"
@@ -1704,7 +1708,7 @@ msgstr "Zichtbaar"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
-msgstr ""
+msgstr "Bezoek <0>Fosfor Pictogrammen</0> voor een lijst met beschikbare pictogrammen"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1741,7 +1745,7 @@ msgstr "U kunt ook uw gebruikersnaam invoeren."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr ""
+msgstr "U kunt ook integreren met Ollama door de API-sleutel in te stellen op `sk-1234567890abcdef` en de Base URL op uw Ollama URL, d.w.z. `http://localhost:11434/v1`. U kunt ook modellen kiezen en de maximale tokens naar wens instellen."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."

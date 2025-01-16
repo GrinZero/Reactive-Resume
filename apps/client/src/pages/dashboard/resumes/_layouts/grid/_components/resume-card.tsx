@@ -7,7 +7,7 @@ import {
   PencilSimple,
   TrashSimple,
 } from "@phosphor-icons/react";
-import { ResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto } from "@reactive-resume/dto";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,7 +18,7 @@ import {
 import { cn } from "@reactive-resume/utils";
 import dayjs from "dayjs";
 import { AnimatePresence, motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import { useDialog } from "@/client/stores/dialog";
 
@@ -37,7 +37,7 @@ export const ResumeCard = ({ resume }: Props) => {
   const lastUpdated = dayjs().to(resume.updatedAt);
 
   const onOpen = () => {
-    navigate(`/builder/${resume.id}`);
+    void navigate(`/builder/${resume.id}`);
   };
 
   const onUpdate = () => {

@@ -16,8 +16,8 @@ import {
 import { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
-import { Link, useNavigate } from "react-router-dom";
-import { z } from "zod";
+import { Link, useNavigate } from "react-router";
+import type { z } from "zod";
 
 import { useVerifyOtp } from "@/client/services/auth";
 
@@ -39,7 +39,7 @@ export const VerifyOtpPage = () => {
     try {
       await verifyOtp(data);
 
-      navigate("/dashboard");
+      void navigate("/dashboard");
     } catch {
       form.reset();
     }

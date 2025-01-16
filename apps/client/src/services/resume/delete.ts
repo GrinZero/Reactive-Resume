@@ -1,4 +1,4 @@
-import { DeleteResumeDto, ResumeDto } from "@reactive-resume/dto";
+import type { DeleteResumeDto, ResumeDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
 
 import { db } from "@/client/db";

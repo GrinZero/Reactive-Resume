@@ -8,7 +8,7 @@ msgstr ""
 "Language: el\n"
 "Project-Id-Version: reactive-resume\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-12 12:13\n"
+"PO-Revision-Date: 2025-01-13 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -528,7 +528,7 @@ msgstr "Εισάγετε έναν από τους 10 εφεδρικούς κωδ
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:63
 msgid "Enter Phosphor Icon"
-msgstr ""
+msgstr "Εισάγετε το εικονίδιο φωσφόρου"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:170
 msgid "Enter the 6-digit code from your authenticator app to verify that 2FA has been setup correctly."
@@ -765,7 +765,7 @@ msgstr "Σε αυτή την ενότητα, μπορείτε να αλλάξε�
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "Σε αυτή την ενότητα, μπορείτε να διαγράψετε το λογαριασμό σας και όλα τα δεδομένα που σχετίζονται με τον χρήστη σας, αλλά λάβετε υπόψη ότι <0>αυτή η ενέργεια είναι μη αναστρέψιμη</0>."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Πληροφορίες"
@@ -952,7 +952,7 @@ msgstr "Περιθώρια"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
 msgid "Max Tokens"
-msgstr ""
+msgstr "Μέγιστα κουπόνια"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:48
 msgid "MIT License"
@@ -960,7 +960,7 @@ msgstr "MIT License"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
 msgid "Model"
-msgstr ""
+msgstr "Μοντέλο"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:58
@@ -1000,7 +1000,7 @@ msgstr "Καμία παρακολούθηση χρήστη ή διαφήμιση
 msgid "Note: This will make your account less secure."
 msgstr "Σημείωση: Αυτό θα καταστήσει το λογαριασμό σας λιγότερο ασφαλή."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "Σημειώσεις"
@@ -1040,10 +1040,14 @@ msgstr "Ενσωμάτωση OpenAI"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
 msgid "OpenAI/Ollama API Key"
-msgstr ""
+msgstr "Κλειδί API OpenAI/Ollama"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "OpenAI/Ollama Integration"
+msgstr "Ενσωμάτωση OpenAI/Ollama"
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
@@ -1060,7 +1064,7 @@ msgstr "ή συνεχίστε με"
 msgid "Organization"
 msgstr "Οργανισμος"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "Σελίδα"
@@ -1271,11 +1275,11 @@ msgstr "Αποθήκευση Αλλαγών;"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Save Locally"
-msgstr ""
+msgstr "Αποθηκεύστε τοπικά"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
 msgid "Saved"
-msgstr ""
+msgstr "Αποθηκευμένο"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:168
 msgid "Scan the QR code below with your authenticator app to setup 2FA on your account."
@@ -1332,7 +1336,7 @@ msgstr "Αποστολή μηνύματος"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:96
 msgid "Separate Links"
-msgstr ""
+msgstr "Ξεχωριστοί σύνδεσμοι"
 
 #: apps/client/src/components/user-options.tsx:32
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:103
@@ -1345,7 +1349,7 @@ msgstr "Ρυθμίσεις"
 msgid "Setup two-factor authentication on your account"
 msgstr "Ρυθμίστε τον έλεγχο ταυτότητας δύο παραγόντων στο λογαριασμό σας"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "Κοινοποίηση"
@@ -1399,7 +1403,7 @@ msgstr "Εγγραφείτε"
 
 #: apps/client/src/pages/auth/login/page.tsx:74
 msgid "Signing in via email is currently disabled by the administrator."
-msgstr ""
+msgstr "Η σύνδεση μέσω email είναι προς το παρόν απενεργοποιημένη από τον διαχειριστή."
 
 #: apps/client/src/pages/auth/register/page.tsx:82
 msgid "Signups are currently disabled by the administrator."
@@ -1442,7 +1446,7 @@ msgstr "Ξεκινήστε να χτίζετε από το μηδέν"
 msgid "Start building your resume by giving it a name."
 msgstr "Ξεκινήστε να φτιάχνετε το βιογραφικό σας δίνοντάς του ένα όνομα."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "Στατιστικά"
@@ -1483,7 +1487,7 @@ msgstr "Υποστηρίζει μορφές σελίδων A4/Letter"
 msgid "System"
 msgstr "Σύστημα"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "Πρότυπο"
@@ -1508,7 +1512,7 @@ msgstr "Οι κωδικοί πρόσβασης που εισάγατε δεν τ
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "Το βιογραφικό σημείωμα που θέλετε να ενημερώσετε είναι κλειδωμένο, παρακαλούμε ξεκλειδώστε το αν θέλετε να κάνετε αλλαγές σε αυτό."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1589,7 +1593,7 @@ msgstr "Πληκτρολογήστε <0>delete</0> για να επιβεβαι�
 msgid "Type of Study"
 msgstr "Τύπος μελέτης"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "Τυπογραφία"
@@ -1704,7 +1708,7 @@ msgstr "Ορατό"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
-msgstr ""
+msgstr "Επισκεφθείτε το <0>Phosphor Icons</0> για μια λίστα με τα διαθέσιμα εικονίδια"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1741,7 +1745,7 @@ msgstr "Μπορείτε επίσης να εισάγετε το όνομα χρ
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
-msgstr ""
+msgstr "Μπορείτε επίσης να ενσωματωθείτε με το Ollama απλά θέτοντας το κλειδί API σε `sk-1234567890abcdef` και τη διεύθυνση URL της βάσης στη διεύθυνση URL του Ollama, π.χ. `http://localhost:11434/v1`. Μπορείτε επίσης να διαλέξετε και να επιλέξετε μοντέλα και να ορίσετε τα μέγιστα tokens σύμφωνα με τις προτιμήσεις σας."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."

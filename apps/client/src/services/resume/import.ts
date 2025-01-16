@@ -1,4 +1,5 @@
-import { ImportResumeDto, importResumeSchema, ResumeDto } from "@reactive-resume/dto";
+import type { ImportResumeDto, ResumeDto } from "@reactive-resume/dto";
+import { importResumeSchema } from "@reactive-resume/dto";
 import { generateRandomName } from "@reactive-resume/utils";
 import slugify from "@sindresorhus/slugify";
 import { useMutation } from "@tanstack/react-query";

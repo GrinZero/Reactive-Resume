@@ -1,5 +1,6 @@
-import { CreateResumeDto, ResumeDto } from "@reactive-resume/dto";
-import { defaultResumeData, ResumeData } from "@reactive-resume/schema";
+import type { CreateResumeDto, ResumeDto } from "@reactive-resume/dto";
+import type { ResumeData } from "@reactive-resume/schema";
+import { defaultResumeData } from "@reactive-resume/schema";
 import type { DeepPartial } from "@reactive-resume/utils";
 import slugify from "@sindresorhus/slugify";
 import { useMutation } from "@tanstack/react-query";

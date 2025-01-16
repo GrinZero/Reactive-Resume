@@ -1,6 +1,6 @@
 import { t } from "@lingui/macro";
 import { Plus, PlusCircle } from "@phosphor-icons/react";
-import {
+import type {
   Award,
   Certification,
   CustomSection,
@@ -17,7 +17,7 @@ import {
 } from "@reactive-resume/schema";
 import { Button, ScrollArea, Separator } from "@reactive-resume/ui";
 import { Fragment, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { Icon } from "@/client/components/icon";
 import { UserAvatar } from "@/client/components/user-avatar";

@@ -16,8 +16,8 @@ import {
 import { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
-import { z } from "zod";
+import { useNavigate } from "react-router";
+import type { z } from "zod";
 
 import { useBackupOtp } from "@/client/services/auth";
 
@@ -39,7 +39,7 @@ export const BackupOtpPage = () => {
     try {
       await backupOtp(data);
 
-      navigate("/dashboard");
+      void navigate("/dashboard");
     } catch {
       form.reset();
     }
@@ -92,7 +92,7 @@ export const BackupOtpPage = () => {
                 variant="link"
                 className="px-5"
                 onClick={() => {
-                  navigate(-1);
+                  void navigate(-1);
                 }}
               >
                 <ArrowLeft size={14} className="mr-2" />

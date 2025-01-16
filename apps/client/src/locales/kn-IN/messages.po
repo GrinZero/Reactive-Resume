@@ -758,7 +758,7 @@ msgstr "ಈ ವಿಭಾಗದಲ್ಲಿ, ನೀವು ನಿಮ್ಮ ಪಾ�
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "ಈ ವಿಭಾಗದಲ್ಲಿ, ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಮತ್ತು ನಿಮ್ಮ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ನೀವು ಅಳಿಸಬಹುದು, ಆದರೆ ದಯವಿಟ್ಟು <0>ಈ ಕ್ರಿಯೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ</0> ಎಂಬುದನ್ನು ನೆನಪಿನಲ್ಲಿಡಿ."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "ಮಾಹಿತಿ"
@@ -993,7 +993,7 @@ msgstr "ಬಳಕೆದಾರರ ಟ್ರ್ಯಾಕಿಂಗ್ ಅಥವಾ 
 msgid "Note: This will make your account less secure."
 msgstr "ಗಮನಿಸಿ: ಇದು ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಕಡಿಮೆ ಸುರಕ್ಷಿತಗೊಳಿಸುತ್ತದೆ."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:118
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "ಟಿಪ್ಪಣಿಗಳು"
@@ -1039,6 +1039,10 @@ msgstr ""
 msgid "OpenAI/Ollama Integration"
 msgstr ""
 
+#: apps/client/src/pages/auth/_components/social-auth.tsx:44
+msgid "OpenID"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:168
 msgid "Options"
@@ -1053,7 +1057,7 @@ msgstr "ಅಥವಾ ಮುಂದುವರಿಸಿ"
 msgid "Organization"
 msgstr "ಸಂಸ್ಥೆ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:90
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "ಪುಟ"
@@ -1338,7 +1342,7 @@ msgstr "ಸೆಟ್ಟಿಂಗ್ಸಗಳು"
 msgid "Setup two-factor authentication on your account"
 msgstr "ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಎರಡು ಅಂಶದ ದೃಢೀಕರಣವನ್ನು ಹೊಂದಿಸಿ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "ಹಂಚಿಕೆ"
@@ -1435,7 +1439,7 @@ msgstr "ಮೊದಲಿನಿಂದ ನಿರ್ಮಿಸಲು ಪ್ರಾರ�
 msgid "Start building your resume by giving it a name."
 msgstr "ಹೆಸರನ್ನು ನೀಡುವ ಮೂಲಕ ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ಅನ್ನು ನಿರ್ಮಿಸಲು ಪ್ರಾರಂಭಿಸಿ."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:104
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "ಅಂಕಿಅಂಶಗಳು"
@@ -1476,7 +1480,7 @@ msgstr "A4/ಲೆಟರ್ ಪುಟ ಸ್ವರೂಪಗಳನ್ನು ಬೆ
 msgid "System"
 msgstr "ಸಿಸ್ಟಂ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:62
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "ಮಾದರಿ"
@@ -1501,7 +1505,7 @@ msgstr "ನೀವು ನಮೂದಿಸಿದ ಪಾಸ್‌ವರ್ಡ್‌�
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "ನೀವು ನವೀಕರಿಸಲು ಬಯಸುವ ರೆಸ್ಯೂಮ್ ಲಾಕ್ ಆಗಿದೆ, ನೀವು ಅದರಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು ಬಯಸಿದರೆ ದಯವಿಟ್ಟು ಅನ್‌ಲಾಕ್ ಮಾಡಿ."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:83
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1582,7 +1586,7 @@ msgstr "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಅಳಿಸುವುದನ�
 msgid "Type of Study"
 msgstr "ಅಧ್ಯಯನದ ಪ್ರಕಾರ"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:76
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
 msgid "Typography"
 msgstr "ಮುದ್ರಣಕಲೆ"

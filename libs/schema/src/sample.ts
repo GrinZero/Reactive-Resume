@@ -1,4 +1,4 @@
-import { ResumeData } from ".";
+import type { ResumeData } from "./index";
 
 export const sampleResume: ResumeData = {
   basics: {
@@ -308,7 +308,7 @@ export const sampleResume: ResumeData = {
       ],
     ],
     css: {
-      value: ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      value: "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
       visible: false,
     },
     page: {

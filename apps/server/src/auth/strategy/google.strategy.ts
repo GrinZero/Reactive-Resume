@@ -1,5 +1,6 @@
-import { BadRequestException, Injectable } from "@nestjs/common";
+import { BadRequestException, Injectable, Logger } from "@nestjs/common";
 import { PassportStrategy } from "@nestjs/passport";
+import { createId } from "@paralleldrive/cuid2";
 import { User } from "@prisma/client";
 import { ErrorMessage, processUsername } from "@reactive-resume/utils";
 import { Profile, Strategy, StrategyOptions, VerifyCallback } from "passport-google-oauth20";
@@ -30,14 +31,14 @@ export class GoogleStrategy extends PassportStrategy(Strategy, "google") {
 
     let user: User | null = null;
 
-    if (!email) throw new BadRequestException();
+    if (!email) throw new BadRequestException(ErrorMessage.InvalidCredentials);
 
     try {
-      const user =
+      user =
         (await this.userService.findOneByIdentifier(email)) ??
-        (username && (await this.userService.findOneByIdentifier(username)));
+        (username ? await this.userService.findOneByIdentifier(username) : null);
 
-      if (!user) throw new Error("User not found.");
+      if (!user) throw new BadRequestException(ErrorMessage.InvalidCredentials);
 
       done(null, user);
     } catch {
@@ -46,15 +47,17 @@ export class GoogleStrategy extends PassportStrategy(Strategy, "google") {
           email,
           picture,
           locale: "en-US",
-          name: displayName,
           provider: "google",
+          name: displayName || createId(),
           emailVerified: true, // auto-verify emails
           username: processUsername(username ?? email.split("@")[0]),
           secrets: { create: {} },
         });
 
         done(null, user);
-      } catch {
+      } catch (error) {
+        Logger.error(error);
+
         throw new BadRequestException(ErrorMessage.UserAlreadyExists);
       }
     }

@@ -1,4 +1,4 @@
-import { UpdateUserDto } from "@reactive-resume/dto";
+import type { UpdateUserDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
 
 import { USER_ID } from "@/client/constants/db";

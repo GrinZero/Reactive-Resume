@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { ResumeDto, UpdateResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto, UpdateResumeDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";
 import debounce from "lodash.debounce";
 
