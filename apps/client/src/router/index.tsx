@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router";
 
+import { initDB } from "../db";
 // import { BackupOtpPage } from "../pages/auth/backup-otp/page";
 // import { ForgotPasswordPage } from "../pages/auth/forgot-password/page";
 // import { AuthLayout } from "../pages/auth/layout";
@@ -31,7 +32,13 @@ import { AuthGuard } from "./guards/auth";
 
 export const routes = createRoutesFromElements(
   // eslint-disable-next-line lingui/no-unlocalized-strings
-  <Route element={<Providers />} hydrateFallbackElement={<div>Loading...</div>}>
+  <Route
+    element={<Providers />}
+    loader={async () => {
+      await initDB();
+    }}
+    hydrateFallbackElement={<div>Loading...</div>}
+  >
     <Route element={<HomeLayout />}>
       <Route path="" element={<HomePage />} />
 

@@ -42,7 +42,7 @@ export const BuilderLayout = () => {
       <div className="relative size-full overflow-hidden">
         <PanelGroup direction="horizontal">
           <Panel
-            minSize={25}
+            minSize={4}
             maxSize={45}
             defaultSize={30}
             className={cn("z-10 bg-background", !leftHandle.isDragging && "transition-[flex]")}

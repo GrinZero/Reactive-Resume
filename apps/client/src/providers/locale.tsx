@@ -5,7 +5,7 @@ import { detect, fromStorage, fromUrl } from "@lingui/detect-locale";
 import { I18nProvider } from "@lingui/react";
 import { languages } from "@reactive-resume/utils";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 
 import { defaultLocale, dynamicActivate } from "../libs/lingui";
 import { updateUser } from "../services/user";

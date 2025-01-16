@@ -22,6 +22,8 @@
       "rules": {
         // eslint
         "@typescript-eslint/no-require-imports": "off",
+        "@typescript-eslint/no-unnecessary-condition": "off",
+        "unicorn/no-await-expression-member": "off",
 
         // react
         "react/no-unescaped-entities": "off",

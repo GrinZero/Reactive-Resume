@@ -22,12 +22,10 @@ const formSchema = z.object({
   apiKey: z
     .string()
     // eslint-disable-next-line lingui/no-unlocalized-strings
-    .regex(/^sk-.+$/, "That doesn't look like a valid OpenAI API key.")
     .default(""),
   baseURL: z
     .string()
     // eslint-disable-next-line lingui/no-unlocalized-strings
-    .regex(/https?:\/\/[^/]+\/?v1$/, "That doesn't look like a valid URL")
     .or(z.literal(""))
     .default(""),
   model: z.string().default(DEFAULT_MODEL),
@@ -107,6 +105,41 @@ export const OpenAISettings = () => {
             as per your preference.
           </Trans>
         </p>
+
+        <p className="flex flex-row gap-2">
+          <Trans>
+            Free
+            <span className="-mr-1" role="img" aria-label="recommended">
+              🔥
+            </span>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://github.com/THUDM/ChatGLM-6B"
+            >
+              ChatGLM-6B
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://console.groq.com/docs/overview"
+            >
+              {`Groq(llama-3.3-70b-versatile)`}
+            </a>
+          </Trans>
+          <Trans>
+            <span className="-mr-1" role="img" aria-label="normal">
+              😐
+            </span>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://platform.deepseek.com/usage"
+            >
+              Deepseek
+            </a>
+          </Trans>
+        </p>
       </div>
 
       <Form {...form}>
@@ -171,9 +204,9 @@ export const OpenAISettings = () => {
             )}
           />
           <div className="flex items-center space-x-2 self-end sm:col-start-2">
-            <Button type="submit" disabled={!form.formState.isValid}>
+            <Button type="submit">
               {isEnabled && <FloppyDisk className="mr-2" />}
-              {isEnabled ? t`Saved` : t`Save Locally`}
+              {t`Save Locally`}
             </Button>
 
             {isEnabled && (

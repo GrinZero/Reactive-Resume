@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-misused-spread */
 import { t } from "@lingui/macro";
 import type { ResumeDto, UpdateResumeDto } from "@reactive-resume/dto";
 import { useMutation } from "@tanstack/react-query";

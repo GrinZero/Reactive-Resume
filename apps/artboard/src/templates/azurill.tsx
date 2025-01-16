@@ -128,7 +128,7 @@ type LinkProps = {
 };
 
 const Link = ({ url, icon, iconOnRight, label, className }: LinkProps) => {
-  if (!isUrl(url.href)) return null;
+  if (!isUrl(url?.href)) return null;
 
   return (
     <div className="flex items-center gap-x-1.5">
@@ -154,7 +154,7 @@ type LinkedEntityProps = {
 };
 
 const LinkedEntity = ({ name, url, separateLinks, className }: LinkedEntityProps) => {
-  return !separateLinks && isUrl(url.href) ? (
+  return !separateLinks && isUrl(url?.href) ? (
     <Link
       url={url}
       label={name}

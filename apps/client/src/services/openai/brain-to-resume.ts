@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { ResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto } from "@reactive-resume/dto";
 import { jsonrepair } from "jsonrepair";
 
 import { DEFAULT_MODEL } from "@/client/constants/llm";
@@ -7,21 +7,14 @@ import { useOpenAiStore } from "@/client/stores/openai";
 
 import { openai } from "./client";
 
-const getPrompt = (resumeStr: string, promptInput: string, jobDescription: string) => {
-  const prompt = `## ResumeData
+const getPrompt = (resumeStr: string, jobDescription: string) => {
+  const prompt = `## Resume
+\`\`\`json
 ${resumeStr}
-## Prompt
-${promptInput}
+\`\`\`
 
 ## Job Description
 ${jobDescription}
-
-## Output
-Directly return the improved ResumeData in JSON format. Follow these rules strictly:
-
-The JSON should reflect a fully improved and optimized version of the resume.
-Remove unnecessary sections and include only content relevant to the job description.
-No additional explanation, comments, or formatting should be included. Return only the final JSON string.
 `;
   return prompt;
 };
@@ -32,10 +25,17 @@ export const brainToResume = async (
   jobDescription: string,
 ) => {
   const { model } = useOpenAiStore.getState();
-  const prompt = getPrompt(resumeStr, promptInput, jobDescription);
+  const prompt = getPrompt(resumeStr, jobDescription);
   const resultStr: string[] = [];
-  let messages = [{ role: "user" as const, content: prompt }] as {
-    role: "user" | "assistant";
+  let messages = [
+    { role: "system" as const, content: promptInput },
+    { role: "user" as const, content: prompt },
+    // {
+    //   role: "assistant",
+    //   content: "```json",
+    // },
+  ] as {
+    role: "user" | "assistant" | "system";
     content: string;
   }[];
 
@@ -46,6 +46,7 @@ export const brainToResume = async (
       model: model ?? DEFAULT_MODEL,
       temperature: 0,
       n: 1,
+      // stop: "\n```",
     });
 
     if (result.choices.length === 0) {
@@ -57,12 +58,16 @@ export const brainToResume = async (
       throw new Error(t`OpenAI did not return any content for your text.`);
     }
 
-    if (content.trimStart().startsWith("```json\n")) {
-      content = content.trimStart().slice(7);
+    if (content === messages.at(-2)?.content) {
+      throw new Error(t`OpenAI return duplicate content for your text.`);
     }
 
-    if (content.trimEnd().endsWith("```")) {
-      content = content.slice(0, -3).trimEnd();
+    if (content.trimStart().startsWith("```json\n")) {
+      content = content.trimStart().slice(8);
+    }
+
+    if (content.trimEnd().endsWith("\n```")) {
+      content = content.slice(0, -4).trimEnd();
     }
 
     resultStr.push(content);
@@ -86,7 +91,9 @@ export const brainToResume = async (
       "basics" | "sections"
     >;
     return aiData;
-  } catch {
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error(error);
     throw new Error(
       t`Failed to parse OpenAI response as JSON. The response might be incomplete or malformed.`,
     );

@@ -10,13 +10,13 @@ import { USER_ID } from "@/client/constants/db";
 import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
 
-export const createResume = async (data: CreateResumeDto) => {
+export const createResume = async (data: CreateResumeDto, defaultResume = defaultResumeData) => {
   const userDto = await db.users.get(USER_ID);
   if (!userDto) {
     throw new Error("User not found");
   }
 
-  const addData = deepmerge(defaultResumeData, {
+  const addData = deepmerge(defaultResume, {
     basics: { name: userDto.name, email: userDto.email, picture: { url: userDto.picture ?? "" } },
   } satisfies DeepPartial<ResumeData>);
 
@@ -28,6 +28,7 @@ export const createResume = async (data: CreateResumeDto) => {
     locked: false,
     createdAt: new Date(),
     updatedAt: new Date(),
+    // eslint-disable-next-line @typescript-eslint/no-misused-spread
     ...data,
   };
 

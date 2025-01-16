@@ -4,6 +4,8 @@ import { useRef } from "react";
 
 import { Copyright } from "@/client/components/copyright";
 import { ThemeSwitch } from "@/client/components/theme-switch";
+import { BRAIN_ID } from "@/client/services/resume";
+import { useResumeStore } from "@/client/stores/resume";
 
 import { AISection } from "./sections/ai";
 import { CssSection } from "./sections/css";
@@ -21,6 +23,7 @@ import { SectionIcon } from "./shared/section-icon";
 
 export const RightSidebar = () => {
   const containterRef = useRef<HTMLDivElement | null>(null);
+  const id = useResumeStore((state) => state.resume.id);
 
   const scrollIntoView = (selector: string) => {
     const section = containterRef.current?.querySelector(selector);
@@ -63,6 +66,15 @@ export const RightSidebar = () => {
         <div />
 
         <div className="flex flex-col items-center justify-center gap-y-2">
+          {id === BRAIN_ID && (
+            <SectionIcon
+              id="ai"
+              name={t`AI`}
+              onClick={() => {
+                scrollIntoView("#ai");
+              }}
+            />
+          )}
           <SectionIcon
             id="template"
             name={t`Template`}

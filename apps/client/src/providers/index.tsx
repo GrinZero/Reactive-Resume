@@ -1,11 +1,9 @@
 import { TooltipProvider } from "@reactive-resume/ui";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { useEffect } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { Outlet } from "react-router";
 
 import { helmetContext } from "../constants/helmet";
-import { initDB } from "../db";
 import { queryClient } from "../libs/query-client";
 import { AuthRefreshProvider } from "./auth-refresh";
 import { DialogProvider } from "./dialog";
@@ -14,9 +12,6 @@ import { ThemeProvider } from "./theme";
 import { Toaster } from "./toaster";
 
 export const Providers = () => {
-  useEffect(() => {
-    initDB();
-  }, []);
   return (
     <LocaleProvider>
       <HelmetProvider context={helmetContext}>
