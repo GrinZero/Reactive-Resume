@@ -7,7 +7,7 @@ import { AUTH_PROVIDERS_KEY } from "@/client/constants/query-keys";
 export const getAuthProviders = () => {
   // const response = await axios.get<AuthProvidersDto>(`/auth/providers`);
 
-  return ["email", "github", "google"] as ("email" | "github" | "google")[];
+  return ["email", "github", "google", "openid"] as ("email" | "github" | "google" | "openid")[];
 };
 
 export const useAuthProviders = () => {
