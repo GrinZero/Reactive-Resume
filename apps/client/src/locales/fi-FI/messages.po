@@ -26,9 +26,13 @@ msgstr "Olet ottanut kaksivaiheisen todennuksen käyttöön onnistuneesti."
 msgid "{templatesCount} resume templates to choose from"
 msgstr "Valittavana on {templatesCount} ansioluettelomallipohjaa"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:141
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:142
 msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {Sarake} other {Sarakkeet}}"
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:130
+msgid "<0>😐</0><1>Deepseek</1>"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:20
 msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
@@ -38,7 +42,7 @@ msgstr "<0>Rakensin Reaktiivisen ansioluettelon pääasiassa itse vapaa-ajallani
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Olen varma, että sovellus ei ole täydellinen, mutta haluaisin sen olevan.</0><1>Jos kohtaat ongelmia luodessasi ansioluetteloasi tai sinulla on idea, joka auttaisi sinua ja muita käyttäjiä luomaan ansioluetteloasi helpommin, ilmoita ongelmasta repositoriossa tai lähetä minulle sähköpostia asiasta.</1>"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:201
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:234
 msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
 msgstr "<0>Huom:</0> Hyödyntämällä OpenAI API:a, tunnustat ja hyväksyt OpenAI:n määrittelemät <1>käyttöehdot</1> ja <2>tietosuojakäytännöt</2>. Huomaa, että Reaktiivinen ansioluettelo ei ota vastuuta palvelun epäasianmukaisesta tai luvattomasta käytöstä aiheutuvista seurauksista tai vastuista, jotka lankeavat yksinomaan käyttäjälle."
 
@@ -91,12 +95,12 @@ msgstr "A4"
 
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:273
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:272
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:267
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
 msgid "Accepts only {accept} files"
 msgstr "Hyväksyy vain {accept} tiedostot"
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:104
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:105
 msgid "Account"
 msgstr "Tili"
 
@@ -110,7 +114,7 @@ msgctxt "For example, add a new work experience, or add a new profile."
 msgid "Add a new item"
 msgstr "Lisää uusi kohde"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:90
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:91
 msgid "Add a new item"
 msgstr "Lisää uusi kohde"
 
@@ -119,20 +123,26 @@ msgstr "Lisää uusi kohde"
 msgid "Add a new section"
 msgstr "Lisää uusi osio"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:268
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:261
 msgid "Add New Page"
 msgstr "Lisää uusi sivu"
 
 #: apps/client/src/components/ai-actions.tsx:79
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:72
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:175
 msgid "AI"
 msgstr "AI"
+
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:225
+msgid "Allow Change Content"
+msgstr ""
 
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
 msgstr "Onko sinulla jo tili?"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:147
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:145
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:144
 msgid "An error occurred while validating the file."
 msgstr "Virhe tapahtui tiedoston validoinnissa."
 
@@ -149,11 +159,15 @@ msgstr "Kuka tahansa linkin avulla voi tarkastella ja ladata ansioluettelon."
 msgid "Anyone with this link can view and download the resume. Share it on your profile or with recruiters."
 msgstr "Kuka tahansa tämän linkin avulla voi tarkastella ja ladata ansioluettelon. Jaa se profiilissasi tai rekrytoijien kanssa."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:127
+#: apps/client/src/pages/builder/sidebars/right/sections/css.tsx:41
+msgid "Apply Custom CSS"
+msgstr ""
+
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:128
 msgid "Are you sure you want to delete this item?"
 msgstr "Haluatko varmasti poistaa tämän kohteen?"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:148
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:149
 msgid "Are you sure you want to delete your resume?"
 msgstr "Haluatko varmasti poistaa ansioluettelosi?"
 
@@ -180,7 +194,7 @@ msgstr "Oletko varma?"
 msgid "Area of Study"
 msgstr "Opintoala"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:86
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:79
 msgid "Aspect Ratio"
 msgstr "Kuvasuhde"
 
@@ -210,7 +224,7 @@ msgstr "Varmuuskoodi"
 msgid "Backup Codes may contain only lowercase letters or numbers, and must be exactly 10 characters."
 msgstr "Varmuuskoodit voivat sisältää vain pieniä kirjaimia tai numeroita, ja niiden on oltava tarkalleen 10 merkkiä."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:132
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:165
 msgid "Base URL"
 msgstr "Perus URL-osoite"
 
@@ -223,11 +237,11 @@ msgstr "Perusasiat"
 msgid "Basics"
 msgstr "Perusasiat"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:198
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:191
 msgid "Border"
 msgstr "Reunus"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:131
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:124
 msgid "Border Radius"
 msgstr "Reunussäde"
 
@@ -237,7 +251,7 @@ msgstr "Reunussäde"
 msgid "Brain"
 msgstr ""
 
-#: apps/client/src/pages/public/page.tsx:96
+#: apps/client/src/pages/public/page.tsx:97
 msgid "Built with"
 msgstr "Rakennettu"
 
@@ -246,10 +260,10 @@ msgstr "Rakennettu"
 msgid "By the community, for the community."
 msgstr "Yhteisön tekemä, yhteisölle."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:134
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:135
 #: apps/client/src/pages/dashboard/brain/_dialogs/lock.tsx:49
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:155
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:156
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:137
 msgid "Cancel"
 msgstr "Peruuta"
@@ -273,15 +287,15 @@ msgid "Change Tone"
 msgstr "Vaihda sävyä"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:105
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:193
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Muutitko mieltäsi nimen suhteen? Anna sille uusi nimi."
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:69
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:70
 msgid "Check your email for the confirmation link to update your email address."
 msgstr "Tarkista sähköpostisi vahvistuslinkkiä varten päivittääksesi sähköpostiosoitteesi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:151
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:144
 msgid "Circle"
 msgstr "Ympyrä"
 
@@ -297,7 +311,7 @@ msgstr "Koodi"
 msgid "Code must be exactly 6 digits long."
 msgstr "Koodin on oltava tarkalleen 6 numeroa pitkä."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:135
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:136
 msgid "Columns"
 msgstr "Sarakkeet"
 
@@ -331,9 +345,9 @@ msgstr "Kopioi linkki ansioluetteloon"
 msgid "Copy to Clipboard"
 msgstr "Kopioi leikepöydälle"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:178
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:154
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:255
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
 msgid "Create"
 msgstr "Luo"
 
@@ -342,11 +356,11 @@ msgstr "Luo"
 msgid "Create a new account"
 msgstr "Luo uusi tili"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:162
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:163
 msgid "Create a new item"
 msgstr "Luo uusi tuote"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:184
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:18
 msgid "Create a new resume"
@@ -357,7 +371,7 @@ msgctxt "This is a link to create a new account"
 msgid "Create one now"
 msgstr "Luo yksi nyt"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:270
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:271
 msgid "Create Sample Resume"
 msgstr "Luo esimerkki ansioluettelosta"
 
@@ -366,11 +380,16 @@ msgstr "Luo esimerkki ansioluettelosta"
 msgid "Create the brain"
 msgstr ""
 
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:108
+#: apps/client/src/pages/builder/sidebars/right/sections/css.tsx:28
+msgid "Custom CSS"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
 msgstr "Mukautetut ansioluettelon osiot"
 
-#: apps/client/src/stores/resume.ts:45
+#: apps/client/src/stores/resume.ts:47
 msgid "Custom Section"
 msgstr "Mukautettu osio"
 
@@ -396,7 +415,7 @@ msgstr "Tumma"
 msgid "Date"
 msgstr "Päivämäärä"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:86
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:110
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:72
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:80
@@ -404,8 +423,8 @@ msgstr "Päivämäärä"
 msgid "Date or Date Range"
 msgstr "Päivämäärä tai Päivämääräväli"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:136
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:164
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:137
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:165
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
@@ -417,7 +436,7 @@ msgstr "Poista"
 msgid "Delete Account"
 msgstr "Poista tili"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:72
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:73
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:50
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:66
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:53
@@ -437,9 +456,9 @@ msgstr "Poista käytöstä"
 msgid "Disable 2FA"
 msgstr "Poista kaksivaiheinen todennus"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:305
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:304
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:219
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:299
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:302
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:220
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:134
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:124
 msgid "Discard"
@@ -474,7 +493,7 @@ msgid "Download a PDF of your resume. This file can be used to print your resume
 msgstr "Lataa PDF-ansioluettelosi. Tätä tiedostoa voidaan käyttää ansioluettelon tulostamiseen, lähettämiseen rekrytoijille tai lataamiseen työportaaleihin."
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:172
-#: apps/client/src/pages/public/page.tsx:108
+#: apps/client/src/pages/public/page.tsx:109
 msgid "Download PDF"
 msgstr "Lataa PDF"
 
@@ -482,19 +501,19 @@ msgstr "Lataa PDF"
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:180
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:181
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:258
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
 msgstr "Kaksoiskappale"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:164
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:165
 msgid "Duplicate an existing item"
 msgstr "Tee kaksoiskappale olemassa olevasta kohteesta"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:187
 msgid "Duplicate an existing resume"
 msgstr "Tee kaksoiskappale olemassa olevasta ansioluettelosta"
 
@@ -502,7 +521,7 @@ msgstr "Tee kaksoiskappale olemassa olevasta ansioluettelosta"
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:176
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:169
 msgid "Effects"
 msgstr "Efektit"
 
@@ -510,7 +529,7 @@ msgstr "Efektit"
 #: apps/client/src/pages/auth/login/page.tsx:90
 #: apps/client/src/pages/auth/register/page.tsx:141
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:54
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:180
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
 msgid "Email"
 msgstr "Sähköposti"
 
@@ -542,8 +561,8 @@ msgstr "Syötä kertakäyttöinen salasana, jonka todentaja-sovelluksesi tarjoaa
 msgid "Enter your email address and we will send you a link to reset your password if the account exists."
 msgstr "Syötä sähköpostiosoitteesi, niin lähetämme sinulle linkin salasanan nollaamiseksi, jos tili on olemassa."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:286
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:285
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:280
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:283
 msgid "Errors"
 msgstr "Virheet"
 
@@ -555,18 +574,22 @@ msgstr "Vaikka et pystyisikään antamaan taloudellista panostusta, voit silti t
 msgid "Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
 msgstr "Tutustu saatavilla oleviin mallipohjiin Reactive Resumessa ja katsele niiden avulla luotuja ansioluetteloita. Ne voivat toimia myös esimerkkeinä auttaakseen seuraavan ansioluettelosi luomisessa."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:111
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:136
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:33
 msgid "Export"
 msgstr "Vie"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:258
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:257
+#: apps/client/src/services/openai/brain-to-resume.ts:98
+msgid "Failed to parse OpenAI response as JSON. The response might be incomplete or malformed."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:252
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:255
 msgid "File"
 msgstr "Tiedosto"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:224
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:223
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:218
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:221
 msgid "Filetype"
 msgstr "Tiedostotyyppi"
 
@@ -578,19 +601,19 @@ msgstr "Lopuksi,"
 msgid "Fix Spelling & Grammar"
 msgstr "Korjaa oikeinkirjoitus ja kielioppi"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:93
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:94
 msgid "Font Family"
 msgstr "Fontin perhe"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:134
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:135
 msgid "Font Size"
 msgstr "Fontin koko"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:108
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:109
 msgid "Font Subset"
 msgstr "Fontin alajoukko"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:120
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:121
 msgid "Font Variants"
 msgstr "Fonttivariantit"
 
@@ -598,7 +621,7 @@ msgstr "Fonttivariantit"
 msgid "For example, information regarding which companies you sent this resume to or the links to the job descriptions can be noted down here."
 msgstr "Esimerkiksi tietoja siitä, mihin yrityksiin lähetit tämän ansioluettelon tai linkit työpaikkailmoituksiin, voidaan kirjata tänne."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:182
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:215
 msgid "Forget"
 msgstr "Unohda"
 
@@ -623,6 +646,10 @@ msgstr "Löysitkö virheen tai onko sinulla idea uudesta ominaisuudesta?"
 msgid "Free, forever"
 msgstr "Ilmainen, ikuisesti"
 
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:110
+msgid "Free<0>🔥</0><1>ChatGLM-6B</1><2>Groq(llama-3.3-70b-versatile)</2>"
+msgstr ""
+
 #: apps/client/src/components/ai-actions.tsx:121
 #: apps/client/src/components/ai-actions.tsx:124
 msgid "Friendly"
@@ -632,7 +659,11 @@ msgstr "Ystävällinen"
 msgid "Full Name"
 msgstr "Koko nimi"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:208
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:233
+msgid "Generate"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:209
 msgid "Generate a random title for your resume"
 msgstr "Luo satunnainen otsikko ansioluettelollesi"
 
@@ -648,7 +679,7 @@ msgstr "GitHub"
 msgid "GitHub Stars"
 msgstr "GitHub-tähdet"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:193
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:194
 msgid "Give your old resume a new name."
 msgstr "Anna vanhalle ansioluettelollesi uusi nimi."
 
@@ -661,7 +692,7 @@ msgstr "Siirry hallintapaneeliin"
 msgid "Google"
 msgstr "Google"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:209
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
 msgstr "Harmaasävy"
 
@@ -673,7 +704,7 @@ msgstr "Ruudukko"
 msgid "Headline"
 msgstr "Otsikko"
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:106
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:107
 msgid "Here, you can update your account information such as your profile picture, name and username."
 msgstr "Täällä voit päivittää tilisi tietoja, kuten profiilikuvasi, nimesi ja käyttäjänimesi."
 
@@ -683,15 +714,15 @@ msgstr "Täällä voit päivittää profiilisi mukauttaaksesi ja personoidaksesi
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:80
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:94
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:187
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:180
 msgid "Hidden"
 msgstr "Piilotettu"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:106
 msgid "Hide"
 msgstr "Piilota"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:178
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:179
 msgid "Hide Icons"
 msgstr "Piilota kuvakkeet"
 
@@ -701,7 +732,7 @@ msgstr "Piilota kuvakkeet"
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "Paina <0>Ctrl</0> näyttääksesi tilapäisesti salasanasi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:100
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:93
 msgid "Horizontal"
 msgstr "Vaakasuuntainen"
 
@@ -722,6 +753,10 @@ msgstr "Kuvake"
 msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
 msgstr "Jos tämä sovellus on auttanut sinua työnhaussa, kerro siitä minulle ottamalla yhteyttä tämän <0>yhteydenottolomakkeen</0> kautta."
 
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:201
+msgid "If you are not satisfied with the new resume, you can"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Jos poistat kaksivaiheisen tunnistautumisen käytöstä, sinun ei enää tarvitse syöttää vahvistuskoodia kirjautumisen yhteydessä."
@@ -730,18 +765,18 @@ msgstr "Jos poistat kaksivaiheisen tunnistautumisen käytöstä, sinun ei enää
 msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
 msgstr "Jos olet monikielinen, arvostamme apuasi sovelluksen tuomisessa useampiin kieliin ja yhteisöihin. Älä huoli, vaikket näe kieltäsi listalla - kerro minulle GitHubissa, niin huolehdin sen sisällyttämisestä. Valmis aloittamaan? Siirry käännöstyöhön osoitteessa Crowdin klikkaamalla alla olevaa linkkiä."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:312
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:311
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:306
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:309
 msgid "Import"
 msgstr "Tuonti"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:210
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:208
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:28
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:17
 msgid "Import an existing resume"
 msgstr "Tuo olemassa oleva ansioluettelo"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:211
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:205
 msgid "Import an existing resume/brain"
 msgstr ""
 
@@ -765,7 +800,7 @@ msgstr "Tässä osiossa voit vaihtaa salasanasi ja ottaa käyttöön/poistaa kak
 msgid "In this section, you can delete your account and all the data associated to your user, but please keep in mind that <0>this action is irreversible</0>."
 msgstr "Tässä osiossa voit poistaa tilisi ja siihen liittyvät tiedot, mutta pidä mielessäsi, että <0> tämä toiminto on peruuttamaton </0>."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:135
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:150
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Tiedot"
@@ -825,15 +860,15 @@ msgstr "matti.meikäläinen@example.com"
 msgid "JSON"
 msgstr "JSON"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:158
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:159
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:63
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:138
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:109
 msgid "Keywords"
 msgstr "Avainsanat"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:41
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:51
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:42
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:52
 msgid "Label"
 msgstr "Tunniste"
 
@@ -847,8 +882,8 @@ msgstr "Kieli"
 msgid "Last updated {lastUpdated}"
 msgstr "Päivitetty viimeksi {lastUpdated}"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:69
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:205
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:87
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:198
 msgid "Layout"
 msgstr "Asettelu"
 
@@ -877,7 +912,7 @@ msgstr "Vaalea"
 msgid "Light or dark theme"
 msgstr "Vaalea tai tumma teema"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:151
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:152
 msgid "Line Height"
 msgstr "Riviväli"
 
@@ -891,7 +926,7 @@ msgstr "LinkedIn, JSON Resume, jne."
 msgid "List"
 msgstr "Lista"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:100
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:93
@@ -924,7 +959,7 @@ msgstr "Kirjaudu ulos"
 msgid "Lost your device?"
 msgstr "Oletko kadottanut laitteesi?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:254
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:247
 msgid "Main"
 msgstr "Pää"
 
@@ -950,7 +985,7 @@ msgstr "Maaliskuu 2023 - Tähän asti"
 msgid "Margin"
 msgstr "Marginaali"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:158
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
 msgid "Max Tokens"
 msgstr "Max merkit"
 
@@ -958,12 +993,12 @@ msgstr "Max merkit"
 msgid "MIT License"
 msgstr "MIT-lisenssi"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:145
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:178
 msgid "Model"
 msgstr "Malli"
 
 #: apps/client/src/pages/auth/register/page.tsx:98
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:58
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:59
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:48
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:52
@@ -971,7 +1006,7 @@ msgstr "Malli"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:49
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:152
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
 msgstr "Nimi"
 
@@ -1000,7 +1035,7 @@ msgstr "Ei käyttäjän seurantaa tai mainontaa"
 msgid "Note: This will make your account less secure."
 msgstr "Huom: Tämä tekee tilisi vähemmän turvalliseksi."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:128
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:143
 #: apps/client/src/pages/builder/sidebars/right/sections/notes.tsx:17
 msgid "Notes"
 msgstr "Muistiinpanot"
@@ -1010,11 +1045,12 @@ msgid "One-Time Password"
 msgstr "Yksittäinen salasana"
 
 #: apps/client/src/components/ai-actions.tsx:56
-#: apps/client/src/libs/axios.ts:29
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:191
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:190
+#: apps/client/src/libs/axios.ts:30
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:139
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:188
 #: apps/client/src/services/resume/print.tsx:47
-#: apps/client/src/services/resume/update.tsx:23
+#: apps/client/src/services/resume/update.tsx:27
 msgid "Oops, the server returned an error."
 msgstr "Voi ei, palvelin palautti virheen."
 
@@ -1028,30 +1064,39 @@ msgstr "Avaa"
 msgid "Open Source"
 msgstr "Avoin lähdekoodi"
 
+#: apps/client/src/services/openai/brain-to-resume.ts:53
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "OpenAI ei palauttanut mitään valintoja tekstillesi."
 
+#: apps/client/src/services/openai/brain-to-resume.ts:58
+msgid "OpenAI did not return any content for your text."
+msgstr ""
+
 #: apps/client/src/pages/home/sections/features/index.tsx:52
 msgid "OpenAI Integration"
 msgstr "OpenAI-integrointi"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:119
+#: apps/client/src/services/openai/brain-to-resume.ts:62
+msgid "OpenAI return duplicate content for your text."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:152
 msgid "OpenAI/Ollama API Key"
 msgstr "OpenAI/Ollama API-avain"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:77
 msgid "OpenAI/Ollama Integration"
 msgstr "OpenAI/Ollama-integraatio"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:44
-msgid "OpenID"
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:209
+msgid "optimize"
 msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:67
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:168
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:169
 msgid "Options"
 msgstr "Asetukset"
 
@@ -1064,12 +1109,12 @@ msgstr "tai jatka"
 msgid "Organization"
 msgstr "Organisaatio"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:100
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:115
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:26
 msgid "Page"
 msgstr "Sivu"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:235
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:228
 msgid "Page {pageNumber}"
 msgstr ""
 
@@ -1079,6 +1124,10 @@ msgstr ""
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:76
 msgid "Password"
 msgstr "Salasana"
+
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:180
+msgid "Paste your preferred job description here and let AI help you optimize your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:65
 msgid "PDF"
@@ -1101,7 +1150,7 @@ msgid "Pick any font from Google Fonts"
 msgstr "Valitse mikä tahansa fontti Google Fontsista"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:74
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:120
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:121
 msgid "Picture"
 msgstr "Kuva"
 
@@ -1109,8 +1158,8 @@ msgstr "Kuva"
 msgid "Please note that this step is completely optional."
 msgstr "Huomaa, että tämä vaihe on täysin valinnainen."
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:228
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:227
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:222
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:225
 msgid "Please select a file type"
 msgstr "Valitse tiedostotyyppi"
 
@@ -1118,7 +1167,7 @@ msgstr "Valitse tiedostotyyppi"
 msgid "Please store your backup codes in a secure location. You can use one of these one-time use codes to login in case you lose access to your authenticator app."
 msgstr "Säilytä varmuuskopiosi turvallisessa paikassa. Voit käyttää näitä kertakäyttöisiä koodeja kirjautuaksesi sisään, jos menetät pääsyn todennussovellukseesi."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:106
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:99
 msgid "Portrait"
 msgstr "Muotokuva"
 
@@ -1178,15 +1227,15 @@ msgstr "Luo ongelma"
 #: apps/client/src/pages/auth/reset-password/page.tsx:60
 #: apps/client/src/pages/auth/verify-email/page.tsx:43
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/builder/page.tsx:44
 #: apps/client/src/pages/dashboard/brain/page.tsx:13
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
 #: apps/client/src/pages/dashboard/settings/page.tsx:14
 #: apps/client/src/pages/home/components/footer.tsx:18
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:98
+#: apps/client/src/pages/public/page.tsx:74
+#: apps/client/src/pages/public/page.tsx:99
 msgid "Reactive Resume"
 msgstr "Reaktiivinen ansioluettelo"
 
@@ -1211,30 +1260,30 @@ msgid "Redo"
 msgstr "Tee uudelleen"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:100
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:156
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:157
 msgid "Remove"
 msgstr "Poista"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:238
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:231
 msgid "Remove Page"
 msgstr "Poista sivu"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:110
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:111
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:198
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:199
 msgid "Resend email confirmation link"
 msgstr "Lähetä sähköpostin vahvistuslinkki uudelleen"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:151
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:152
 msgid "Reset"
 msgstr "Nollaa"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:208
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:201
 msgid "Reset Layout"
 msgstr "Nollaa asettelu"
 
@@ -1246,6 +1295,10 @@ msgstr "Nollaa salasanasi"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:120
 msgid "Reset Zoom"
 msgstr "Nollaa zoomaus"
+
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:163
+msgid "Resume saved successfully!"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:97
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
@@ -1261,25 +1314,22 @@ msgstr "Luodut ansioluettelot"
 msgid "Rich in features, not in pricing."
 msgstr "Monipuolinen ominaisuuksiltaan, ei hinnoiltaan."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:145
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
 msgid "Rounded"
 msgstr "Pyöristetty"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:179
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:180
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:237
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:155
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:256
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:216
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:217
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:131
 msgid "Save Changes"
 msgstr "Tallenna muutokset"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:209
 msgid "Save Locally"
 msgstr "Tallenna paikallisesti"
-
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:176
-msgid "Saved"
-msgstr "Tallennettu"
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:168
 msgid "Scan the QR code below with your authenticator app to setup 2FA on your account."
@@ -1298,15 +1348,15 @@ msgstr ""
 msgid "Scroll to Zoom"
 msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:97
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:98
 msgid "Search for a font family"
 msgstr "Etsi fonttiperhettä"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:112
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:113
 msgid "Search for a font subset"
 msgstr "Etsi fonttialueetta"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:125
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:126
 msgid "Search for a font variant"
 msgstr "Etsi fonttivarianttia"
 
@@ -1334,7 +1384,7 @@ msgstr "Lähetä sähköposti"
 msgid "Send me a message"
 msgstr "Lähetä minulle viesti"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:96
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:97
 msgid "Separate Links"
 msgstr "Erilliset linkit"
 
@@ -1349,12 +1399,12 @@ msgstr "Asetukset"
 msgid "Setup two-factor authentication on your account"
 msgstr "Aseta kaksivaiheinen todennus tilillesi"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:107
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:122
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:39
 msgid "Sharing"
 msgstr "Jakaminen"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:105
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:106
 msgid "Show"
 msgstr "Näytä"
 
@@ -1366,7 +1416,7 @@ msgstr "Näytä rivinvaihto"
 msgid "Show Page Numbers"
 msgstr "Näytä Sivunumerot"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:255
+#: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:248
 msgid "Sidebar"
 msgstr "Sivupalkki"
 
@@ -1409,12 +1459,12 @@ msgstr "Järjestelmänvalvoja on tällä hetkellä poistanut sähköpostitse kir
 msgid "Signups are currently disabled by the administrator."
 msgstr "Rekisteröitymisiä ei tällä hetkellä sallita ylläpitäjän toimesta."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:72
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:65
 msgid "Size (in px)"
 msgstr "Koko (px)"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:133
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:234
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:235
 msgid "Slug"
 msgstr "Pätkä"
 
@@ -1430,8 +1480,8 @@ msgstr "Jotain meni pieleen tulostettaessa ansioluetteloasi. Yritä myöhemmin u
 msgid "Something went wrong while processing your request. Please try again later or raise an issue on GitHub."
 msgstr "Jotain meni pieleen käsiteltäessä pyyntöäsi. Yritä myöhemmin uudelleen tai tee ongelmatilanne GitHubiin."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:94
-#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:139
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:87
+#: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:132
 msgid "Square"
 msgstr "Neliö"
 
@@ -1442,11 +1492,11 @@ msgid "Start building from scratch"
 msgstr "Aloita rakentaminen alusta"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:104
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:191
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:192
 msgid "Start building your resume by giving it a name."
 msgstr "Aloita ansioluettelosi rakentaminen antamalla sille nimi."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:114
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:129
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:23
 msgid "Statistics"
 msgstr "Tilastot"
@@ -1461,7 +1511,7 @@ msgstr "Säilytä varakoodisi turvallisesti"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:128
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:129
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:138
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:114
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:108
@@ -1487,7 +1537,7 @@ msgstr "Tukee A4/Kirje-sivuformaatteja"
 msgid "System"
 msgstr "Järjestelmä"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:65
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:80
 #: apps/client/src/pages/builder/sidebars/right/sections/template.tsx:19
 msgid "Template"
 msgstr "Pohja"
@@ -1508,11 +1558,15 @@ msgstr "Tekstin väri"
 msgid "The passwords you entered do not match."
 msgstr "Syöttämäsi salasanat eivät täsmää."
 
+#: apps/client/src/pages/builder/sidebars/right/sections/ai.tsx:211
+msgid "the prompt words."
+msgstr ""
+
 #: apps/client/src/services/errors/translate-error.ts:49
 msgid "The resume you want to update is locked, please unlock if you wish to make any changes to it."
 msgstr "Ansioluetteloa, jonka haluat päivittää, on lukittu. Ole hyvä ja avaa se, jos haluat tehdä siihen muutoksia."
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:86
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:101
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:20
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:79
 msgid "Theme"
@@ -1522,11 +1576,11 @@ msgstr "Teema"
 msgid "There was an error connecting to the browser. Please make sure 'chrome' is running and reachable."
 msgstr "Virhe yhdistettäessä selaimeen. Varmista, että 'chrome' on käynnissä ja tavoitettavissa."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:129
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:130
 msgid "This action can be reverted by clicking on the undo button in the floating toolbar."
 msgstr "Tämä toiminto voidaan peruuttaa napsauttamalla kumo-painiketta kelluvassa työkalurivissä."
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:150
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:151
 msgid "This action cannot be undone. This will permanently delete your resume and cannot be recovered."
 msgstr "Tätä toimenpidettä ei voi perua. Tämä poistaa pysyvästi ansioluettelosi ja sitä ei voi palauttaa."
 
@@ -1535,7 +1589,7 @@ msgid "This email address is associated with an OAuth account. Please sign in wi
 msgstr "Tämä sähköpostiosoite on liitetty OAuth-tiliin. Kirjaudu sisään OAuth-palveluntarjoajallasi."
 
 #: apps/client/src/pages/builder/_components/header.tsx:57
-#: apps/client/src/services/resume/update.tsx:24
+#: apps/client/src/services/resume/update.tsx:28
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Tämä ansioluettelo on lukittu, ole hyvä ja avaa lukitus tehdäksesi lisämuutoksia."
 
@@ -1544,7 +1598,7 @@ msgid "This section is reserved for your personal notes specific to this resume.
 msgstr "Tämä osio on varattu henkilökohtaisille muistiinpanoillesi, jotka liittyvät tähän ansioluetteloon. Sisältö täällä pysyy yksityisenä eikä sitä jaeta kenenkään muun kanssa."
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:121
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:222
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:223
 msgid "Tip: You can name the resume referring to the position you are applying for."
 msgstr "Vinkki: Voit nimetä ansioluettelon viitaten siihen tehtävään, johon haet."
 
@@ -1554,7 +1608,7 @@ msgid "Title"
 msgstr "Otsikko"
 
 #: apps/client/src/pages/dashboard/brain/_dialogs/brain.tsx:114
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:202
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:203
 msgid "Title"
 msgstr "Otsikko"
 
@@ -1593,12 +1647,12 @@ msgstr "Kirjoita <0>poista</0> vahvistaaksesi tilisi poiston."
 msgid "Type of Study"
 msgstr "Opiskelumuoto"
 
-#: apps/client/src/pages/builder/sidebars/right/index.tsx:79
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:65
+#: apps/client/src/pages/builder/sidebars/right/index.tsx:94
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:66
 msgid "Typography"
 msgstr "Typografia"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:189
+#: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:190
 msgid "Underline Links"
 msgstr "Alleviivaa Linkit"
 
@@ -1619,15 +1673,15 @@ msgstr "Avaa lukitus"
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "Ansioluettelon avaaminen mahdollistaa muutosten tekemisen siihen uudelleen."
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Unverified"
 msgstr "Vahvistamaton"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:163
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:164
 msgid "Update an existing item"
 msgstr "Päivitä olemassa oleva kohde"
 
-#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
+#: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Update an existing resume"
 msgstr "Päivitä olemassa oleva ansioluettelo"
 
@@ -1635,8 +1689,8 @@ msgstr "Päivitä olemassa oleva ansioluettelo"
 msgid "Update the brain"
 msgstr ""
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:215
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:214
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:209
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:212
 msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
 msgstr "Lataa tiedosto yhdestä hyväksytystä lähteestä analysoidaksesi olemassa olevat tiedot ja tuodaksesi ne Reactiiviseen ansioluetteloon helpompaa muokkausta varten."
 
@@ -1644,7 +1698,7 @@ msgstr "Lataa tiedosto yhdestä hyväksytystä lähteestä analysoidaksesi olema
 msgid "URL"
 msgstr "URL"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:60
+#: apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx:61
 msgid "URL must start with https://"
 msgstr "URL:n on käynnistyttävä https://-merkillä"
 
@@ -1659,7 +1713,7 @@ msgstr "Käyttäjällä ei ole liitettyä 'salaisuuksia' -tietuetta. Ilmoita tä
 
 #: apps/client/src/pages/auth/register/page.tsx:119
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:166
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:167
 msgid "Username"
 msgstr "Käyttäjänimi"
 
@@ -1667,13 +1721,13 @@ msgstr "Käyttäjänimi"
 msgid "Users Signed Up"
 msgstr "Käyttäjiä rekisteröitynyt"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:299
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:298
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:293
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:296
 msgid "Validate"
 msgstr "Validoi"
 
-#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:317
-#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:316
+#: apps/client/src/pages/dashboard/brain/_dialogs/import.tsx:311
+#: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:314
 msgid "Validated"
 msgstr "Validoitu"
 
@@ -1681,7 +1735,7 @@ msgstr "Validoitu"
 msgid "Value"
 msgstr "Arvo"
 
-#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Verified"
 msgstr "Vahvistettu"
 
@@ -1716,7 +1770,7 @@ msgstr "Me varmistamme sähköpostiosoitteesi vain varmistaaksemme, että voimme
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:87
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:81
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:114
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:115
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:124
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:100
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:69
@@ -1732,7 +1786,7 @@ msgstr "Verkkosivusto"
 msgid "What's new in the latest version"
 msgstr "Mitä uutta viimeisimmässä versiossa"
 
-#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:163
+#: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:164
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
 #: apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx:143
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:114
@@ -1743,11 +1797,11 @@ msgstr "Voit lisätä useita avainsanoja erottelemalla ne pilkulla tai painamall
 msgid "You can also enter your username."
 msgstr "Voit myös syöttää käyttäjänimesi."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:103
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:101
 msgid "You can also integrate with Ollama simply by setting the API key to `sk-1234567890abcdef` and the Base URL to your Ollama URL, i.e. `http://localhost:11434/v1`. You can also pick and choose models and set the max tokens as per your preference."
 msgstr "Voit myös integroitua Ollamaan yksinkertaisesti asettamalla API-avaimeksi `sk-1234567890abcdef` ja Base-URL:ksi Ollama-URL:n, eli `http://localhost:11434/v1`. Voit myös valita malleja ja asettaa maksimitunnukset haluamallasi tavalla."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:81
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:79
 msgid "You can make use of the OpenAI API to help you generate content, or improve your writing while composing your resume."
 msgstr "Voit käyttää OpenAI API:a auttamaan sinua sisällön luomisessa tai parantamaan kirjoittamistasi laatimalla ansioluettelosi."
 
@@ -1755,7 +1809,7 @@ msgstr "Voit käyttää OpenAI API:a auttamaan sinua sisällön luomisessa tai p
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "Voit seurata, kuinka monta katselukertaa ansioluettelosi on saanut tai kuinka monta henkilöä on ladannut ansioluettelosi mahdollistamalla julkisen jakamisen."
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:87
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:85
 msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
 msgstr "Sinulla on mahdollisuus <0>hankkia oma OpenAI API-avain</0>. Tämä avain antaa sinulle mahdollisuuden hyödyntää API:a haluamallasi tavalla. Vaihtoehtoisesti, jos haluat poistaa tekoälyominaisuudet kokonaan Reactive Resumesta, voit yksinkertaisesti poistaa avaimen asetuksistasi."
 
@@ -1772,7 +1826,7 @@ msgstr "Sinulle on tullut postia!"
 msgid "Your account and all your data has been deleted successfully. Goodbye!"
 msgstr "Tilisi ja kaikki tietosi on poistettu onnistuneesti. Hyvästi!"
 
-#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:191
+#: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:224
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "API-avaimesi säilytetään turvallisesti selaimen paikallisessa tallennustilassa ja sitä käytetään vain tehdessäsi pyyntöjä OpenAI:lle heidän virallisen SDK:n kautta. Ole huoleti, että avaintasi ei lähetetä ulkoiselle palvelimelle, paitsi kun vuorovaikutuksessa OpenAI-palveluiden kanssa."
 
