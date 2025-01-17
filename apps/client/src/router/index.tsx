@@ -1,3 +1,4 @@
+import { CircleNotch } from "@phosphor-icons/react";
 import {
   createBrowserRouter,
   createHashRouter,
@@ -37,7 +38,13 @@ export const routes = createRoutesFromElements(
     loader={async () => {
       await initDB();
     }}
-    hydrateFallbackElement={<div>Loading...</div>}
+    hydrateFallbackElement={
+      <div className="flex h-screen w-screen items-center justify-center">
+        <div className="flex flex-col items-center gap-y-4">
+          <CircleNotch size={48} className="animate-spin" />
+        </div>
+      </div>
+    }
   >
     <Route element={<HomeLayout />}>
       <Route path="" element={<HomePage />} />

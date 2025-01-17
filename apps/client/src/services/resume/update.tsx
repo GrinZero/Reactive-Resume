@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-misused-spread */
 import { t } from "@lingui/macro";
 import type { ResumeDto, UpdateResumeDto } from "@reactive-resume/dto";
+import { generateRandomName } from "@reactive-resume/utils";
+import slugify from "@sindresorhus/slugify";
 import { useMutation } from "@tanstack/react-query";
 import debounce from "lodash.debounce";
 
@@ -9,6 +11,7 @@ import { toast } from "@/client/hooks/use-toast";
 import { queryClient } from "@/client/libs/query-client";
 
 import { BRAIN_ID } from "./brain";
+import { createResume } from "./create";
 
 export const updateResume = async (data: UpdateResumeDto) => {
   if (!data.id) {
@@ -30,7 +33,20 @@ export const updateResume = async (data: UpdateResumeDto) => {
     ...data,
     updatedAt: new Date(),
   } as never);
-  const result = await db.resumes.where("id").equals(data.id).first();
+  let result = await db.resumes.where("id").equals(data.id).first();
+  if (!result) {
+    const randomTitle = generateRandomName();
+    result = await createResume(
+      {
+        id: data.id,
+        title: data.title ?? randomTitle,
+        slug: data.slug ?? slugify(randomTitle),
+        visibility: data.visibility ?? "private",
+      },
+      data.data,
+    );
+  }
+
   if (!result) {
     throw new Error("Resume not found");
   }

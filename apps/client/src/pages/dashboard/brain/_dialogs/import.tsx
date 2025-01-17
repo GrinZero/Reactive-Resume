@@ -1,16 +1,14 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { Check, DownloadSimple } from "@phosphor-icons/react";
+import type { JsonResume, LinkedIn, ReactiveResumeV3 } from "@reactive-resume/parser";
 import {
-  JsonResume,
   JsonResumeParser,
-  LinkedIn,
   LinkedInParser,
   ReactiveResumeParser,
-  ReactiveResumeV3,
   ReactiveResumeV3Parser,
 } from "@reactive-resume/parser";
-import { ResumeData } from "@reactive-resume/schema";
+import type { ResumeData } from "@reactive-resume/schema";
 import {
   Button,
   Dialog,
@@ -156,31 +154,27 @@ export const BrainImportDialog = () => {
     if (!validationResult?.isValid || validationResult.type !== type) return;
 
     try {
+      let data: ResumeData | undefined;
       if (type === ImportType["reactive-resume-json"]) {
         const parser = new ReactiveResumeParser();
-        const data = parser.convert(validationResult.result as ResumeData);
-
-        await updateResume({ data, ...brain });
+        data = parser.convert(validationResult.result as ResumeData);
       }
 
       if (type === ImportType["reactive-resume-v3-json"]) {
         const parser = new ReactiveResumeV3Parser();
-        const data = parser.convert(validationResult.result as ReactiveResumeV3);
-
-        await updateResume({ data, ...brain });
+        data = parser.convert(validationResult.result as ReactiveResumeV3);
       }
 
       if (type === ImportType["json-resume-json"]) {
         const parser = new JsonResumeParser();
-        const data = parser.convert(validationResult.result as JsonResume);
-
-        await updateResume({ data, ...brain });
+        data = parser.convert(validationResult.result as JsonResume);
       }
 
       if (type === ImportType["linkedin-data-export-zip"]) {
         const parser = new LinkedInParser();
-        const data = parser.convert(validationResult.result as LinkedIn);
-
+        data = parser.convert(validationResult.result as LinkedIn);
+      }
+      if (data) {
         await updateResume({ data, ...brain });
       }
 
