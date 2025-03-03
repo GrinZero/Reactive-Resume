@@ -10,7 +10,7 @@ export const printResume = async (data: { id: string }) => {
   const resume = await findResumeById({ id: data.id });
   const newUrl = import.meta.env.DEV
     ? "/artboard/preview"
-    : "/Reactive-Resume/artboard/#/artboard/preview"
+    : "/Reactive-Resume/artboard/#/artboard/preview";
   const newWindow = window.open(newUrl, "_blank");
   // newWindow?.postMessage
   if (newWindow && resume) {
@@ -34,7 +34,7 @@ export const getShareLink = async (data: { id: string }) => {
   }
   const newUrl = import.meta.env.DEV
     ? "/artboard/preview"
-    : "/Reactive-Resume/artboard/#/artboard/preview"
+    : "/Reactive-Resume/artboard/#/artboard/preview";
   return `${window.location.origin}${newUrl}?resumeId=${resume.id}`;
 };
 

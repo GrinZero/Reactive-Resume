@@ -7,8 +7,11 @@ import { useMutation } from "@tanstack/react-query";
 import deepmerge from "deepmerge";
 
 import { USER_ID } from "@/client/constants/db";
+import { BRAIN_KEY } from "@/client/constants/query-keys";
 import { db } from "@/client/db";
 import { queryClient } from "@/client/libs/query-client";
+
+import { BRAIN_ID } from "./brain";
 
 export const createResume = async (data: CreateResumeDto, defaultResume = defaultResumeData) => {
   const userDto = await db.users.get(USER_ID);
@@ -48,6 +51,9 @@ export const useCreateResume = () => {
     mutationFn: createResume,
     onSuccess: (data) => {
       queryClient.setQueryData<ResumeDto>(["resume", { id: data.id }], data);
+      if (data.id === BRAIN_ID) {
+        queryClient.setQueryData<ResumeDto>(BRAIN_KEY, data);
+      }
 
       queryClient.setQueryData<ResumeDto[]>(["resumes"], (cache) => {
         if (!cache) return [data];
