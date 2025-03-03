@@ -8,7 +8,10 @@ import { findResumeById } from "./resume";
 
 export const printResume = async (data: { id: string }) => {
   const resume = await findResumeById({ id: data.id });
-  const newWindow = window.open("/artboard/preview", "_blank");
+  const newUrl = import.meta.env.DEV
+    ? "/artboard/preview"
+    : "/Reactive-Resume/artboard/#/artboard/preview"
+  const newWindow = window.open(newUrl, "_blank");
   // newWindow?.postMessage
   if (newWindow && resume) {
     newWindow.onload = () => {
@@ -20,7 +23,7 @@ export const printResume = async (data: { id: string }) => {
   }
 
   return {
-    url: `${window.location.origin}/artboard/preview`,
+    url: `${window.location.origin}${newUrl}`,
   };
 };
 
@@ -29,7 +32,10 @@ export const getShareLink = async (data: { id: string }) => {
   if (!resume) {
     return null;
   }
-  return `${window.location.origin}/artboard/preview?resumeId=${resume.id}`;
+  const newUrl = import.meta.env.DEV
+    ? "/artboard/preview"
+    : "/Reactive-Resume/artboard/#/artboard/preview"
+  return `${window.location.origin}${newUrl}?resumeId=${resume.id}`;
 };
 
 export const usePrintResume = () => {
